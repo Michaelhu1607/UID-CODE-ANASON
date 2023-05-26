@@ -3,7 +3,7 @@
 /* Cresci Fonts Related type */
 @font-face {
     font-family: 'cresci';
-    src: url("cresciLP.1266ed74.otf") format('opentype');
+    src: url("assets/fonts/cresci-lp.otf") format('opentype');
   }
   
 h1 {
@@ -37,7 +37,7 @@ h3 {
 /* Givonic-SemiBold Fonts Related type */
 @font-face {
     font-family: 'givonic-semibold';
-    src: url("givonic-semibold.ttf") format('truetype');
+    src: url("assets/fonts/givonic-semibold.ttf") format('truetype');
   }
   
 .food-name {
@@ -56,7 +56,7 @@ h3 {
   /* Givonic-Light Fonts Related type */
   @font-face {
     font-family: 'givonic-light';
-    src: url("givonic-light.ttf") format('truetype');
+    src: url("assets/fonts/givonic-light.ttf") format('truetype');
   }
 
 .food-description {
