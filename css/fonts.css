@@ -1,0 +1,74 @@
+/* CSS file for all font-related stylisation for ANASON */
+
+/* Cresci Fonts Related type */
+@font-face {
+    font-family: 'cresci';
+    src: url("cresciLP.1266ed74.otf") format('opentype');
+  }
+  
+h1 {
+    text-decoration: none;
+    font-style: normal;
+    font-family: "cresci", serif;
+    font-size: 40px;
+  }
+  
+h2 {
+    text-decoration: none;
+    font-style: normal;
+    font-family: "cresci", serif;
+    font-size: 28px;
+  }
+  
+h3 {
+    text-decoration: none;
+    font-style: normal;
+    font-family: "cresci", serif;
+    font-size: 20px;
+  }
+
+h3 {
+    text-decoration: none;
+    font-style: normal;
+    font-family: "cresci", serif;
+    font-size: 20px;
+  }
+  
+/* Givonic-SemiBold Fonts Related type */
+@font-face {
+    font-family: 'givonic-semibold';
+    src: url("givonic-semibold.ttf") format('truetype');
+  }
+  
+.food-name {
+    text-decoration: none;
+    font-style: normal;
+    font-family: "givonic-semibold", sans-serif;
+    font-size: 20px;
+  }
+  
+.footer-gtu.name{
+    text-decoration: none;
+    font-style: normal;
+    font-family: "givonic-semibold", sans-serif;
+    font-size: 14px;
+}
+  /* Givonic-Light Fonts Related type */
+  @font-face {
+    font-family: 'givonic-light';
+    src: url("givonic-light.ttf") format('truetype');
+  }
+
+.food-description {
+    text-decoration: none;
+    font-style: normal;
+    font-family: "givonic-light", sans-serif;
+    font-size: 16px;
+}
+
+.footer-gtu.description{
+    text-decoration: none;
+    font-style: normal;
+    font-family: "givonic-light", sans-serif;
+    font-size: 14px;
+}
