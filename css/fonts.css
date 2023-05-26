@@ -49,6 +49,13 @@ h3 {
     src: url("fonts/givonic-semibold.ttf") format('truetype');
   }
   
+.subhead {
+    text-decoration: none;
+    font-style: normal;
+    color: #B1B1B1;
+    font-family: "givonic-semibold", Arial, sans-serif;
+    font-size: 14px;
+}
 .food-name {
     text-decoration: none;
     font-style: normal;
@@ -65,12 +72,20 @@ h3 {
     font-size: 14px;
 }
 
-.subhead {
-    text-decoration: none;
-    font-style: normal;
-    color: #B1B1B1;
-    font-family: "givonic-semibold", Arial, sans-serif;
-    font-size: 14px;
+.drink-item dt{
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-family: "givonic-semibold", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.drink-item dd{
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-family: "givonic-semibold", Arial, sans-serif;
+  font-size: 20px;
 }
 
 
@@ -102,4 +117,26 @@ p {
     color: white;
     font-family: "givonic-light", Arial, sans-serif;
     font-size: 14px;
+}
+
+.drink-item dd.description {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-family: "givonic-light", Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Bodoni Fonts Related type */
+@font-face {
+  font-family: 'bodoni';
+  src: url("fonts/bodoni.ttf") format('truetype');
+}
+
+.drink-item dd.location {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+  font-family: 'bodoni';
+  font-size: 20px;
 }
