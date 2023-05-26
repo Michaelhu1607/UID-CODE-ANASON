@@ -1,0 +1,111 @@
+
+/* Cresci Fonts Related type */
+@font-face {
+  font-family: 'Cresci';
+  src: url("CresciLP.1266ed74.otf") format('opentype');
+}
+
+.h1 {
+  text-decoration: none;
+  font-style: normal;
+  font-family: "Cresci", serif;
+  font-size: 40px;
+}
+
+.h2 {
+  text-decoration: none;
+  font-style: normal;
+  font-family: "Cresci", serif;
+  font-size: 28px;
+}
+
+.h3 {
+  text-decoration: none;
+  font-style: normal;
+  font-family: "Cresci", serif;
+  font-size: 20px;
+}
+
+/* Givonic-SemiBold Fonts Related type */
+@font-face {
+  font-family: 'Givonic-SemiBold';
+  src: url("Givonic-SemiBold.ttf") format('truetype');
+}
+
+.h3-givonic {
+  text-decoration: none;
+  font-style: normal;
+  font-family: "Givonic", serif;
+  font-size: 20px;
+}
+
+/* Givonic-Light Fonts Related type */
+@font-face {
+  font-family: 'Givonic-Light';
+  src: url("Givonic-Light.ttf") format('truetype');
+}
+
+.bodytext {
+  text-decoration: none;
+  font-style: Light;
+  font-family: "Givonic", serif;
+  font-size: 20px;
+}
+
+/* Navigation Bar*/
+.navbar {
+    width: 1920px;
+    height: 84px; 
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+.brandlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+.pages {
+    margin-right: 16px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: "Cresci", serif;
+    font-size: 23px;
+    color: white;
+  }
+
+.white-searchicon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+.white-searchicon {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 16px;
+  }
+
+
+/* Grid systemr*/
+.grid {
+    width: 100%;
+    max-width: 1920px;
+    margin-left: 40px; 
+    margin-right: 40px;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+.gridcolumn {
+    float: left;
+    width: calc(100% / 12);
+    padding: 0 12px; 
+    box-sizing: border-box;
+  }
