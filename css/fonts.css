@@ -38,6 +38,11 @@ h3 {
     font-size: 23px;
 }
   
+.nav-pages {
+    text-decoration: none;
+}
+
+
 /* Givonic-SemiBold Fonts Related type */
 @font-face {
     font-family: 'givonic-semibold';
