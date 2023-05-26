@@ -3,72 +3,84 @@
 /* Cresci Fonts Related type */
 @font-face {
     font-family: 'cresci';
-    src: url("assets/fonts/cresci-lp.otf") format('opentype');
+    src: url("fonts/cresci.otf") format('opentype');
   }
   
 h1 {
     text-decoration: none;
     font-style: normal;
-    font-family: "cresci", serif;
+    color: black;
+    font-family: 'cresci', 'Times New Roman', serif;
     font-size: 40px;
   }
   
 h2 {
     text-decoration: none;
     font-style: normal;
-    font-family: "cresci", serif;
+    color: black;
+    font-family: 'cresci', 'Times New Roman', serif;
     font-size: 28px;
   }
   
 h3 {
     text-decoration: none;
     font-style: normal;
-    font-family: "cresci", serif;
+    color: black;
+    font-family: 'cresci', 'Times New Roman', serif;
     font-size: 20px;
   }
 
-h3 {
+.nav-pages {
     text-decoration: none;
     font-style: normal;
-    font-family: "cresci", serif;
-    font-size: 20px;
-  }
+    color: black;
+    font-family: 'cresci', 'Times New Roman', serif;
+    font-size: 23px;
+}
   
 /* Givonic-SemiBold Fonts Related type */
 @font-face {
     font-family: 'givonic-semibold';
-    src: url("assets/fonts/givonic-semibold.ttf") format('truetype');
+    src: url("fonts/givonic-semibold.ttf") format('truetype');
   }
   
 .food-name {
     text-decoration: none;
     font-style: normal;
-    font-family: "givonic-semibold", sans-serif;
+    font-family: "givonic-semibold", Arial, sans-serif;
     font-size: 20px;
   }
   
 .footer-gtu.name{
     text-decoration: none;
     font-style: normal;
-    font-family: "givonic-semibold", sans-serif;
+    font-family: "givonic-semibold", Arial, sans-serif;
     font-size: 14px;
 }
   /* Givonic-Light Fonts Related type */
   @font-face {
     font-family: 'givonic-light';
-    src: url("assets/fonts/givonic-light.ttf") format('truetype');
+    src: url("fonts/givonic-light.ttf") format('truetype');
   }
+
+p {
+    text-decoration: none;
+    font-style: normal;
+    font-family: "givonic-light", Arial, sans-serif;
+    font-size: 16px;  
+}
+
 
 .food-description {
     text-decoration: none;
     font-style: normal;
-    font-family: "givonic-light", sans-serif;
+    font-family: "givonic-light", Arial, sans-serif;
     font-size: 16px;
 }
 
 .footer-gtu.description{
     text-decoration: none;
     font-style: normal;
-    font-family: "givonic-light", sans-serif;
+    font-family: "givonic-light", Arial, sans-serif;
     font-size: 14px;
 }
