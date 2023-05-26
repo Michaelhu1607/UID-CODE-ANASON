@@ -52,16 +52,28 @@ h3 {
 .food-name {
     text-decoration: none;
     font-style: normal;
+    color: black;
     font-family: "givonic-semibold", Arial, sans-serif;
     font-size: 20px;
   }
   
-.footer-gtu.name{
+.footer-gtu-name{
     text-decoration: none;
     font-style: normal;
+    color:  white;
     font-family: "givonic-semibold", Arial, sans-serif;
     font-size: 14px;
 }
+
+.subhead {
+    text-decoration: none;
+    font-style: normal;
+    colour: #B1B1B1;
+    font-family: "givonic-semibold", Arial, sans-serif;
+    font-size: 14px;
+}
+
+
   /* Givonic-Light Fonts Related type */
   @font-face {
     font-family: 'givonic-light';
@@ -71,6 +83,7 @@ h3 {
 p {
     text-decoration: none;
     font-style: normal;
+    color: black;
     font-family: "givonic-light", Arial, sans-serif;
     font-size: 16px;  
 }
@@ -79,13 +92,15 @@ p {
 .food-description {
     text-decoration: none;
     font-style: normal;
+    color: white;
     font-family: "givonic-light", Arial, sans-serif;
     font-size: 16px;
 }
 
-.footer-gtu.description{
+.footer-gtu-description{
     text-decoration: none;
     font-style: normal;
+    color: white;
     font-family: "givonic-light", Arial, sans-serif;
     font-size: 14px;
 }
