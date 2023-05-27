@@ -1,0 +1,70 @@
+
+
+/* Navigation Bar */
+.reserve-button {
+    width: 194px;
+    height: 47px;
+}
+
+.menu-button {
+    width: 115px;
+    height: 47px;
+}
+
+/* General buttons */
+.instagram-button {
+    width: 160px;
+    height: 47px;
+}
+
+.white-searchicon {
+    width: 24px;
+    height: 24px;
+}
+
+.black-searchicon {
+    width: 24px;
+    height: 24px;
+}
+
+.bta-button {
+    width: 235px;
+    height: 47px;
+}
+
+/* Reservation Page */
+.grey-find-a-table{
+    width: 184px;
+    height: 47px
+}
+
+.blue-find-a-table{
+    width: 184px;
+    height: 47px
+}
+
+.grey-continue{
+    width: 152px;
+    height: 47px
+}
+
+.blue-continue{
+    width: 152px;
+    height: 47px
+}
+
+.grey-payment{
+    width: 148px;
+    height: 47px
+}
+
+.blue-payment{
+    width: 148px;
+    height: 47px
+}
+
+/* Footer */
+.footer-socials-icons {
+    width: 32px;
+    height: 32px;
+}

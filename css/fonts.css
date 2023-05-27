@@ -146,3 +146,9 @@ p {
 a.figure-link {
   text-decoration: none;
 }
+
+#footer {
+  text-decoration: none;
+  font-style: normal;
+  color: white;
+}
