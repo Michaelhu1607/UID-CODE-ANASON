@@ -1,16 +1,6 @@
 
 
 /* Navigation Bar */
-.reserve-button {
-    width: 194px;
-    height: 47px;
-}
-
-.menu-button {
-    width: 115px;
-    height: 47px;
-}
-
 .subhead-arrow {
     width: 4px;
     height: 8px;
@@ -38,6 +28,16 @@
 
 
 /* General buttons */
+.reserve-button {
+    width: 194px;
+    height: 47px;
+}
+
+.menu-button {
+    width: 115px;
+    height: 47px;
+}
+
 .dynamic-logo {
     width: 147px;
     height: 21px;
