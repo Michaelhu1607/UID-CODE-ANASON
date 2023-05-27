@@ -12,19 +12,37 @@
 }
 
 .subhead-arrow {
-
+    width: 4px;
+    height: 8px;
 }
 
 .white-brandlogo {
-
+    width: 171px;
+    height: 30px;
 }
 
 .black-brandlogo {
-    
+    width: 171px;
+    height: 30px;
+}
+
+.white-searchicon {
+    width: 24px;
+    height: 24px; 
+}
+
+.black-searchicon {
+    width: 24px;
+    height: 24px; 
 }
 
 
 /* General buttons */
+.dynamic-logo {
+    width: 147px;
+    height: 21px;
+}
+
 .instagram-button {
     width: 160px;
     height: 47px;

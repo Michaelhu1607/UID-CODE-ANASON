@@ -152,3 +152,11 @@ a.figure-link {
   font-style: normal;
   color: white;
 }
+
+/* Overwriting existing font-colours for specific background colours */
+
+#landing-specials h2,
+#landing-specials .food-name,
+#landing-specials .food-description {
+  color: white;
+}
