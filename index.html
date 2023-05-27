@@ -7,6 +7,8 @@
     <title>Anason</title>
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/button.css">
+    <link rel="stylesheet" type="text/css" href="css/image.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
     <style>
         body {
             background-color: pink;
@@ -21,12 +23,12 @@
     <nav class="navbar">
 
         <!--pages-->
-        <div>
-            <a class="nav-pages" href="food.html">Food</a>
-            <a class="nav-pages" href="drinks.html">Drinks</a>
-            <a class="nav-pages" href="reserve.html">Reserve</a>
-            <a class="nav-pages" href="about.html">About</a>
-        </div>
+        <ul class="dark-bg">
+            <li><a class="nav-pages" href="food.html">Food</a></li>
+            <li><a class="nav-pages" href="drinks.html">Drinks</a></li>
+            <li><a class="nav-pages" href="reserve.html">Reserve</a></li>
+            <li><a class="nav-pages" href="about.html">About</a></li>
+        </ul>
 
         <!--brand logo-->
         <div class="nav-logo">
@@ -44,21 +46,23 @@
 <body class="grid">
 
 <!--Landing Header-->
-    <section id="landing-header">
+    <section id="landing-header" class="dark-bg">
         <h2>Elevate Your Palate With Authentic Turkish Flavours</h2>
         
+        <img class="landing-head-image" src="assets/other_images/landing-head-image.jpg">
+
         <a href="reserve.html"><img class="reserve-button" src="assets/buttons/reserve_now_blue.png"></a>
     </section>
 
 
 <!--Specials-->
-<section id="landing-specials">
+<section id="landing-specials" class="dark-bg">
     
         <img class="dynamic-logo" src="assets/icons/anason_festival_white.png">
         
         <h2>Mothers Day Specials</h2>
 
-        <img src="assets/landing/special_01.jpg">
+        <img class="specials-header" src="assets/landing/special_01.jpg">
         
         <figure>
             <img class="food-image" src="assets/landing/special_02.jpg" alt="rock oysters">

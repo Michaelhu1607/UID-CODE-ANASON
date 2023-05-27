@@ -100,7 +100,9 @@ p {
     font-style: normal;
     color: black;
     font-family: "givonic-light", Arial, sans-serif;
-    font-size: 16px;  
+    font-size: 16px;
+    line-height: 20%;
+    text-align: center;
 }
 
 .food-description {
@@ -147,6 +149,10 @@ a.figure-link {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 #footer {
   text-decoration: none;
   font-style: normal;
@@ -155,8 +161,8 @@ a.figure-link {
 
 /* Overwriting existing font-colours for specific background colours */
 
-#landing-specials h2,
-#landing-specials .food-name,
-#landing-specials .food-description {
+.dark-bg h2,
+.dark-bg .food-name,
+.dark-bg .food-description {
   color: white;
 }
