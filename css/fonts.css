@@ -12,6 +12,7 @@ h1 {
     color: black;
     font-family: 'cresci', 'Times New Roman', serif;
     font-size: 40px;
+    font-kerning: -20px;
   }
   
 h2 {
@@ -20,6 +21,7 @@ h2 {
     color: black;
     font-family: 'cresci', 'Times New Roman', serif;
     font-size: 28px;
+    font-kerning: -20px;
   }
   
 h3 {
@@ -28,6 +30,7 @@ h3 {
     color: black;
     font-family: 'cresci', 'Times New Roman', serif;
     font-size: 20px;
+    font-kerning: -20px;
   }
 
 .nav-pages {
@@ -36,6 +39,7 @@ h3 {
     color: black;
     font-family: 'cresci', 'Times New Roman', serif;
     font-size: 23px;
+    font-kerning: -20px;
 }
   
 .nav-pages {
@@ -55,6 +59,7 @@ h3 {
     color: #B1B1B1;
     font-family: "givonic-semibold", Arial, sans-serif;
     font-size: 14px;
+    font-kerning: -20px;
 }
 .food-name {
     text-decoration: none;
@@ -62,6 +67,7 @@ h3 {
     color: black;
     font-family: "givonic-semibold", Arial, sans-serif;
     font-size: 20px;
+    font-kerning: -20px;
   }
   
 .footer-gtu-name{
@@ -70,6 +76,7 @@ h3 {
     color:  white;
     font-family: "givonic-semibold", Arial, sans-serif;
     font-size: 14px;
+    font-kerning: -20px;
 }
 
 .drink-item dt{
@@ -78,6 +85,7 @@ h3 {
   color: black;
   font-family: "givonic-semibold", Arial, sans-serif;
   font-size: 20px;
+  font-kerning: -20px;
 }
 
 .drink-item dd{
@@ -86,6 +94,7 @@ h3 {
   color: black;
   font-family: "givonic-semibold", Arial, sans-serif;
   font-size: 20px;
+  font-kerning: -20px;
 }
 
 
@@ -101,6 +110,7 @@ p {
     color: black;
     font-family: "givonic-light", Arial, sans-serif;
     font-size: 16px;
+    font-kerning: -20px;
     line-height: 120%;
 }
 
@@ -110,6 +120,7 @@ p {
     color: black;
     font-family: "givonic-light", Arial, sans-serif;
     font-size: 16px;
+    font-kerning: -20px;
 }
 
 .footer-gtu-description{
@@ -117,7 +128,8 @@ p {
     font-style: normal;
     color: white;
     font-family: "givonic-light", Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+    font-kerning: -20px;
 }
 
 .drink-item dd.description {
@@ -126,6 +138,7 @@ p {
   color: black;
   font-family: "givonic-light", Arial, sans-serif;
   font-size: 16px;
+  font-kerning: -20px;
 }
 
 /* Bodoni Fonts Related type */
@@ -164,4 +177,24 @@ ul {
 .dark-bg .food-name,
 .dark-bg .food-description {
   color: white;
+}
+
+/* Fonts for Tables */
+
+th {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-family: "givonic-semibold", Arial, sans-serif;
+  font-size: 20px;
+  font-kerning: -20px;
+}
+
+td{
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-family: "givonic-light", Arial, sans-serif;
+  font-size: 16px;
+  font-kerning: -20px;
 }

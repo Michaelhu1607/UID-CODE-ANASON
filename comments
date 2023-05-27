@@ -1,12 +1,14 @@
 27th may 12:33am;
-    - left off at product.html edits
     - done with the layout and adjustments for:
+        - product.html
         - drinks.html
         - food.html
         - index.html
         - search.html
         - filter.html
         - fonts.css
+        - navigation bar
+        - footer
     - pages to be done:
         - buttons-size.css
         - image-size.css

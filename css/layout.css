@@ -1,8 +1,0 @@
-figure {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  figcaption {
-    margin-top: 20px;
-  }
