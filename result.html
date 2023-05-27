@@ -38,23 +38,26 @@
 </header>
 
 <body>
-    <p class="subhead">
-        Search &nbsp; <img src="icons/icons_navigation arrow.png" width="4" height="8"> &nbsp; "OYSTERS"    </p>
+    <p class="subhead">SEARCH &nbsp; <img class="subhead-arrow" src="assets/icons/navigation arrow.png"> &nbsp; "OYSTERS"</p>
+
     <p id="return">
-        <a href="Search page.html"><img src="icons/icons_back_black.png" width="16" height="32"></a>
+        <a href="search.html"><img src="assets/icons/back_black.png"></a>
     </p>
+
     <!--this should be a function-->
 
 <h2>"Oysters"</h2>
-    <section id="search result">
-            <figure>
-                <img src="Products/Image/Product_01.jpg" alt="Rock Oyster" width="293" height="293">
-                <figcaption>Rock Oysters ( 8ea )
-                    <br>
-                    Tarama, squid ink, beach succulents
-                </figcaption>
-            </figure>
-    </section>
+
+<section class="results"
+    <a href="product.html" class="figure-link">
+        <figure class="go-to-product">
+            <img class="food-image" data-category="seafood" src="assets/product_image/rock_oysters_01.jpg" alt="rock oysters">
+            <figcaption>
+                <p class="food-name">Oysters ( 8ea )<p>
+                <p>Tarama, squid ink, beach succulents</p>
+            </figcaption>
+        </figure>
+    </a>
 </body>
 
 
@@ -63,7 +66,7 @@
 
     <!--Social Media Icons-->
     <div>
-        <h3>Social Media</h3> 
+        <h3 class="footer-header">Social Media</h3> 
         <a href="https://www.instagram.com/anasonmezebar/?hl=en"><img class="footer-socials-icons" src="assets/icons/facebook.png" alt="facebook"></a>
         <a href="https://www.instagram.com/anasonmezebar/?hl=en"><img class="footer-socials-icons" src="assets/icons/twitter.png" alt="twitter"></a>
         <a href="https://www.instagram.com/anasonmezebar/?hl=en"><img class="footer-socials-icons" src="assets/icons/instagram.png" alt="instagram"></a>
@@ -71,7 +74,7 @@
 
     <!--Directory-->
     <div>
-        <h3>Get To Us</h3>
+        <h3 class="footer-header">Get To Us</h3>
             <div>
                 <p class="footer-gtu-name">Contact</p>
                 <p class="footer-gtu-description">+02 9188 1581</p>
@@ -91,6 +94,10 @@
                 <p class="footer-gtu-name">Opening Hours</p>
                 <p class="footer-gtu-description">Till 12pm Everyday</p>
             </div>
+    </div>
+
+    <div>
+        <p class="footer-copyright">&copy; 2023 Anason. All rights reserved.</p>
     </div>
 </footer>
 </html>

@@ -97,6 +97,11 @@ h3 {
   font-kerning: -20px;
 }
 
+.footer-header {
+  text-decoration: none;
+  font-style: normal;
+  color: white;
+}
 
   /* Givonic-Light Fonts Related type */
   @font-face {
@@ -170,6 +175,14 @@ ul {
   font-style: normal;
   color: white;
 }
+
+.footer-copyright {
+  text-decoration: none;
+  font-style: normal;
+  color: white;
+}
+
+
 
 /* Overwriting existing font-colours for specific background colours */
 
