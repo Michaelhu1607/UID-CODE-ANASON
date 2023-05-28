@@ -1,4 +1,39 @@
+/* Fonts */
+@font-face {
+    font-family: 'bodoni';
+    src: url("fonts/bodoni.ttf") format('truetype');
+  }
 
+@font-face {
+    font-family: 'givonic-light';
+    src: url("fonts/givonic-light.ttf") format('truetype');
+  }
+
+@font-face {
+    font-family: 'givonic-semibold';
+    src: url("fonts/givonic-semibold.ttf") format('truetype');
+  }
+
+/* Buttons General Setting */
+.button {
+    padding: 0.8em;
+    border-radius: 96px;
+    display: inline-block;
+    font-family: "givonic-light";
+    font-size: 24px;
+}
+
+.blue-button {
+    background-color: #1420FF;
+    font-family: "givonic-light";
+    color: white;
+}
+
+.white-button {
+    background-color: white;
+    font-family: "givonic-light";
+    color: black;
+}
 
 /* Navigation Bar */
 .subhead-arrow {
