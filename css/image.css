@@ -37,3 +37,8 @@
     width: 603px;
     height: 603px;  
 }
+
+/* Flexible Image */
+img {
+    max-width: 100%
+}

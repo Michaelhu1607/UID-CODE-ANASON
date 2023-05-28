@@ -23,3 +23,25 @@
     - pages to be done:
         - layout.css (for everything)
 
+
+
+<!-- Image resizing code from Lecture -->
+<picture>
+    <source media="(min-width: 1024px)"
+        srcset ="image-fullshot-1x.webp 1x,
+                image-fullshot-2x.webp 2x,
+                image-fullshot-3x.webp 3x"
+        type ="image/webp">
+    <source media="(min-width: 1024px)"
+        srcset ="image-fullshot-1x.jpg 1x,
+                image-fullshot-2x.jpg 2x,
+                image-fullshot-3x.jpg 3x">
+    <source srcset="image-closeup-1x.webp 1x
+                image-closeup-2x.webp 2x
+                image-closeup-3x.webp 3x"
+        type ="image/webp">
+    <img src="image-closeup-1x.jpg 1x"
+            alt="Image"
+            srcset="image-closeup-2x.jpg 2x,
+            image-closeup-3x.jpg 3x">
+</picture>
