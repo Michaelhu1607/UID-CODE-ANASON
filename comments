@@ -1,4 +1,4 @@
-27th may 12:33am;
+27th may 12:33am:
     - half way through products.html edit
     - done with the layout and adjustments for:
         - drinks.html
@@ -13,7 +13,7 @@
         - image-size.css
         - layout.css
 
-28th may 2.49am;
+28th may 2.49am:
     - half way through results.html edit
     - dont with the layout and adjustments for:
         - footer
@@ -23,9 +23,27 @@
     - pages to be done:
         - layout.css (for everything)
 
+29th may 1.49am:
+    - half way through results.html edit
+    - half way through edits for layout.css
+    Code comments:
+        I've added colours for the section backgrounds, its for easier identification of
+        white colored text/icons and the differentiation of sections. I will be starting
+        on the report of the assignment tomorrow and I am currently creating a rough 
+        layout for each page. 
+
+        For coding flexible pages, can re-watch lecture 9.2, 9.3, 9.5, 10.1, 10.3 and 10.4
+        for additional reference.
+
+    Design Comments:
+        I've made some changes in the design for the food page, i'll email the edits with
+        you when I am done with the design changes from the comments atie gave for assignment 2.
+
+
 
 
 <!-- Image resizing code from Lecture -->
+
 <picture>
     <source media="(min-width: 1024px)"
         srcset ="image-fullshot-1x.webp 1x,

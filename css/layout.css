@@ -46,13 +46,10 @@ footer {
 
 /* Colors of sections just for referencing purpose */
 
-header {
-  background-color: lightblue;
-}
 body {
-  background-color: lightgreen;
+  background-color: lightblue;
 }
 
 footer {
-  background-color: lightcoral;
+  background-color: darkblue;
 }
