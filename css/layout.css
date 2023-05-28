@@ -1,9 +1,21 @@
+/* To remove spacing between sections*/
+html, 
+body,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-copyright {
+  margin: 0;
+}
+
 /* Navigation Bar*/
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0rem;
     background-color: silver;
 }
 
@@ -11,7 +23,7 @@
   display: block;
   color: white;
   background-color: black;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .navbar ul.navbar {
@@ -22,26 +34,25 @@
 
 .navbar .nav-logo {
   text-align: center;
-
+  margin: 0;
+  padding: 0;
 }
 
 .navbar .nav-search {
-  text-align: left
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
-/*
-> li > a{
-  display: block;
-  color: white;
-  background-color: black;
-  padding: 1rem;
-  align-content: center;
+/* Colors of sections just for referencing purpose */
+
+header {
+  background-color: lightblue;
+}
+body {
+  background-color: lightgreen;
 }
 
-.navbar > li + li {
-  margin-left: 1rem;
-}
-
-.navbar > :nth-last-child(1){
-  margin-left: auto;
+footer {
+  background-color: lightcoral;
 }
