@@ -14,9 +14,13 @@
     src: url("fonts/givonic-semibold.ttf") format('truetype');
   }
 
-/* Buttons General Setting */
+/* Buttons General setting in testing
 .button {
-    padding: 0.8em;
+    margin: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
     border-radius: 96px;
     display: inline-block;
     font-family: "givonic-light";
@@ -35,12 +39,19 @@
     color: black;
 }
 
-/* Navigation Bar */
+> use this html code for buttons -
+
+<div class="button blue-button">
+            <a href="reserve.html">Reserve Now</a></div>
+
+*/
+
 .subhead-arrow {
     width: 4px;
     height: 8px;
 }
 
+/* Navigation Bar */
 .white-brandlogo {
     width: 171px;
     height: 30px;

@@ -1,0 +1,47 @@
+/* Navigation Bar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: silver;
+}
+
+.navbar > li > a{
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 2rem;
+}
+
+.navbar ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-logo {
+  text-align: center;
+
+}
+
+.navbar .nav-search {
+  text-align: left
+}
+
+/*
+> li > a{
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  align-content: center;
+}
+
+.navbar > li + li {
+  margin-left: 1rem;
+}
+
+.navbar > :nth-last-child(1){
+  margin-left: auto;
+}

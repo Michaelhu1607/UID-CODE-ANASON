@@ -1,0 +1,33 @@
+/* This css file is only for testing codes; */
+/* Final code should be pasted into one of the working css files*/
+
+
+/* Navigation Bar*/
+.navbar {
+    display: flex;
+    padding: .5em;
+    background-color: silver;
+}
+
+.navbar > li > a{
+  color: white;
+  background-color: black;
+  padding: 1rem;
+}
+
+/* Grid systemr*/
+.grid {
+    width: 100%;
+    max-width: 1920px;
+    margin-left: 40px; 
+    margin-right: 40px;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+.gridcolumn {
+    float: left;
+    width: calc(100% / 12);
+    padding: 0 12px; 
+    box-sizing: border-box;
+  }
