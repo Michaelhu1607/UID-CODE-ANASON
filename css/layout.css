@@ -57,3 +57,23 @@ body {
 footer {
   background-color: darkblue;
 }
+
+/* Container */
+
+.container {
+  text-align: center;
+}
+
+.container img {
+  display: inline-block;
+  max-width: 100%;
+}
+h2{
+  font-family: 'Cresci LP';
+  font-size: 28px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
