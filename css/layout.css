@@ -1,17 +1,62 @@
+:root {
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-28: 28px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-60: 60px;
+
+}
+
 /* To remove spacing between sections*/
-html, 
-body,
-footer {
+html, header, body, footer, div, nav, ul, li, section, 
+figure, figcaption, img, h1, h2, h3, h4, p, a, table, 
+th, tr, td, dl, dt, dd, form, input, button, textarea,
+select, label, fieldset, legend, blockquote, cite {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  outline: 0;
 }
+
+body{
+  line-height: 1;
+}
+
 
 .footer-copyright {
   margin: 0;
 }
 
-.page-grid {
+/* Grid System */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 350px;
+  margin-right: 350px;
+}
 
+.grid-item {
+  width: calc((100% - 700px) / 8); 
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: lightblue;
+  height: vh;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.grid-system {
+  display: grid;
 }
 
 /* Navigation Bar*/

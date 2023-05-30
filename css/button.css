@@ -46,6 +46,10 @@
 
 */
 
+button {
+    cursor: pointer;
+}
+
 .subhead-arrow {
     width: 4px;
     height: 8px;
