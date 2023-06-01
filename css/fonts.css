@@ -97,6 +97,9 @@ h3 {
   text-decoration: none;
   font-style: normal;
   color: white;
+  font-family: 'cresci', 'Times New Roman', serif;
+  font-size: 20px;
+  font-kerning: -20px;
 }
 
   /* Givonic-Light Fonts Related type */
@@ -113,6 +116,16 @@ p {
     font-size: 16px;
     font-kerning: -20px;
     line-height: 120%;
+}
+
+#four-grid-text {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-family: "givonic-light", Arial, sans-serif;
+  font-size: 16px;
+  font-kerning: -20px;
+  line-height: 120%;
 }
 
 .food-description {
@@ -174,8 +187,11 @@ ul {
 
 .footer-copyright {
   text-decoration: none;
-  font-style: normal;
-  color: white;
+    font-style: normal;
+    color: white;
+    font-family: "givonic-light", Arial, sans-serif;
+    font-size: 16px;
+    font-kerning: -20px;
 }
 
 

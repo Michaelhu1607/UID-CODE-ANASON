@@ -9,10 +9,15 @@ h2 {
     margin-bottom: 28px;
 }
 
+.food-image {
+    padding: 0px;
+    margin: 0px;
+}
+
 .food-name {
     text-align:center;
-    margin-top: 16px;
-    margin-bottom: 8px;
+    margin-top: 12px;
+    margin-bottom: 4px;
 }
 
 .food-description {
@@ -27,12 +32,58 @@ h2 {
     padding-bottom: 60px;
   }
 
-.landing-philosphy-header {
-    margin-top: 80px;
-    margin-bottom: 40px;
+#landing-philosophy {
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
-p {
-    padding:0;
-    margin:0;
+#landing-recommendations {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#landing-socialmedia {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.social-media-image {
+    margin-bottom: 60px;
+}
+
+#landing-map {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+#landing-header {
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.map {
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer-socials-icons {
+    margin-right: 16px;
+}
+
+.footer-header {
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.footer-content {
+    padding-bottom: 80px;
+}
+
+.footer-copyright {
+    padding-top: 20px;
 }

@@ -42,9 +42,9 @@
 <body>
 
 <!--Landing Header-->
-<section id="landing-header" class="dark-bg">
+<section id="landing-top" class="dark-bg">
         
-    <img id="whole-width-image" class="landing-head-image" src="assets/landing/cover.jpg">
+    <img id="landing-header" class="landing-head-image" src="assets/landing/cover.jpg">
         
     <h2 class="landing-text">Elevate Your Palate With Authentic Turkish Flavours</h2>
 
@@ -61,7 +61,7 @@
         </div>
 
         <div class="content dark-bg grid-system">
-        <h2 id="whole-width-text">Mothers Day Specials</h2>
+        <h2 id="landing-header">Mothers Day Specials</h2>
 
         <img id="large-item" class="specials-header" src="assets/landing/special_01.jpg">
         
@@ -107,21 +107,23 @@
 
 
 <!--Philosophy-->
-<section id="landing-philosphy" class="content grid-system">
+<section id="landing-philosophy" class="content grid-system">
         
-        <h2 class="landing-philosphy-header" id="whole-width-text">Anason Philosophy</h2>
+        <h2 id="landing-header">Anason Philosophy</h2>
 
-        <p id="four-grid-text">When creating our modern dishes we use traditional Turkish cooking methods such as pickling, drying, yogurt, salcha and tarhana making whenever possible and try to keep the use of modern technologies to a minimum.
+        <div id="four-grid-text">
+        <p>When creating our modern dishes we use traditional Turkish cooking methods such as pickling, drying, yogurt, salcha and tarhana making whenever possible and try to keep the use of modern technologies to a minimum.
             <br>
             <br>
             All our food menus are designed to share with a strong focus on vegetarian and seafood dishes. Our ever-changing menus are young, fresh and vibrant showcasing the best of contemporary Turkish cuisine.
         </p>
+    </div>
     </section>
 
 
 <!--Recommendation-->
 <section id="landing-recommendations" class="content grid-system">
-        <h2 id="whole-width-text">Recommendations</h2>
+        <h2 id="landing-header">Recommendations</h2>
 
         <figure id="item-grid-1">
             <img class="food-image" src="assets/landing/recommend_01.jpg" alt="manti">
@@ -158,10 +160,10 @@
 
 
 <!--Social Media-->
-<section id="landing-socialmedia" class="content">
+<section id="landing-socialmedia">
 
     <div class="grid-system">
-        <h2 id="whole-width-text">Social Media</h2>
+        <h2 id="landing-header">Social Media</h2>
 
         <figure id="item-grid-1">
             <a href=""><img class="social-media-image" src="assets/landing/socials_01.jpg" alt="social media image"></a>
@@ -189,12 +191,12 @@
 
 
 <!--Map-->
-<section class="content grid-system landing-map">
+<section id="landing-map" class="content grid-system">
 
-        <h2 id="whole-width-text">Locate Us</h2>
+        <h2 id="landing-header">Locate Us</h2>
 
         <!--Add in apple map using js-->
-        <img id="whole-width-image" lass="map" src="assets/landing/map.jpg" alt="map">
+        <img class="map" id="whole-width-image" lass="map" src="assets/landing/map.jpg" alt="map">
     </section>
 </body>
 
@@ -202,42 +204,53 @@
 <!--Footer-->
 <footer id="footer">
 
-    <div class="content grid-system">
+    <div class="grid-system">
+
         <!--Social Media Icons-->
-        <div>
-            <h3 class="footer-header">Social Media</h3> 
-            <a href="https://www.instagram.com/anasonmezebar/?hl=en"><img class="footer-socials-icons" src="assets/icons/facebook.png" alt="facebook"></a>
-            <a href="https://www.instagram.com/anasonmezebar/?hl=en"><img class="footer-socials-icons" src="assets/icons/twitter.png" alt="twitter"></a>
-            <a href="https://www.instagram.com/anasonmezebar/?hl=en"><img class="footer-socials-icons" src="assets/icons/instagram.png" alt="instagram"></a>
-        </div>
+        <h3 id="footer-1" class="footer-header">Social Media</h3>
+
+        <h3 id="footer-2" class="footer-header">Get To Us</h3>
+
+        <section id="footer-1" class="footer-socials">
+
+            <a href="https://www.instagram.com/anasonmezebar/?hl=en">
+                <img class="footer-socials-icons" src="assets/icons/facebook.png" alt="facebook">
+            </a>
+
+            <a href="https://www.instagram.com/anasonmezebar/?hl=en">
+                <img class="footer-socials-icons" src="assets/icons/twitter.png" alt="twitter">
+            </a>
+
+            <a href="https://www.instagram.com/anasonmezebar/?hl=en">
+                <img class="footer-socials-icons" src="assets/icons/instagram.png" alt="instagram">
+            </a>
+        </section>
 
         <!--Directory-->
-        <div>
-        <h3 class="footer-header">Get To Us</h3>
-            <div>
-                <p class="footer-gtu-name">Contact</p>
-                <p class="footer-gtu-description">+02 9188 1581</p>
-            </div>
 
-            <div>
-                <p class="footer-gtu-name">Address</p>
-                <p class="footer-gtu-description">5/23 Barangaroo Ave Barangaroo NSW 2000</p>
-            </div>
-
-            <div>
-                <p class="footer-gtu-name">Email</p>
-                <p class="footer-gtu-description">bookings@anason.com.au</p>
-            </div>
-
-            <div>
-                <p class="footer-gtu-name">Opening Hours</p>
-                <p class="footer-gtu-description">Till 12pm Everyday</p>
-            </div>
+        <div id="footer-2">
+            <p class="footer-gtu-name">Contact</p>
+            <p id="footer-3" class="footer-gtu-name">Address</p>
         </div>
-    </div>
 
-    <div>
-        <p class="footer-copyright">&copy; 2023 Anason. All rights reserved.</p>
+        <div id="footer-3">
+            <p class="footer-gtu-description">+02 9188 1581</p>
+            <p class="footer-gtu-description">5/23 Barangaroo Ave <br> Barangaroo NSW 2000</p>
+        </div>
+
+        <div id="footer-4">
+            <p class="footer-gtu-name">Email</p>
+            <p class="footer-gtu-name">Opening Hours</p>
+        </div>
+
+        <div id="footer-5">
+            <p id="footer-column-5" class="footer-gtu-description">bookings@anason.com.au</p>
+            <p class="footer-gtu-description">Till 12pm Everyday</p>
+        </div>
+    
+        <div id="footer-1"> 
+            <p class="footer-copyright">&copy; 2023 Anason. All rights reserved.</p>
+        </div>
     </div>
 </footer>
 </html>
