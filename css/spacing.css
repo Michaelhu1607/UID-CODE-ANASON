@@ -1,0 +1,38 @@
+/* Landing Page Spacings */
+
+.dynamic-logo {
+    margin-top: 80px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    margin-bottom: 28px;
+}
+
+.food-name {
+    text-align:center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.food-description {
+    text-align:center;
+}
+
+.landing-menu-buttom {
+    margin-top: 40px;
+}
+
+#landing-specials {
+    padding-bottom: 60px;
+  }
+
+.landing-philosphy-header {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+p {
+    padding:0;
+    margin:0;
+}
