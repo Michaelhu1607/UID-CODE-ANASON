@@ -39,7 +39,11 @@
         I've made some changes in the design for the food page, i'll email the edits with
         you when I am done with the design changes from the comments atie gave for assignment 2.
 
-
+2nd June 5.24am:
+    - I've finished the layout for index.html (except for the first part and navigation, I havent figured those out yet)
+    - Also done with the footer layout, so the footer code is all done now.
+    - I've added a spacing.css because i think the layout.css is getting too long, so im just using another css to do the margin/paddings
+    so it doesnt get too confusing when we are debugging :D
 
 
 <!-- Image resizing code from Lecture -->
