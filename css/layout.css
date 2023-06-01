@@ -28,14 +28,67 @@ select, label, fieldset, legend, blockquote, cite {
   outline: 0;
 }
 
-body{
-  line-height: 1;
+content{
+  max-width:1222px;
+  margin: 0 auto;
 }
 
+.grid-system{
+  max-width:1222px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(8, 138px);
+  gap: 16px;
+}
+
+#large-item {
+  grid-column-start: 1;
+  grid-column-end: 9;
+}
+
+#whole-width-image {
+  grid-column-start: 1;
+  grid-column-end: 9;
+}
+
+#whole-width-text {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  text-align: center;
+}
+
+#four-grid-text {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  text-align: center;
+}
+
+/* Item Grids - 2 columns per item */
+#item-grid-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#item-grid-2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+#item-grid-3 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+#item-grid-4 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
 
 .footer-copyright {
   margin: 0;
 }
+
+
 
 /* Grid System */
 .grid-container {
