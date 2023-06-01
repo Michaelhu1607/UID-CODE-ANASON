@@ -75,24 +75,42 @@
 
 /* General buttons */
 .reserve-button {
-    width: 194px;
-    height: 47px;
+    width: 100%;
+    height: auto;
+    max-width: 194px;
+    display: block;
+    margin: 0 auto;
 }
 
 .menu-button {
-    width: 115px;
-    height: 47px;
+    width: 100%;
+    height: auto;
+    max-width: 115px;
+    display: block;
+    margin: 0 auto;
 }
 
 .dynamic-logo {
-    width: 147px;
-    height: 21px;
+    width: 100%;
+    height: auto;
+    max-width: 147px;
+    display: block;
+    margin: 0 auto;
 }
 
 .instagram-button {
-    width: 160px;
-    height: 47px;
+    width: 100%;
+    height: auto;
+    max-width: 160px;
+    display: block;
+    margin: 0 auto;
 }
+
+.button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .white-searchicon {
     width: 24px;

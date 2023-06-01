@@ -1,16 +1,3 @@
-:root {
-  --space-4: 4px;
-  --space-8: 8px;
-  --space-12: 12px;
-  --space-16: 16px;
-  --space-20: 20px;
-  --space-24: 24px;
-  --space-28: 28px;
-  --space-40: 40px;
-  --space-48: 48px;
-  --space-60: 60px;
-
-}
 
 /* To remove spacing between sections*/
 html, header, body, footer, div, nav, ul, li, section, 
@@ -63,6 +50,33 @@ content{
   text-align: center;
 }
 
+
+/* Grid System */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.grid-item {
+  width: calc((100% - 700px) / 8); 
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: lightblue;
+  height: vh;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-system {
+  display: grid;
+}
+
+
 /* Item Grids - 2 columns per item */
 #item-grid-1 {
   grid-column-start: 1;
@@ -86,30 +100,6 @@ content{
 
 .footer-copyright {
   margin: 0;
-}
-
-
-
-/* Grid System */
-.grid-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 350px;
-  margin-right: 350px;
-}
-
-.grid-item {
-  width: calc((100% - 700px) / 8); 
-  margin-left: 16px;
-  margin-right: 16px;
-  background-color: lightblue;
-  height: vh;
-  box-sizing: border-box;
-  padding: 20px;
-}
-
-.grid-system {
-  display: grid;
 }
 
 /* Navigation Bar*/
@@ -146,14 +136,41 @@ content{
   padding: 0;
 }
 
+/* Dynamic Logo */
+.dynamic-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+#landing-header{
+  position: relative;
+}
+
+landing-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.landing-reserve{
+
+}
+
+
+/* footer */
+#footer{
+  background-color:#274C80;
+}
+
+
+
+
 /* Colors of sections just for referencing purpose */
 
 body {
   background-color: lightblue;
-}
-
-footer {
-  background-color: darkblue;
 }
 
 /* Container */
