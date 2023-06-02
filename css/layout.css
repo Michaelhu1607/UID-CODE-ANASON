@@ -209,6 +209,12 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-end: 9;
 }
 
+/* food page*/
+.filter {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  float: right;
+}
 
 
 /*search page*/
@@ -312,6 +318,11 @@ h2 {
 .whole-width-text {
   grid-column-start: 1;
   grid-column-end: 9;
+}
+
+.page-intro {
+  grid-column-start: 1;
+  grid-column-end: 5;
 }
 
 

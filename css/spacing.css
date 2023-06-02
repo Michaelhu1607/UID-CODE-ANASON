@@ -98,6 +98,23 @@
     margin-bottom: 20px;
 }
 
+/* food menu spacings */
+#entree {
+    padding-bottom: 60px;
+}
+
+#sides {
+    padding-bottom: 60px;
+}
+
+#mains {
+    padding-bottom: 60px;
+}
+
+#dessert {
+    padding-bottom: 80px;
+}
+
 
 /* Abouts spacings */
 .abouts-intro {
@@ -150,6 +167,7 @@
 }
 
 .footer-copyright {
+    margin-top: 20px;
     padding-top: 20px;
 }
 
@@ -168,4 +186,9 @@ br {
     padding: 0;
     margin-top: 4px;
     margin-bottom: 8px;
+}
+
+.page-intro {
+    padding: 0;
+    margin-top: 12px;
 }

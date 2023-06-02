@@ -53,6 +53,10 @@
     - about.html completed
     - index.html completed (except for landing iamge)
     - drinks.html completed
+    - food.html completed (except for header iamge)
+    - for the in-page-menu in drinks and food html
+        - im trying to see how can i add a line under the sections the page is current at, or smt like that, so that is not done yet
+        - we need to do a js for it such that it scrolls down to the section than transit straight there
 
 
 

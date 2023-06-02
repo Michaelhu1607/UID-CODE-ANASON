@@ -41,174 +41,201 @@
 
 <body class="grid">
 
-<p class="subhead">MENU</p>
-
-    <h1>Food Menu</h1>
-
-    <p>In a style true to its inspiration of Istanbul Meyhanes all dishes are designed to share. <br> 
-        We use flour, nuts and spices, although all care is taken, trace elements are unavoidable in all meals.</p>
-    
-<!--Filter Icon-->
-<img class="filter" src="assets/icons/filter.png" alt="Filter">
-
-
-<!--Entree-->
-<section id="Entree">
-
-        <h2>Entree</h2>
+    <!--header image-->
+    <section id="landing-top" class="dark-bg">
         
-    <a href="product.html" class="figure-link">
-        <figure class="go-to-product">
-            <img class="food-image" data-category="seafood" src="assets/product_image/rock_oysters_01.jpg" alt="rock oysters">
-            <figcaption>
-                <p class="food-name">Oysters ( 8ea )<p>
-                <p>Tarama, squid ink, beach succulents</p>
-            </figcaption>
-        </figure>
-    </a>
+        <img id="landing-header" class="landing-head-image" src="assets/landing/cover.jpg">
 
-    <a href="product.html" class="figure-link">
-            <figure class="go-to-product">
-            <img class="food-image" data-category="vegetarian" src="assets/product_image/stone_baked_village_bread.jpg" alt="stone baked village bread">
+    </section>
+
+    <!--sub-navigation bar-->
+    <div class="grid-system">
+        <p class="subhead">MENU</p>
+    </div>
+
+     <!--h1 header-->
+     <div class="grid-system">
+        <h1 id="page-header">Food Menu</h1>
+    </div>
+
+    <div class="grid-system">
+        <p class="page-intro">In a style true to its inspiration of Istanbul Meyhanes all dishes are designed to share. 
+            We use flour, nuts and spices, although all care is taken, trace elements are unavoidable in all meals.
+        </p>
+    </div>
+
+    <!--Filter Icon-->
+    <div class="grid-system">
+        <img class="filter" src="assets/icons/filter.png" alt="Filter">
+    </div>
+
+    <!--in-page-navigation-->
+    <section class="grid-system">
+        <nav id="in-page-nav">
+            <ul>
+                <li><a class="in-page-menu" href="#entree">Entree</a></li>
+                <li><a class="in-page-menu" href="#sides">Sides</a></li>
+                <li><a class="in-page-menu" href="#mains">Mains</a></li>
+                <li><a class="in-page-menu" href="#dessert">Dessert</a></li>
+        </ul>
+        </nav>
+    </section>
+
+    
+    <!--Entree-->
+    <section id="entree" class="grid-system">
+
+    <h2>Entree</h2>
+
+        <figure id="item-grid-1">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" data-category="seafood" src="assets/product_image/rock_oysters_01.jpg" alt="rock oysters">
             <figcaption>
-                <p class="food-name">Stone Baked Village Bread ( 12 )</p>
-                <p>Tarama, squid ink, beach succulents</p>
+                <p class="food-name">Rock Oysters ( 8ea )</p>
+                <p class="food-description">Tarama, squid ink, beach succulents</p>
             </figcaption>
+        </a>
         </figure>
-    </a>
+
+        <figure id="item-grid-2">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" data-category="vegetarian" src="assets/product_image/stone_baked_village_bread.jpg" alt="stone baked village bread">
+            <figcaption>
+                <p class="food-name">Stone Baked Bread ( 12 )</p>
+                <p class="food-description">Tarama, squid ink, beach succulents</p>
+            </figcaption>
+        </a>
+        </figure>  
     </section>
 
 
-<!--Sides-->
-<section id="sides">
+    <!--Sides-->
+    <section id="sides" class="grid-system">
 
         <h2>Sides</h2>
 
-    <a href="product.html" class="figure-link">
-        <figure class="food-group">
-            <img class="food-image" data-category="seafood" src="assets/product_image/tarak_scallop.jpg" alt="tarak scallop">
+        <figure id="item-grid-1">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" data-category="seafood" src="assets/product_image/tarak_scallop.jpg" alt="tarak scallop">
             <figcaption>
                 <p class="food-name">Tarak Scallop ( 25 )</p>
-                <p>Baba ganoush and daikon</p>
+                <p class="food-description">Baba ganoush and daikon</p>
             </figcaption>
+        </a>
         </figure>
-    </a>    
 
-    <a href="product.html" class="figure-link">
-        <figure class="food-group">
-                <img class="food-image" data-category="vegetarian" src="assets/product_image/smoked_beetroot_tartare.jpg" alt="smoke beetroot tartare">
+        <figure id="item-grid-2">
+                <a href="product.html" class="figure-link">
+                    <img class="food-image" data-category="vegetarian" src="assets/product_image/smoked_beetroot_tartare.jpg" alt="smoke beetroot tartare">
                 <figcaption>
                     <p class="food-name">Smoke Beetroot Tartare ( 18 )</p>
-                    <p>Labna, rhubard and blood plums</p>
+                    <p class="food-description">Labna, rhubard and blood plums</p>
                 </figcaption>
-        </figure>
-    </a>    
+            </a>
+            </figure>  
 
-    <a href="product.html" class="figure-link">
-        <figure class="food-group">
-            <img class="food-image" data-category="vegetarian" src="assets/product_image/charred_cabbage.jpg" alt="charred cabbage">
+        <figure id="item-grid-3">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" data-category="vegetarian" src="assets/product_image/charred_cabbage.jpg" alt="charred cabbage">
             <figcaption>
                 <p class="food-name">Charred Cabbage ( 22 )</p>
-                <p>Dill, feta, puffed rice, nigella</p>
+                <p class="food-description">Dill, feta, puffed rice, nigella</p>
             </figcaption>
+        </a>
         </figure>
-    </a>   
 
-    <a href="product.html" class="figure-link">
-        <figure class="food-group">
-            <img class="food-image" data-category="vegetarian" src="assets/product_image/fried_potato.jpg" alt="fried potato">
-            <figcaption>
-                <p class="food-name">Fried Potato ( 18 )</p>
-                <p>Fried potato with tartare sauce</p>
+        <figure id="item-grid-4">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" data-category="vegetarian" src="assets/product_image/fried_potato.jpg" alt="fried potato">
+                <figcaption>
+                    <p class="food-name">Fried Potato ( 18 )</p>
+                    <p class="food-description">Fried potato with tartare sauce</p>
             </figcaption>
-        </figure>
-    </a>   
-    </section>  
-
-
-<!--Mains-->
-<section id="mains">
-
-    <h2>Mains</h2>
-
-    <a href="product.html" class="figure-link">
-        <figure class="food-group">
-            <img class="food-image" data-category="seafood" src="assets/product_image/john_dory.jpeg" alt="john dory">
-            <figcaption>
-                <p class="food-name">John Dory ( 45 )</p>
-                <p>Confit garlic, parsley and citrus sauce</p>
-            </figcaption>
-        </figure>
-    </a>
-
-
-    <a href="product.html" class="figure-link">
-        <figure class="food-group">
-            <img class="food-image" data-category="beef" src="assets/product_image/hunkar_begendi.jpg" alt="hunkar begendi">
-            <figcaption>
-                <p class="food-name">Hunkar Begendi ( 58 )</p>
-                <p>Lamb loin, smoked eggplant puree, burnt butter</p>
-            </figcaption>
-        </figure>
-    </a>   
-
-    <a href="product.html" class="figure-link">
-        <figure class="food-group">
-            <img class="food-image" src="assets/product_image/roasted_chicken.jpg" alt="1/2 roasted chicken">
-            <figcaption>
-                <p class="food-name">1/2 Roasted Chicken ( 48 )</p>
-                <p>Pomegranate molasses, garlic toum, pickles</p>
-            </figcaption>
-        </figure>
-    </a>   
-
-    <a href="product.html" class="figure-link">
-        <figure class="food-group">
-            <img class="food-image" data-category="beef" src="assets/product_image/yogurtlu_kebab.jpeg" alt="yogurtlu kebab">
-            <figcaption>
-                <p class="food-name">Yogurtlu Kebab ( 86 )</p>
-                <p>Wagyu tri tip, tomato, yoghurt, crispy Turkish bread</p>
-            </figcaption>
-        </figure>
-    </a>   
-
-    <a href="product.html" class="figure-link">
-        <figure class="food-group">
-            <img class="food-image" data-category="beef" src="assets/product_image/manti.jpg" alt="manti">
-            <figcaption>
-                <p class="food-name">Manti ( 38 )</p>
-                <p>Mini dough parcels, beef filling, garlic yoghurt, mint, sumac</p>
-            </figcaption>
-        </figure>
-    </a>   
+        </a>
+        </figure> 
     </section>
 
 
-<!--Dessert-->
-<section id="dessert">
+    <!--Mains-->
+    <section id="mains" class="grid-system">
+
+        <h2>Mains</h2>
+
+        <figure id="item-grid-1">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" data-category="seafood" src="assets/product_image/john_dory.jpeg" alt="john dory">
+                <figcaption>
+                    <p class="food-name">John Dory ( 45 )</p>
+                    <p class="food-description">Confit garlic, parsley and citrus sauce</p>
+                </figcaption>
+        </a>
+        </figure>
+        
+        <figure id="item-grid-2">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" data-category="beef" src="assets/product_image/hunkar_begendi.jpg" alt="hunkar begendi">
+                <figcaption>
+                    <p class="food-name">Hunkar Begendi ( 58 )</p>
+                    <p class="food-description">Lamb loin, smoked eggplant puree, burnt butter</p>
+                </figcaption>
+        </a>
+        </figure> 
+
+        <figure id="item-grid-3">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" src="assets/product_image/roasted_chicken.jpg" alt="1/2 roasted chicken">
+                <figcaption>
+                    <p class="food-name">1/2 Roasted Chicken ( 48 )</p>
+                    <p class="food-description">Pomegranate molasses, garlic toum, pickles</p>
+                </figcaption>
+        </a>
+        </figure> 
+
+        <figure id="item-grid-4">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" data-category="beef" src="assets/product_image/yogurtlu_kebab.jpeg" alt="yogurtlu kebab">
+                <figcaption>
+                    <p class="food-name">Yogurtlu Kebab ( 86 )</p>
+                    <p class="food-description">Wagyu tri tip, tomato, yoghurt, crispy Turkish bread</p>
+                </figcaption>
+            </a>
+            </figure>
+
+        <figure id="item-grid-1">
+            <img class="food-image" data-category="beef" src="assets/product_image/manti.jpg" alt="manti">
+                <figcaption>
+                    <p class="food-name">Manti ( 38 )</p>
+                    <p class="food-description">Mini dough parcels, beef filling, garlic yoghurt, mint, sumac</p>
+                </figcaption>
+            </a>
+        </figure>
+    </section>
+
+
+    <!--Dessert-->
+    <section id="dessert" class="grid-system">
 
         <h2>Dessert</h2>
 
-        <a href="product.html" class="figure-link">
-            <figure class="food-group">
+        <figure id="item-grid-1">
+            <a href="product.html" class="figure-link">
                 <img class="food-image" data-category="vegetarian" src="assets/product_image/charcoal_merengue.jpg" alt="charcoal merengue">
                 <figcaption>
                     <p class="food-name">Charcoal Merengue ( 20 )</p>
-                    <p>Fresh berries and mastika cream</p>
+                    <p class="food-description">Fresh berries and mastika cream</p>
                 </figcaption>
+            </a>
             </figure>
-        </a>   
 
-        <a href="product.html" class="figure-link">
-            <figure class="food-group">
-                <img class="food-image" data-category="vegetarian" src="assets/product_image/cheesecake.jpg" alt="cheesecake">
+        <figure id="item-grid-2">
+            <img class="food-image" data-category="vegetarian" src="assets/product_image/cheesecake.jpg" alt="cheesecake">
                 <figcaption>
                     <p class="food-name">Tilba Haloumi ( 8 )</p>
-                    <p>Local honey and Lavender oil</p>
+                    <p class="food-description">Local honey and Lavender oil</p>
                 </figcaption>
-            </figure>
-        </a>   
-    </section> 
+            </a>
+        </figure>
+    </section>
 </body>
 
 
