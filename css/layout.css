@@ -98,12 +98,24 @@ select, label, fieldset, legend, blockquote, cite {
 
 /* Navigation Bar*/
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    background-color: silver;
+.grid{
+ 
+}
+
+.navbar-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  background-color: silver;
+  height: 40px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+  justify-content: left;
 }
 
 .navbar > li > a{
@@ -119,11 +131,13 @@ select, label, fieldset, legend, blockquote, cite {
   padding: 0;
 }
 
-.navbar .nav-logo {
+.nav-logo {
   text-align: center;
   margin-top: 32px;
   margin-bottom: 24px;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar .nav-search {
