@@ -76,6 +76,11 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-end: 9;
   text-align: left;
 }
+#header2{
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 2;
+}
 
 #four-grid-text {
   grid-column-start: 3;
