@@ -14,6 +14,7 @@
     text-align:center;
 }
 
+
 /* Landing spacings*/
 .dynamic-logo {
     margin-top: 60px;
@@ -63,7 +64,29 @@
 }
 
 
-/* Footer spacings*/
+/*Abouts spacings*/
+.abouts-intro {
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+#about-our-story {
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+#about-our-food {
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+#about-reserve-button {
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*Footer spacings*/
 #footer{
     padding-top: 60px;
     padding-bottom: 20px;
@@ -95,4 +118,18 @@
 }
 
 /* Text spacings */
+.subhead {
+    padding:0;
+    margin-top: 60px;
+    margin-bottom: 12px;
+}
 
+br {
+    height: 16px;
+}
+
+.whole-width-text {
+    padding: 0;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
