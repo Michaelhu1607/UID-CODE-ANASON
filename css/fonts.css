@@ -14,6 +14,15 @@ h1 {
     font-size: 40px;
     font-kerning: -20px;
   }
+
+#page-header {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-family: 'cresci', 'Times New Roman', serif;
+  font-size: 40px;
+  font-kerning: -20px;
+}
   
 h2 {
     text-decoration: none;
@@ -116,6 +125,16 @@ p {
     font-size: 16px;
     font-kerning: -20px;
     line-height: 120%;
+}
+
+.page-description {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-family: "givonic-light", Arial, sans-serif;
+  font-size: 16px;
+  font-kerning: -20px;
+  line-height: 120%;
 }
 
 #four-grid-text {

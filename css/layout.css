@@ -6,9 +6,6 @@ th, tr, td, dl, dt, dd, form, input, button, textarea,
 select, label, fieldset, legend, blockquote, cite {
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  font-size: 100%;
-  font-family: inherit;
   vertical-align: baseline;
   list-style: none;
   border: 0;
@@ -50,15 +47,14 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-start: 1;
   grid-column-end: 9;
 }
-#two-images{
+
+#two-images-1{
   grid-column-start: 1;
   grid-column-end: 5;
 }
-#two-images2{
+#two-images-2{
   grid-column-start: 5;
   grid-column-end: 9;
- 
-  
 }
 
 #whole-width-image {
@@ -71,15 +67,11 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-end: 9;
   text-align: center;
 }
-#landing-header2 {
+
+#page-header {
   grid-column-start: 1;
   grid-column-end: 9;
   text-align: left;
-}
-#header2{
-  grid-column-start: 1;
-  grid-column-end: 9;
-  grid-row-start: 2;
 }
 
 #four-grid-text {
@@ -87,21 +79,10 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-end: 7;
   text-align: center;
 }
-#long-text{
+
+.page-description{
   grid-column-start: 1;
   grid-column-end: 9;
-  grid-row-start: 1;
-}
-#long-text2{
-  grid-column-start: 1;
-  grid-column-end: 9;
-  grid-row-start: 2;
-  
-}
-#long-text3{
-  grid-column-start: 1;
-  grid-column-end: 9;
-  grid-row-start: 3;
 }
 
 
@@ -139,7 +120,7 @@ select, label, fieldset, legend, blockquote, cite {
   display: block;
   color: white;
   padding: 0;
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .navbar ul.navbar {
@@ -148,22 +129,22 @@ select, label, fieldset, legend, blockquote, cite {
   padding: 0;
 }
 
-
 .navbar-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
-  background-color: silver;
-  margin-top: 1%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 28px;
+  padding-bottom: 24px;
+  background-color: silver; /* temporary */
+
 }
 
 .navbar {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 
@@ -180,6 +161,7 @@ select, label, fieldset, legend, blockquote, cite {
 .nav-search {
   margin-left: 20px;
 }
+
 
 /*search page*/
 

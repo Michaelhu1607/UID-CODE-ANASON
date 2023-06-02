@@ -1,12 +1,17 @@
 /* Landing Page Spacings */
 
 .dynamic-logo {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 12px;
 }
 
 h2 {
-    margin-bottom: 28px;
+    margin-bottom: 16px;
+}
+
+#landing-header {
+    margin-bottom: 12px;
+    padding: 0;
 }
 
 .food-image {
@@ -25,15 +30,15 @@ h2 {
 }
 
 .landing-menu-buttom {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 #landing-specials {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
 
 #landing-philosophy {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -43,22 +48,17 @@ h2 {
 }
 
 #landing-socialmedia {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .social-media-image {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 #landing-map {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 80px;
-}
-
-#landing-header {
-    margin-bottom: 20px;
-    padding: 0;
 }
 
 .map {
@@ -71,12 +71,20 @@ h2 {
     padding-bottom: 20px;
 }
 
+.footer-gtu-description {
+    margin-bottom: 4px;
+}
+
+.footer-gtu-name {
+    margin-bottom: 6px;
+}
+
 .footer-socials-icons {
     margin-right: 16px;
 }
 
 .footer-header {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     padding: 0;
 }
 
