@@ -50,6 +50,16 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-start: 1;
   grid-column-end: 9;
 }
+#two-images{
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+#two-images2{
+  grid-column-start: 5;
+  grid-column-end: 9;
+ 
+  
+}
 
 #whole-width-image {
   grid-column-start: 1;
@@ -61,11 +71,32 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-end: 9;
   text-align: center;
 }
+#landing-header2 {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  text-align: left;
+}
 
 #four-grid-text {
   grid-column-start: 3;
   grid-column-end: 7;
   text-align: center;
+}
+#long-text{
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 1;
+}
+#long-text2{
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  
+}
+#long-text3{
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 3;
 }
 
 
@@ -96,33 +127,14 @@ select, label, fieldset, legend, blockquote, cite {
 }
 
 
+
 /* Navigation Bar*/
 
-.grid{
- 
-}
-
-.navbar-main{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  background-color: silver;
-  height: 40px;
-}
-
-.navbar{
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 0;
-  justify-content: left;
-}
-
-.navbar > li > a{
+.navbar > li > a {
   display: block;
   color: white;
   padding: 0;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .navbar ul.navbar {
@@ -131,20 +143,40 @@ select, label, fieldset, legend, blockquote, cite {
   padding: 0;
 }
 
-.nav-logo {
-  text-align: center;
-  margin-top: 32px;
-  margin-bottom: 24px;
-  padding: 0;
+
+.navbar-main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  background-color: silver;
+  margin-top: 1%;
 }
 
-.navbar .nav-search {
-  text-align: left;
-  margin-right: 40px;
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
   padding: 0;
+  list-style-type: none;
 }
+
+.nav-pages {
+  margin-right: 20px;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-search {
+  margin-left: 20px;
+}
+
+
 
 
 /* Dynamic Logo */

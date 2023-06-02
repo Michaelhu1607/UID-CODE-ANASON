@@ -45,6 +45,9 @@
     - I've added a spacing.css because i think the layout.css is getting too long, so im just using another css to do the margin/paddings
     so it doesnt get too confusing when we are debugging :D
 
+2nd June 14:31am:
+      I've made some adjustment on most html skeleton for navigation bar, I've nearly finished the navigation bar. Keep adjusting it and start the about page layout.
+
 
 <!-- Image resizing code from Lecture -->
 
