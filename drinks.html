@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="css/spacing.css">
 </head>
 
-
 <header class="grid">
 
     <!--navigation bar-->
@@ -38,130 +37,250 @@
     </nav>
 </header>
 
-<body class="grid">
-    <!--sub-navigation bar-->
-    <p class="subhead">DRINKS</p>
 
-    <h1>Drinks Menu</h1>
+<body class="grid">
+
+    <!--sub-navigation bar-->
+    <div class="grid-system">
+        <p class="subhead">DRINKS</p>
+    </div>
+
+     <!-- h1 header -->
+     <div class="grid-system">
+        <h1 id="page-header">Drinks Menu</h1>
+    </div>
+    
+    <section class="grid-system">
+        <nav id="in-page-nav">
+            <ul>
+                <li><a class="in-page-menu" href="#sparkling">Sparkling</a></li>
+                <li><a class="in-page-menu" href="#white">White</a></li>
+                <li><a class="in-page-menu" href="#cocktails">Cocktails</a></li>
+                <li><a class="in-page-menu" href="#soft">Soft Drinks</a></li>
+        </ul>
+        </nav>
+    </section>
+
 
     <!--Sparking-->
-    <section id="sparkling">
-        <h2>Sparkling</h2>
+    <section id="sparkling" class="grid-system">
 
-        <dl>
-            <div class="drink-item">
-            <dt>"En Vie" by Helens Hill</dt>
-                <dd>( 16 )</dd>
-                <dd class="location">Blanc de Noir, Yarra Valley</dd>
-                <dd class="description">citrus fruits, crunchy red apple, lemon curd, lively and fun</dd>
-          
-            <dt>NV Brut, Varichon & Clerc</dt>
-                <dd>( 22 )</dd>
-                <dd class="location">Burgundy, France (Piccolo 200 ml)</dd>
-                <dd class="description">scents of orchard fruits, white flowers, elegant and refined</dd>
-          
-            <dt>NV Brut, Laurent-Perrier "La Cuvee"</dt>
-                <dd> ( 34 )</dd>
-                <dd class="location">Champagne, France</dd>
-                <dd class="description">toasted nuts, brioche, green apple, lemon pie, fine and persistent</dd>
+        <h2 id="drinks-header">Sparkling</h2>
+    
+        <div class="drink-item section-1">
+            <dl>
+                <dt>"En Vie" by Helens Hill</dt>
+                    <dd class="location">Blanc de Noir, Yarra Valley</dd>
+                    <dd>citrus fruits, crunchy red apple, lemon curd, lively and fun</dd>
+                </dl>
+        </div>
+            <div>
+                <p class="drink-price price-1">( 16 )</p>
             </div>
-        </dl>
+        
+        <div class="drink-item section-2">
+            <dl>
+                <dt>NV Brut, Varichon & Clerc</dt>
+                    <dd class="location">Burgundy, France (Piccolo 200 ml)</dd>
+                    <dd>scents of orchard fruits, white flowers, elegant and refined</dd>
+                </dl>
+        </div>
+            <div>
+                <p class="drink-price price-2">( 22 )</p>
+            </div>
+
+        <div class="drink-item section-1">
+            <dl>
+                <dt>NV Brut, Laurent-Perrier "La Cuvee"</dt>
+                    <dd class="location">Champagne, France</dd>
+                    <dd>toasted nuts, brioche, green apple, lemon pie, fun and persistent</dd>
+            </dl>
+        </div>
+            <div>
+                <p class="drink-price price-1">( 34 )</p>
+            </div>
     </section>
 
 
     <!--White Wine-->
-    <section id="white">
-        <h2>White</h2>
+    <section id="white" class="grid-system">
 
-        <dl>
-            <div class="drink-item">
-            <dt>21 Isabey Sauvignon Blanc</dt>
-                <dd>( 16 )</dd>
-                <dd class="location">Menderes, Aegean, Turkey</dd>
-                <dd class="description">white grapefruit, elderflower, lime zest, herbaceous and fresh</dd>
-          
-            <dt>21 Atlas Watervale Riesling</dt>
-                <dd>( 18 )</dd>
-                <dd class="location">Clare Valley, SA</dd>
-                <dd class="description">meyer lemon, chamomile, honey suckle, aromatic and tangy</dd>
-          
-            <dt>20 Matho, Pinot Grigio “Delle Venezie”</dt>
-                <dd >( 18 )</dd>
-                <dd class="location">Italy</dd>
-                <dd class="description">clean bright and lovely aromatic, pear and a crisp finish</dd>
+        <h2 id="drinks-header">White</h2>
+
+        <div class="drink-item section-1">
+            <dl>
+                <dt>21 Isabey Sauvignon Blanc</dt>
+                    <dd class="location">Menderes, Aegean, Turkey</dd>
+                    <dd>white grapefruit, elderflower, lime zest, herbaceous and fresh</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-1">( 16 )</p>
+                </div>
+
+        <div class="drink-item section-2">
+            <dl>
+                <dt>21 Atlas Watervale Riesling</dt>
+                    <dd class="location">Clare Valley, SA</dd>
+                    <dd>meyer lemon, chamomile, honey suckle, aromatic and tangy</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-2">( 18 )</p>
+                </div>
+        
+        <div class="drink-item section-1">
+            <dl>
+                <dt>20 Matho, Pinot Grigio “Delle Venezie”</dt>
+                    <dd class="location">Italy</dd>
+                    <dd>clean bright and lovely aromatic, pear and a crisp finish</dd>
+                </dl> 
             </div>
-        </dl> 
+                <div>
+                    <p class="drink-price price-1">( 18 )</p>
+                </div>
     </section>
 
 
     <!--Cocktails-->
-    <section id="drinks">
-        <h2>Cocktails</h2>
+    <section id="cocktails" class="grid-system">
 
-        <dl>
-            <div class="drink-item">
-            <dt>Lila</dt>
-                <dd>( 20 )</dd>
-                <dd class="description">husk distillers ink gin, rosemary syrup, lime, prosecco, lavender</dd>
-          
-            <dt>Turkish Espresso Martini</dt>
-                <dd>( 20 )</dd>
-                <dd class="description">vodka, coffee liquor, triple strained turkish coffee, cardamon</dd>
-          
-            <dt>Spice Market Negroni</dt>
-                <dd >( 24 )</dd>
-                <dd class="description">seven spices infused gin, ginger & rhubarb liquor, campari, vermouth rosso</dd>
-          
-            <dt>Raki Southside</dt>
-                <dd>( 22 )</dd>
-                <dd class="description">tekirdag raki, gin, lemon juice, simple syrup, fresh mint</dd>
-          
-            <dt>Silk Road Margarita</dt>
-                <dd>( 22 )</dd>
-                <dd class="description">1800 coconut tequila, lime juice, agave, turkish isot pepper & black salt rim</dd>
-          
-            <dt>Kosem Sułtan</dt>
-                <dd>( 21 )</dd>
-                <dd class="description">tequila, aperol, rose, passionfruit, lime juice, star anise</dd>
-            
-            <dt>Galata Tower</dt>
-                <dd>( 23 )</dd>
-                <dd class="description">turkish black tea infused bourbon, aperol, amaro montengero,lime juice</dd>
-          
-            <dt>Ari Maya</dt>
-                <dd>( 21 )</dd>
-                <dd class="description">gin, lemon juice, vanilla infused honey</dd>
-            </div>
-        </dl>
+        <h2  id="drinks-header">Cocktails</h2>
+
+
+        <div class="drink-item section-1">
+            <dl>
+                <dt>Lila</dt>
+                    <dd>husk distillers ink gin, rosemary syrup, lime, prosecco, lavender</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-1">( 20 )</p>
+                </div>
+        
+        <div class="drink-item section-2">
+            <dl>
+                <dt>Turkish Espresso Martini</dt>
+                    <dd>vodka, coffee liquor, triple strained turkish coffee, cardamon</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-2">( 20 )</p>
+                </div>
+
+        <div class="drink-item section-1">
+            <dl>
+                <dt>Spice Market Negroni</dt>
+                    <dd>seven spices infused gin, ginger & rhubarb liquor, campari, vermouth rosso</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-1">( 24 )</p>
+                </div>
+        
+        <div class="drink-item section-2">
+            <dl>
+                <dt>Raki Southside</dt>
+                    <dd>tekirdag raki, gin, lemon juice, simple syrup, fresh mint</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-2">( 22 )</p>
+                </div>
+
+        <!----> 
+        <div class="drink-item section-1">
+            <dl>
+                <dt>Silk Road Margarita</dt>
+                    <dd>1800 coconut tequila, lime juice, agave, turkish isot pepper & black salt rim</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-1">( 22 )</p>
+                </div>
+        
+        <div class="drink-item section-2">
+            <dl>
+                <dt>Kosem Sułtan</dt>
+                    <dd>tequila, aperol, rose, passionfruit, lime juice, star anise</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-2">( 21 )</p>
+                </div>
+
+        <div class="drink-item section-1">
+            <dl>
+                <dt>Galata Tower</dt>
+                    <dd>turkish black tea infused bourbon, aperol, amaro montengero,lime juice</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-1">( 23 )</p>
+                </div>
+        
+        <div class="drink-item section-2">
+            <dl>
+                <dt>Ari Maya</dt>
+                    <dd>gin, lemon juice, vanilla infused honey</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-2">( 21 )</p>
+                </div>
     </section>
 
 
     <!--Soft Drinks-->
-    <section id="soft">
-        <h2>Soft Drinks ( 6 )</h2>
+    <section id="soft" class="grid-system">
 
-        <dl>
-            <div class="drink-item">
-            <dt>Uludag Gazoz</dt>
-                <dd class="description">Turkish Lemonade</dd>
-          
-            <dt>Uludag Portakal Gazoz</dt>
-                <dd class="description">Orange Flavoured Turkish Lemonade</dd>
-          
-            <dt>Ayran</dt>
-                <dd class="description">Traditional Salty Yoghurt Drink</dd>
+        <h2 id="drinks-header">Soft Drinks ( 6 )</h2>
 
-            <dt>Juices</dt>
-                <dd class="description">Pomegranate, Sour Cherry</dd>
-          
-            <dt>Coke | Coke Zero</dt>
-          
-            <dt>Ginger Ale | Tonic Water</dt>
-          
-            <dt>Fermented Black Carrot Juice</dt>
+        <div class="drink-item section-1">
+            <dl>
+                <dt>Uludag Gazoz</dt>
+                    <dd>Turkish Lemonade</dd>
+                </dl>
+            </div>   
 
-            </div>
-        </dl>
+        <div class="drink-item section-2">
+            <dl>
+                <dt>Uludag Portakal Gazoz</dt>
+                    <dd>Orange Flavoured Turkish Lemonade</dd>
+                </dl>
+            </div>   
+
+        <div class="drink-item section-1">
+            <dl>
+                <dt>Ayran</dt>
+                    <dd>Traditional Salty Yoghurt Drink</dd>
+                </dl>
+            </div>   
+
+        <div class="drink-item section-2">
+            <dl>
+                <dt>Juices</dt>
+                    <dd>Pomegranate, Sour Cherry</dd>
+                </dl>
+            </div>      
+        
+        <div class="drink-item section-1">
+            <dl>
+                <dt>Coke | Coke Zero</dt>
+                </dl>
+            </div>  
+
+        <div class="drink-item section-2">
+            <dl>
+                <dt>Ginger Ale | Tonic Water</dt>
+                </dl>
+            </div>        
+        
+        <div class="drink-item section-1">
+            <dl>
+                <dt>Fermented Black Carrot Juice</dt>
+                </dl>
+            </div>  
     </section>  
 
 </body>

@@ -109,7 +109,6 @@ select, label, fieldset, legend, blockquote, cite {
 }
 
 
-
 /* Navigation Bar*/
 
 .navbar > li > a {
@@ -155,6 +154,61 @@ select, label, fieldset, legend, blockquote, cite {
 .nav-search {
   margin-left: 20px;
 }
+
+
+/* in-page-menu*/
+
+#in-page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 0;
+  margin: 0;
+  grid-column-start: 1;
+  grid-column-end: 9;
+}
+
+#in-page-nav > li > a {
+  display: block;
+  color: white;
+  padding: 0;
+  margin-right: 60px;
+}
+
+#in-page-nav > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  list-style-type: none;
+}
+
+.in-page-menu {
+  margin-right: 20px;
+}
+
+
+/* drinks page */
+
+.section-1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.price-1{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.section-2 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+
+.price-2{
+  grid-column-start: 8;
+  grid-column-end: 9;
+}
+
 
 
 /*search page*/
@@ -252,7 +306,7 @@ landing-text{
 /* Text Layouts */
 h2 {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 9;
 }
 
 .whole-width-text {
