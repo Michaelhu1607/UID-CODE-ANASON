@@ -181,6 +181,38 @@ select, label, fieldset, legend, blockquote, cite {
   margin-left: 20px;
 }
 
+/*search page*/
+
+#specialsearch{
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 1;
+}
+#specialsearch {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  font-family: 'cresci', 'Times New Roman', serif;
+  font-size: 40px;
+}
+
+.search {
+  width: 300px;
+  height: 40px;
+  padding: 0px;
+  /*border: 2px solid #333;*/
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  margin-left: 10px;
+}
+
+.search:focus {
+  border-color: dodgerblue;
+}
+
 
 
 
