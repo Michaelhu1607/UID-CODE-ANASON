@@ -12,7 +12,6 @@ select, label, fieldset, legend, blockquote, cite {
   outline: 0;
 }
 
-
 .grid-system{
   max-width:1222px;
   margin: 0 auto;
@@ -21,6 +20,7 @@ select, label, fieldset, legend, blockquote, cite {
   grid-template-columns: repeat(8, 138px);
   gap: 16px;
 }
+
 
 /* 8 Grid System (mostly for contents) */
 
@@ -105,43 +105,42 @@ select, label, fieldset, legend, blockquote, cite {
 
 /* Navigation Bar*/
 
-.navbar > li > a {
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+  padding-top: 28px;
+  padding-bottom: 24px;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+.navbar ul.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navlist > li > a {
   display: block;
   color: white;
   padding: 0;
   margin-right: 30px;
 }
 
-.navbar ul.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 28px;
-  padding-bottom: 24px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  z-index: 2;
-}
-
-.navbar {
+.navlist {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   list-style-type: none;
+  margin-left: 40px;
 }
 
 .nav-pages {
-  margin-right: 20px;
+  padding-right: 20px;
 }
 
 .nav-logo {
@@ -151,9 +150,8 @@ select, label, fieldset, legend, blockquote, cite {
 }
 
 .nav-search {
-  margin-left: 20px;
+  margin-right: 40px;
 }
-
 
 /* in-page-menu*/
 
@@ -183,37 +181,6 @@ select, label, fieldset, legend, blockquote, cite {
 
 .in-page-menu {
   margin-right: 20px;
-}
-
-
-/* landing page */
-
-#landing-top {
-  position: relative;
-}
-
-.landing-head-container{
-  position: relative;
-}
-
-.landing-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  color: #fff;
-  font-size: 24px;
-  text-align: center;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-}
-
-.landing-reserve {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
 }
 
 
@@ -280,35 +247,11 @@ select, label, fieldset, legend, blockquote, cite {
 }
 
 
-/* Dynamic Logo */
-
-.dynamic-logo-container {
-  display: flex;
-  justify-content: center;
-}
-
-landing-text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
 /* Section Colours */
 
 #footer{
   background-color:#274C80;
 }
-
-#landing-specials {
-  background-color: #274C80;
-}
-
-#landing-socialmedia {
-  background-color: #EFEFEF;
-} 
 
 
 /* Footer */
@@ -360,8 +303,4 @@ h2 {
 
 body {
   background-color: lightblue;
-}
-
-.navbar-main {
-  background-color: transparent;
 }

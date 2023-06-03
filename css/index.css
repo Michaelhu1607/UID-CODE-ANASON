@@ -1,0 +1,105 @@
+/* Head Image */
+
+#landing-top {
+  position: relative;
+}
+
+.landing-head-container{
+  position: relative;
+}
+
+.landing-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+.landing-reserve {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+
+/* Dynamic Logo */
+
+.dynamic-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.landing-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* section colour */
+
+#landing-specials {
+  background-color: #274C80;
+}
+
+#landing-socialmedia {
+  background-color: #EFEFEF;
+} 
+
+
+/* Landing spacings */
+.dynamic-logo {
+    margin-top: 60px;
+    margin-bottom: 12px;
+}
+
+#landing-header {
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.landing-menu-buttom {
+    margin-top: 20px;
+}
+
+#landing-specials {
+    padding-bottom: 40px;
+  }
+
+#landing-philosophy {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#landing-recommendations {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#landing-socialmedia {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.social-media-image {
+    margin-bottom: 40px;
+}
+
+#landing-map {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.map {
+    margin: 0px;
+    padding: 0px;
+}
