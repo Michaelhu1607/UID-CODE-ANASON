@@ -23,6 +23,9 @@ select, label, fieldset, legend, blockquote, cite {
   gap: 16px;
 }
 
+body{
+  padding-top: 80px;
+}
 
 /* 8 Grid System (mostly for contents) */
 
@@ -118,6 +121,7 @@ select, label, fieldset, legend, blockquote, cite {
   padding-bottom: 24px;
   width: 100vw;
   z-index: 3;
+  top:0;
 }
 
 .navlist > li > a {
@@ -148,6 +152,7 @@ select, label, fieldset, legend, blockquote, cite {
 .nav-search {
   margin-right: 40px;
 }
+
 
 /* in-page-menu*/
 
