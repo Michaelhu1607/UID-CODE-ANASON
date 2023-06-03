@@ -14,3 +14,16 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("email").textContent = email;
     document.getElementById("specialRequirement").textContent = specialRequirement;
   });
+
+
+  function validateForm() {
+    var emailInput = document.getElementById("emailInput");
+    var email = emailInput.value;
+
+    if (!email.includes("@")) {
+        alert("It is not the email format");
+        return false;
+    }
+
+    return true;
+}
