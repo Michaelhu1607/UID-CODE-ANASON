@@ -5,10 +5,57 @@
     
   }
 
+.food-top{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+} 
+
+.food-head-image{
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Hovered effect on item-grids */
+#item-grid-1:hover {
+    transform: scale(0.98);
+}
+
+#item-grid-1:not(hover) {
+    transform: scale(1);
+}
+
+#item-grid-2:hover {
+    transform: scale(0.98);
+}
+
+#item-grid-2:not(hover) {
+    transform: scale(1);
+}
+
+#item-grid-3:hover {
+    transform: scale(0.98);
+}
+
+#item-grid-3:not(hover) {
+    transform: scale(1);
+}
+
+#item-grid-4:hover {
+    transform: scale(0.98);
+}
+
+#item-grid-4:not(hover) {
+    transform: scale(1);
+}
+
+
 /* spacings */
 #food-header {
-    margin-right: 40px;
-    margin-left: 40px; 
+    margin: 0;
+    padding: 0;
 }
 
 .food-h2 {

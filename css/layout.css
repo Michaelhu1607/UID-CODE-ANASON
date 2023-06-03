@@ -87,25 +87,58 @@ body{
 #item-grid-1 {
   grid-column-start: 1;
   grid-column-end: 3;
+  transition: transform 0.3s ease-in-out;
 }
 
 #item-grid-2 {
   grid-column-start: 3;
   grid-column-end: 5;
+  transition: transform 0.3s ease-in-out;
 }
 
 #item-grid-3 {
   grid-column-start: 5;
   grid-column-end: 7;
+  transition: transform 0.3s ease-in-out;
 }
 
 #item-grid-4 {
   grid-column-start: 7;
   grid-column-end: 9;
+  transition: transform 0.3s ease-in-out;
 }
 
-.footer-copyright {
-  margin: 0;
+/* Hovered effect on item-grids */
+#item-grid-1:hover {
+  transform: scale(0.98);
+}
+
+#item-grid-1:not(hover) {
+  transform: scale(1);
+}
+
+#item-grid-2:hover {
+  transform: scale(0.98);
+}
+
+#item-grid-2:not(hover) {
+  transform: scale(1);
+}
+
+#item-grid-3:hover {
+  transform: scale(0.98);
+}
+
+#item-grid-3:not(hover) {
+  transform: scale(1);
+}
+
+#item-grid-4:hover {
+  transform: scale(0.98);
+}
+
+#item-grid-4:not(hover) {
+  transform: scale(1);
 }
 
 
@@ -180,15 +213,13 @@ nav#in-page-nav {
   padding-bottom: 20px;
 }
 
-.fixed-nav #in-page-nav {
-  top: 80px;
-}
-
 #in-page-nav > li > a {
   display: block;
   color: white;
   padding: 0;
   margin-right: 60px;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 #in-page-nav > ul {
@@ -199,8 +230,18 @@ nav#in-page-nav {
 }
 
 .in-page-menu {
-  margin-right: 40px;
+  margin-right: 60px;
 }
+
+.fixed-in-page-nav {
+  position: fixed;
+  top: 80;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+/* Hovered effect on in-page-nav options*/
 
 
 /* drinks page */
@@ -304,6 +345,11 @@ nav#in-page-nav {
   grid-column-start: 7;
   grid-column-end: 9;
 }
+
+.footer-copyright {
+  margin: 0;
+}
+
 
 
 /* Text Layouts */
