@@ -16,7 +16,9 @@ select, label, fieldset, legend, blockquote, cite {
   max-width:1222px;
   margin: 0 auto;
   padding: 0 auto;
+  height: auto;
   display: grid;
+  
   grid-template-columns: repeat(8, 138px);
   gap: 16px;
 }
@@ -105,30 +107,24 @@ select, label, fieldset, legend, blockquote, cite {
 
 /* Navigation Bar*/
 
-.navbar-main {
+.navbar {
+  overflow: hidden;
   display: flex;
+  position: fixed;
   justify-content: space-between;
-  background-color: transparent;
+  background-color: #1F2731;
   align-items: center;
   padding-top: 28px;
   padding-bottom: 24px;
-  position: absolute;
-  top: 0;
   width: 100vw;
-  z-index: 2;
-}
-
-.navbar ul.navlist {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  z-index: 100;
 }
 
 .navlist > li > a {
   display: block;
   color: white;
   padding: 0;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .navlist {
@@ -205,6 +201,7 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-start: 8;
   grid-column-end: 9;
 }
+
 
 /* food page*/
 .filter {

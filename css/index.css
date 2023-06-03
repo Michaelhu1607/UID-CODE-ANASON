@@ -1,31 +1,45 @@
 /* Head Image */
 
 #landing-top {
-  position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .landing-head-container{
   position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-head-image{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0;
 }
 
 .landing-text {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
-  color: #fff;
-  font-size: 24px;
   text-align: center;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  color: white; 
+  z-index: 1;
+  text-shadow: 0px, 0px, 5 rbga(0, 0, 0, 1);
+  margin: 0;
+  padding: 0;
 }
 
 .landing-reserve {
   position: absolute;
-  bottom: 20px;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -36,12 +50,9 @@
   justify-content: center;
 }
 
-.landing-text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.specials-header {
+    width: 1222px;
+    height: 537px; 
 }
 
 

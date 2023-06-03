@@ -23,13 +23,6 @@
     height: 537px; 
 }
 
-.landing-head-image{
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center;
-}
-
 .map{
     width: 1222px;
     height: 483px;  
@@ -41,8 +34,11 @@
 }
 
 #food-header {
-    max-width: calc(100% - 80px); 
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
 }
+
 /* Flexible Image */
 img {
     max-width: 100%
