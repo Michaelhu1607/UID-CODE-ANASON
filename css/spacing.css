@@ -99,6 +99,11 @@
 }
 
 /* food menu spacings */
+#food-header {
+    margin-right: 40px;
+    margin-left: 40px; 
+}
+
 #entree {
     padding-bottom: 60px;
 }
