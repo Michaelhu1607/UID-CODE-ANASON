@@ -227,7 +227,8 @@ ul {
 
 .dark-bg h2,
 .dark-bg .food-name,
-.dark-bg .food-description {
+.dark-bg .food-description,
+.dark-bg #landing-header{
   color: white;
 }
 

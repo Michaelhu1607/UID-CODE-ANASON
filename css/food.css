@@ -1,0 +1,37 @@
+/* food page*/
+.filter {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    
+  }
+
+/* spacings */
+#food-header {
+    margin-right: 40px;
+    margin-left: 40px; 
+}
+
+.food-h2 {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#specials {
+    padding-bottom: 60px;
+}
+
+#entree {
+    padding-bottom: 60px;
+}
+
+#sides {
+    padding-bottom: 60px;
+}
+
+#mains {
+    padding-bottom: 60px;
+}
+
+#dessert {
+    padding-bottom: 80px;
+}

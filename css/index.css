@@ -63,7 +63,7 @@
 }
 
 #landing-socialmedia {
-  background-color: #EFEFEF;
+  background-color: #274C80;
 } 
 
 
@@ -76,6 +76,7 @@
 #landing-header {
     margin-bottom: 12px;
     padding: 0;
+    text-align: center;
 }
 
 .landing-menu-buttom {

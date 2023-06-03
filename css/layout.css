@@ -117,7 +117,7 @@ select, label, fieldset, legend, blockquote, cite {
   padding-top: 28px;
   padding-bottom: 24px;
   width: 100vw;
-  z-index: 100;
+  z-index: 3;
 }
 
 .navlist > li > a {
@@ -151,14 +151,31 @@ select, label, fieldset, legend, blockquote, cite {
 
 /* in-page-menu*/
 
+.in-page-navbar{
+  padding: 0;
+  margin-bottom: 0;
+}
+
 #in-page-nav {
   display: flex;
   justify-content: space-between;
+  position: relative;
   align-items: left;
   padding: 0;
   margin: 0;
   grid-column-start: 1;
   grid-column-end: 9;
+  top:0;
+  transition: top 0.3s ease-in-out;
+}
+
+nav#in-page-nav {
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.fixed-nav #in-page-nav {
+  top: 80px;
 }
 
 #in-page-nav > li > a {
@@ -176,7 +193,7 @@ select, label, fieldset, legend, blockquote, cite {
 }
 
 .in-page-menu {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 
@@ -203,12 +220,7 @@ select, label, fieldset, legend, blockquote, cite {
 }
 
 
-/* food page*/
-.filter {
-  grid-column-start: 8;
-  grid-column-end: 9;
-  float: right;
-}
+
 
 
 /*search page*/
@@ -218,6 +230,7 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-end: 9;
   grid-row-start: 1;
 }
+
 #specialsearch {
   display: flex;
   align-items: center;
@@ -246,12 +259,20 @@ select, label, fieldset, legend, blockquote, cite {
 
 /* Section Colours */
 
-#footer{
-  background-color:#274C80;
+#footer {
+  background-color:#273853;
 }
 
 
 /* Footer */
+
+.search-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:#273853;
+}
 
 #footer-1 {
   grid-column-start: 1;
@@ -295,9 +316,15 @@ h2 {
   grid-column-end: 5;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 60px;
+}
 
 /* Colors of sections just for referencing purpose*/
 
 body {
-  background-color: lightblue;
+  background-color: #EFF5FF;
 }

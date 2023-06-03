@@ -51,29 +51,6 @@
 }
 
 
-/* food menu spacings */
-#food-header {
-    margin-right: 40px;
-    margin-left: 40px; 
-}
-
-#entree {
-    padding-bottom: 60px;
-}
-
-#sides {
-    padding-bottom: 60px;
-}
-
-#mains {
-    padding-bottom: 60px;
-}
-
-#dessert {
-    padding-bottom: 80px;
-}
-
-
 /* Abouts spacings */
 .abouts-intro {
     padding-top: 20px;
@@ -128,6 +105,7 @@
     margin-top: 20px;
     padding-top: 20px;
 }
+
 
 /* Text spacings */
 .subhead {

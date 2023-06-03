@@ -1,14 +1,10 @@
-/* Fix Nav bar */
-
 window.addEventListener('scroll', function() {
-    var navbar = document.querySelector('.navbar-main');
-    var offset = navbar.offsetTop;
+  var navbar = document.querySelector('.navbar');
+  var inPageNav = document.getElementById('in-page-nav');
   
-    if (window.pageYOffset >= offset) {
-      navbar.classList.add('navbar-fixed');
-    } else {
-      navbar.classList.remove('navbar-fixed');
-    }
-  });
-
-  
+  if (window.scrollY > navbar.offsetHeight) {
+    inPageNav.classList.add('fixed-nav');
+  } else {
+    inPageNav.classList.remove('fixed-nav');
+  }
+});
