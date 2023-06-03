@@ -25,6 +25,7 @@ select, label, fieldset, legend, blockquote, cite {
 
 body{
   padding-top: 80px;
+  scroll-snap-type: y mandatory;
 }
 
 /* 8 Grid System (mostly for contents) */
@@ -333,3 +334,4 @@ hr {
 body {
   background-color: #EFF5FF;
 }
+

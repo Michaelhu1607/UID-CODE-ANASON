@@ -3,6 +3,7 @@
 #landing-top {
     margin: 0;
     padding: 0;
+    scroll-snap-align: none; 
 }
 
 .landing-head-container{
@@ -24,20 +25,20 @@
 
 .landing-text {
   position: absolute;
-  top: 80%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white; 
   z-index: 1;
-  text-shadow: 0px, 0px, 5 rbga(0, 0, 0, 1);
+  text-shadow: black 1px 0 10px;
   margin: 0;
   padding: 0;
 }
 
 .landing-reserve {
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
