@@ -70,6 +70,14 @@
 } 
 
 
+/* buttons - center aligns button */
+.landing-buttons {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  margin-top: 20px;
+}
+
+
 /* Landing spacings */
 .dynamic-logo {
     margin-top: 60px;
@@ -80,10 +88,6 @@
     margin-bottom: 12px;
     padding: 0;
     text-align: center;
-}
-
-.landing-menu-button {
-    margin-top: 20px;
 }
 
 #landing-specials {

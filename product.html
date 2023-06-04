@@ -40,37 +40,51 @@
 
 
 
-<body class="grid">
-    <p class="subhead">SEARCH<img class="subhead-arrow" src="assets/icons/navigation arrow.png" alt="arrow">PRODUCT</p>
+<body>
 
-    <p id="return">
-        <a href="Food page.html"><img src="icons/icons_back_black.png" width="16" height="32"></a>
-    </p>
-    <!--go back to the previous page using js function-->
+    <!-- subheader -->
+    <div class="grid-system">
+    <ul class="subhead">
+        <li>SEARCH</li>
+        <li><img class="subhead-arrow" src="assets/icons/navigation arrow.png"></li>
+        <li>PRODUCT</li>
+    </ul>
+    </div>
 
-<h1>ROCK OYSTERS</h1>
+    <!--return icon-->
+    <div class="grid-system">
+        <p id="return-icon">
+            <a href="Food page.html"><img src="icons/icons_back_black.png" width="16" height="32"></a>
+        </p>
+        <!--go back to the previous page using js function-->
+    </div>
 
-<section id="product">
-        <figure>
-            <img class="product-image" src="assets/product_image/rock_oysters_01.jpg" alt="rock oysters">
-            <img class="product-image" src="assets/product_image/rock_oysters_02.jpg" alt="rock oysters">
-        </figure>
+    <!--content-->
+    <div class="grid-system">
 
-        <p>Tarama, squid ink cracker, beach succulents</p>
-        
+            <!-- h1 header -->
+        <div class="grid-system">
+            <h1 id="page-header">Rock Oysters</h1>
+        </div>
+
+        <img class="about-page-square-image" id="two-images-1" src="assets/product_image/rock_oysters_01.jpg" alt="Rock Oysters">
+        <img class="about-page-square-image" id="two-images-2" src="assets/product_image/rock_oysters_02.jpg" alt="Rock Oysters">
+
+        <p class="product-description">Tarama, squid ink cracker, beach succulents</p>
+                
         <table>
             <tr>
-                <th>Calories</th>
-                <th>Protein</th>
-                <th>Carbohydrate</th>
+                <th class="column-1">Calories</th>
+                <th class="column-2">Protein</th>
+                <th class="column-3">Carbohydrate</th>
             </tr>
             <tr>
-                <td>52 kcal</td>
-                <td>2g</td>
-                <td>5g</td>
+                <td class="column-1">52 kcal</td>
+                <td class="column-2">2g</td>
+                <td class="column-3">5g</td>
             </tr>
         </table>
-</section>
+    </div>
 
 <section id="drinks pairing">
     

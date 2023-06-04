@@ -18,9 +18,9 @@
 
 .white-button {
     display: block;
-    margin-top: 20px;
-    margin: 0 auto;
     padding: 12px 28px 12px 28px;
+    margin: auto;
+    margin-bottom: 0;
     background-color: white;
     font-family: "givonic-light";
     font-size: 24px;
@@ -29,6 +29,7 @@
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    
 }
 
 .white-button:hover{
@@ -84,10 +85,9 @@
 }
 
 .menu-button {
-    width: 100%;
-    height: auto;
-    max-width: 115px;
+    width: auto;
     display: block;
+    text-align: center;
     margin: 0 auto;
 }
 
