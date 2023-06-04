@@ -13,7 +13,8 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/food.css">
     <link rel="stylesheet" type="text/css" href="css/product.css">
-
+    <link rel="stylesheet" type="text/css" href="css/search-page.css">
+    <script src="js/reserve.js"></script>
 </head>
 
 
@@ -43,64 +44,70 @@
 </header>
 
 
-<body class="grid">
-    <div class="content dark-bg grid-system">
-        <!--sub-navigation bar-->
-        <p class="subhead">SEARCH</p>
+<body>
+
+    <!-- subheader -->
+    <div class="grid-system" id="subhead-container">
+        <ul class="subhead">
+            <li>SEARCH</li>
+        </ul>
     </div>
-    <br>
-    <div class="content dark-bg grid-system">
-        <h1 id="specialsearch">Search: <input type="text" class="search"></h1> 
-    </div>
 
-    
-    <hr>
 
-<!--Recommendation-->
-<section id="search-recommendations" class="grid-system">
+    <!-- Header + search bar -->
+    <div class="grid-system">
 
-    <h2>Recommendations</h2>
+        <h1>Search:</h1> 
 
-    <figure id="item-grid-1">
-        <a href="product.html" class="figure-link">
-            <img class="food-image" src="assets/landing/recommend_02.jpg" alt="1/2 roasted chicken">
-        <figcaption>
-            <p class="food-name">1/2 Roasted Chicken</p>
-            <p class="food-description">Pomegranate molasses, garlic toum, pickles</p>
-        </figcaption>
-    </a>
-    </figure>
+        <input type="text" id="searchbar">
+    </div>  
 
-    <figure id="item-grid-2">
-        <a href="product.html" class="figure-link">
-            <img class="food-image" src="assets/landing/recommend_01.jpg" alt="manti">
-        <figcaption>
-            <p class="food-name">Manti</p>
-            <p class="food-description">Mini dough parcels, beef filling, garlic yoghurt, mint, sumac</p>
-        </figcaption>
-    </a>
-    </figure>
 
-    <figure id="item-grid-3">
-        <a href="product.html" class="figure-link">
-            <img class="food-image" src="assets/landing/recommend_03.jpg" alt="hunkar begendi">
-        <figcaption>
-            <p class="food-name">Hunkar Begendi</p>
-            <p class="food-description">Lamb loin, smoked eggplant puree, burnt butter</p>
-        </figcaption>
-    </a>
-    </figure>
+    <!--Recommendation-->
+    <section id="search-recommendations" class="grid-system">
 
-    <figure id="item-grid-4">
-        <a href="product.html" class="figure-link">
-            <img class="food-image" src="assets/landing/recommend_04.jpg" alt="yogurtlu kebab">
-        <figcaption>
-            <p class="food-name">Yogurtlu Kebab</p>
-            <p class="food-description">Wagyu tri tip, tomato, yoghurt, crispy Turkish bread</p>
-        </figcaption>
-    </a>
-    </figure>
-</section>
+        <h2>Recommendations</h2>
+
+        <figure id="item-grid-1">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" src="assets/landing/recommend_02.jpg" alt="1/2 roasted chicken">
+            <figcaption>
+                <p class="food-name">1/2 Roasted Chicken</p>
+                <p class="food-description">Pomegranate molasses, garlic toum, pickles</p>
+            </figcaption>
+        </a>
+        </figure>
+
+        <figure id="item-grid-2">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" src="assets/landing/recommend_01.jpg" alt="manti">
+            <figcaption>
+                <p class="food-name">Manti</p>
+                <p class="food-description">Mini dough parcels, beef filling, garlic yoghurt, mint, sumac</p>
+            </figcaption>
+        </a>
+        </figure>
+
+        <figure id="item-grid-3">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" src="assets/landing/recommend_03.jpg" alt="hunkar begendi">
+            <figcaption>
+                <p class="food-name">Hunkar Begendi</p>
+                <p class="food-description">Lamb loin, smoked eggplant puree, burnt butter</p>
+            </figcaption>
+        </a>
+        </figure>
+
+        <figure id="item-grid-4">
+            <a href="product.html" class="figure-link">
+                <img class="food-image" src="assets/landing/recommend_04.jpg" alt="yogurtlu kebab">
+            <figcaption>
+                <p class="food-name">Yogurtlu Kebab</p>
+                <p class="food-description">Wagyu tri tip, tomato, yoghurt, crispy Turkish bread</p>
+            </figcaption>
+        </a>
+        </figure>
+    </section>
 
     
 <!--Footer-->

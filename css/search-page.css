@@ -1,0 +1,26 @@
+#searchbar{
+  max-width: 1068px;
+  height: 50px; 
+  margin-left: 16px;
+  padding: 0;
+  font-size: 28px;
+  font-family: "givonic-semibold";
+  border: 0;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+  grid-column-start: 2;
+  grid-column-end: 9;
+}
+
+.search-bar:focus {
+    outline: none; /* Remove the default focus outline if desired */
+    /* Add additional styles for when the input is focused */
+  }
+
+/* spacing */
+#searchbar {
+    margin-bottom: 40px;
+    padding: 0;
+}
