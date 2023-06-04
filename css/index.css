@@ -70,11 +70,11 @@
 } 
 
 
-/* buttons - center aligns button */
-.landing-buttons {
-  grid-column-start: 4;
-  grid-column-end: 6;
-  margin-top: 20px;
+/* typography */
+#four-grid-text {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  text-align: center;
 }
 
 

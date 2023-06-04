@@ -10,8 +10,10 @@
     <link rel="stylesheet" type="text/css" href="css/image.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/spacing.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/food.css">
+    <link rel="stylesheet" type="text/css" href="css/product.css">
 </head>
-
 
 <header>
 
@@ -43,18 +45,18 @@
 <body>
 
     <!-- subheader -->
-    <div class="grid-system">
-    <ul class="subhead">
-        <li>SEARCH</li>
-        <li><img class="subhead-arrow" src="assets/icons/navigation arrow.png"></li>
-        <li>PRODUCT</li>
-    </ul>
+    <div class="grid-system" id="subhead-container">
+        <ul class="subhead">
+            <li>SEARCH</li>
+            <li><img class="subhead-arrow" src="assets/icons/navigation arrow.png"></li>
+            <li>PRODUCT</li>
+        </ul>
     </div>
 
     <!--return icon-->
     <div class="grid-system">
         <p id="return-icon">
-            <a href="Food page.html"><img src="icons/icons_back_black.png" width="16" height="32"></a>
+            <a href="Food page.html"><img src="assets/cons/back_black.png" alt="Back button"></a>
         </p>
         <!--go back to the previous page using js function-->
     </div>
@@ -72,47 +74,72 @@
 
         <p class="product-description">Tarama, squid ink cracker, beach succulents</p>
                 
-        <table>
-            <tr>
-                <th class="column-1">Calories</th>
-                <th class="column-2">Protein</th>
-                <th class="column-3">Carbohydrate</th>
-            </tr>
-            <tr>
-                <td class="column-1">52 kcal</td>
-                <td class="column-2">2g</td>
-                <td class="column-3">5g</td>
-            </tr>
+        <div class="column-1">
+            <p class="nutri-name">Calories</p>
+            <p class="nutri-description">52 kcal</p>
+        </div>
+
+        <div class="column-2">
+            <p class="nutri-name">Protein</p>
+            <p class="nutri-description">2g</p>
+        </div>
+
+        <div class="column-3">
+            <p class="nutri-name">Carbohydrate</p>
+            <p class="nutri-description">5g</p>
+        </div>
         </table>
     </div>
 
-<section id="drinks pairing">
+<section id="drinks pairing" class="grid-system">
     
     <h2>DRINKS PAIRING</h2>
         
-        <dl>
-            <div class="drink-item">
-            <dt>"En Vie" by Helens Hill</dt>
-                <dd>( 16 )</dd>
-                <dd class="location">Blanc de Noir, Yarra Valley</dd>
-                <dd class="description">citrus fruits, crunchy red apple, lemon curd, lively and fun</dd>
-              
-            <dt>NV Brut, Varichon & Clerc</dt>
-                <dd>( 22 )</dd>
-                <dd class="location">Burgundy, France (Piccolo 200 ml)</dd>
-                <dd class="description">scents of orchard fruits, white flowers, elegant and refined</dd>
-            
-                <dt>Silk Road Margarita</dt>
-                <dd>( 22 )</dd>
-                <dd class="description">1800 coconut tequila, lime juice, agave, turkish isot pepper & black salt rim</dd>
-          
-            <dt>Kosem Sułtan</dt>
-                <dd>( 21 )</dd>
-                <dd class="description">tequila, aperol, rose, passionfruit, lime juice, star anise</dd>
+        <!--drinks pairing recommendations-->
+        <div class="drink-item section-1">
+            <dl>
+                <dt>"En Vie" by Helens Hill</dt>
+                    <dd class="location">Blanc de Noir, Yarra Valley</dd>
+                    <dd>citrus fruits, crunchy red apple, lemon curd, lively and fun</dd>
+                </dl>
+        </div>
+            <div>
+                <p class="drink-price price-1">( 16 )</p>
             </div>
-        </dl>
-    
-        <a href="reserve.html"><img class="reserve-button" src="assets/buttons/reserve_now_blue.png"></a>
+
+        <div class="drink-item section-2">
+            <dl>
+                <dt>NV Brut, Varichon & Clerc</dt>
+                    <dd class="location">Burgundy, France (Piccolo 200 ml)</dd>
+                    <dd>scents of orchard fruits, white flowers, elegant and refined</dd>
+                </dl>
+        </div>
+            <div>
+                <p class="drink-price price-2">( 22 )</p>
+            </div>
+
+        <div class="drink-item section-1">
+            <dl>
+                <dt>Silk Road Margarita</dt>
+                    <dd>1800 coconut tequila, lime juice, agave, turkish isot pepper & black salt rim</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-1">( 22 )</p>
+                </div>    
+
+        <div class="drink-item section-2">
+            <dl>
+                <dt>Kosem Sułtan</dt>
+                    <dd>tequila, aperol, rose, passionfruit, lime juice, star anise</dd>
+                </dl>
+            </div>   
+                <div>
+                    <p class="drink-price price-2">( 21 )</p>
+                </div>
+            
+            <a class="blue-button buttons-layout" ref="food.html">Reserve Now</a>
+        </section>
 </body>
 
 

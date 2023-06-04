@@ -1,4 +1,35 @@
+/* section layout */
 .product-description {
     grid-column-start: 1;
-    grid-column-start: 5;
+    grid-column-end: 9;
 }
+
+
+/* spacings */
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Fonts for Tables */
+
+th {
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    font-family: "givonic-semibold", Arial, sans-serif;
+    font-size: 20px;
+    font-kerning: -20px;
+  }
+  
+  td{
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    font-family: "givonic-light", Arial, sans-serif;
+    font-size: 16px;
+    font-kerning: -20px;
+  }
+
+  
+

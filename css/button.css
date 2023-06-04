@@ -16,6 +16,14 @@
 
 /* Buttons and its hover effect */
 
+    /* buttons - center aligns button */
+.buttons-layout {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    margin-top: 20px;
+  }
+
+    /* white button*/
 .white-button {
     display: block;
     padding: 12px 28px 12px 28px;
@@ -33,19 +41,36 @@
 }
 
 .white-button:hover{
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .white-button:not(:hover){
     transform: scale(1);
 }
 
+    /* blue button*/
+.blue-button {
+    display: block;
+    padding: 12px 28px 12px 28px;
+    margin: auto;
+    margin-bottom: 0;
+    background-color: #000DFF;
+    font-family: "givonic-light";
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
 
-/* subheader */
+.blue-button:hover{
+    transform: scale(0.95);
+}
 
-.subhead-arrow {
-    width: 4px;
-    height: 8px;
+.blue-button:not(:hover){
+    transform: scale(1);
 }
 
 

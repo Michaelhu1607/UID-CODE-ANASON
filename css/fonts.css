@@ -6,7 +6,8 @@
     src: url("fonts/cresci.otf") format('opentype');
   }
   
-h1 {
+h1,
+#page-header {
     text-decoration: none;
     font-style: normal;
     color: black;
@@ -14,15 +15,6 @@ h1 {
     font-size: 40px;
     font-kerning: -20px;
   }
-
-#page-header {
-  text-decoration: none;
-  font-style: normal;
-  color: black;
-  font-family: 'cresci', 'Times New Roman', serif;
-  font-size: 40px;
-  font-kerning: -20px;
-}
   
 h2 {
     text-decoration: none;
@@ -51,56 +43,6 @@ h3 {
     font-kerning: -20px;
 }
 
-
-/* Givonic-SemiBold Fonts Related type */
-@font-face {
-    font-family: 'givonic-semibold';
-    src: url("fonts/givonic-semibold.ttf") format('truetype');
-  }
-  
-.subhead {
-    text-decoration: none;
-    font-style: normal;
-    color: #B1B1B1;
-    font-family: "givonic-semibold", Arial, sans-serif;
-    font-size: 14px;
-    font-kerning: -20px;
-}
-.food-name {
-    text-decoration: none;
-    font-style: normal;
-    color: black;
-    font-family: "givonic-semibold", Arial, sans-serif;
-    font-size: 20px;
-    font-kerning: -20px;
-  }
-  
-.footer-gtu-name{
-    text-decoration: none;
-    font-style: normal;
-    color:  white;
-    font-family: "givonic-semibold", Arial, sans-serif;
-    font-size: 14px;
-    font-kerning: -20px;
-}
-
-.drink-item dt{
-  font-style: normal;
-  color: black;
-  font-family: "givonic-semibold", Arial, sans-serif;
-  font-size: 20px;
-  font-kerning: -20px;
-}
-
-.drink-price{
-  text-decoration: none;
-  font-style: normal;
-  color: black;
-  font-family: "givonic-semibold", Arial, sans-serif;
-  font-size: 20px;
-  font-kerning: -20px;
-}
-
 .footer-header {
   text-decoration: none;
   font-style: normal;
@@ -110,13 +52,57 @@ h3 {
   font-kerning: -20px;
 }
 
+
+/* Givonic-SemiBold Fonts Related type */
+@font-face {
+    font-family: 'givonic-semibold';
+    src: url("fonts/givonic-semibold.ttf") format('truetype');
+  }
+
+.food-name,
+.drink-item dt,
+.drink-price,
+.nutri-name {
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    font-family: "givonic-semibold", Arial, sans-serif;
+    font-size: 20px;
+    font-kerning: -20px;
+}
+  
+.subhead {
+    text-decoration: none;
+    font-style: normal;
+    color: #B1B1B1;
+    font-family: "givonic-semibold", Arial, sans-serif;
+    font-size: 14px;
+    font-kerning: -20px;
+}
+
+.footer-gtu-name{
+    text-decoration: none;
+    font-style: normal;
+    color:  white;
+    font-family: "givonic-semibold", Arial, sans-serif;
+    font-size: 14px;
+    font-kerning: -20px;
+}
+
+
+
   /* Givonic-Light Fonts Related type */
   @font-face {
     font-family: 'givonic-light';
     src: url("fonts/givonic-light.ttf") format('truetype');
   }
 
-p {
+p,
+.page-description,
+.food-description,
+#four-grid-text,
+.drink-item dd,
+.nutri-description {
     text-decoration: none;
     font-style: normal;
     color: black;
@@ -126,52 +112,16 @@ p {
     line-height: 120%;
 }
 
-.page-description {
-  text-decoration: none;
-  font-style: normal;
-  color: black;
-  font-family: "givonic-light", Arial, sans-serif;
-  font-size: 16px;
-  font-kerning: -20px;
-  line-height: 120%;
-}
-
-#four-grid-text {
-  text-decoration: none;
-  font-style: normal;
-  color: black;
-  font-family: "givonic-light", Arial, sans-serif;
-  font-size: 16px;
-  font-kerning: -20px;
-  line-height: 120%;
-}
-
-.food-description {
-    text-decoration: none;
-    font-style: normal;
-    color: black;
-    font-family: "givonic-light", Arial, sans-serif;
-    font-size: 16px;
-    font-kerning: -20px;
-}
 
 .footer-gtu-description{
     text-decoration: none;
     font-style: normal;
     color: white;
     font-family: "givonic-light", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-kerning: -20px;
 }
 
-.drink-item dd {
-  text-decoration: none;
-  font-style: normal;
-  color: black;
-  font-family: "givonic-light", Arial, sans-serif;
-  font-size: 16px;
-  font-kerning: -20px;
-}
 
 /* Bodoni Fonts Related type */
 @font-face {
@@ -189,9 +139,8 @@ p {
 
 /* others */
 
-a.figure-link {
+a {
   text-decoration: none;
-  color: inherit;
 }
 
 ul {
@@ -231,24 +180,4 @@ ul {
 .dark-bg .food-description,
 .dark-bg #landing-header{
   color: white;
-}
-
-/* Fonts for Tables */
-
-th {
-  text-decoration: none;
-  font-style: normal;
-  color: black;
-  font-family: "givonic-semibold", Arial, sans-serif;
-  font-size: 20px;
-  font-kerning: -20px;
-}
-
-td{
-  text-decoration: none;
-  font-style: normal;
-  color: black;
-  font-family: "givonic-light", Arial, sans-serif;
-  font-size: 16px;
-  font-kerning: -20px;
 }
