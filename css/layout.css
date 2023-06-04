@@ -241,8 +241,6 @@ nav#in-page-nav {
   z-index: 3;
 }
 
-/* Hovered effect on in-page-nav options*/
-
 
 /* drinks page */
 
@@ -265,9 +263,6 @@ nav#in-page-nav {
   grid-column-start: 8;
   grid-column-end: 9;
 }
-
-
-
 
 
 /*search page*/
@@ -304,14 +299,11 @@ nav#in-page-nav {
 }
 
 
-/* Section Colours */
+/* Footer */
 
 #footer {
   background-color:#273853;
 }
-
-
-/* Footer */
 
 .search-footer {
   position: fixed;

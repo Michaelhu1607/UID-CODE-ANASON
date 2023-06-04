@@ -191,6 +191,7 @@ p {
 
 a.figure-link {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {

@@ -14,42 +14,39 @@
     src: url("fonts/givonic-semibold.ttf") format('truetype');
   }
 
-/* Buttons General setting in testing
-.button {
-    margin: 4px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 32px;
-    padding-right: 32px;
-    border-radius: 96px;
-    display: inline-block;
-    font-family: "givonic-light";
-    font-size: 24px;
-}
-
-.blue-button {
-    background-color: #1420FF;
-    font-family: "givonic-light";
-    color: white;
-}
+/* Buttons and its hover effect */
 
 .white-button {
+    display: block;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding: 12px 28px 12px 28px;
     background-color: white;
     font-family: "givonic-light";
+    font-size: 24px;
     color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
-> use this html code for buttons -
+.white-button:hover{
+    transform: scale(0.9);
+}
 
-<div class="button blue-button">
-            <a href="reserve.html">Reserve Now</a></div>
+.white-button:not(:hover){
+    transform: scale(1);
+}
 
-*/
+
+/* subheader */
 
 .subhead-arrow {
     width: 4px;
     height: 8px;
 }
+
 
 /* Navigation Bar */
 .white-brandlogo {
