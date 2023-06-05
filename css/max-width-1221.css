@@ -4,17 +4,20 @@
 
 /***************************************************************************************************/
     /* grid-system */
-  .grid-system{
-    max-width: 768px;
-    gap: 12px;
-  }
-
-
-
-
+.grid-system{
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(8, 85.5px);
+}
 
 /***************************************************************************************************/
-  /* fonts */
+  
+    /* fonts */
+  
 h1,
 #page-header {
     font-size: 32px;
@@ -37,9 +40,18 @@ h3,
 .drink-item dt,
 .drink-price,
 .nutri-name {
-    font-size: 18px;
+    font-size: 14px;
 }
-  
+
+p,
+.page-description,
+.food-description,
+#four-grid-text,
+.drink-item dd,
+.nutri-description {
+    font-size: 12px;
+}
+
 .subhead {
     font-size: 12px;
 }
@@ -52,94 +64,179 @@ h3,
     font-size: 22px;
 }
 
-
-/***************************************************************************************************/
-  /* */
+.footer-copyright {
+  font-size: 14px;
 }
 
 
+/***************************************************************************************************/
+ 
+/* landing page */
+
 .landing-text {
-    top: 65%;
+  top: 65%;
+}
+
+.landing-reserve {
+bottom: 25%;
+}
+
+.specials-header {
+  width: 768px;
+  height: auto; 
+}
+
+.dynamic-logo {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+#landing-header {
+  margin-bottom: 8px;
+  padding: 0;
+  text-align: center;
+}
+
+#landing-specials {
+  padding-bottom: 32px;
+}
+
+#landing-philosophy {
+  padding-top: 32px;
+  padding-bottom: 20px;
+  }
+
+#landing-recommendations {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  }
+
+#landing-socialmedia {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.social-media-image {
+  margin-bottom: 32px;
+  }
+
+#landing-map {
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+
+.map {
+  width: 768px;
     }
 
-    .landing-reserve {
-    bottom: 25%;
+
+/***************************************************************************************************/
+
+    /* Image sizes */
+
+.social-media-image,
+.food-image {
+  width: 183px;
+  height: 183px;
+}
+
+.product-image {
+  width: 378px;
+  height: 378px;  
+}
+
+
+/***************************************************************************************************/
+
+    /* generic spacings */
+
+.food-image {
+  padding: 0px;
+  margin: 0px;
+}
+
+.food-name {
+  text-align:center;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+/***************************************************************************************************/
+
+    /* Footer */
+
+    #footer {
+      background-color:#273853;
+    }
+    
+    .footer-socials-icons {
+      width: 32px;
+      height: 32px;
+    }
+    
+    .search-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color:#273853;
     }
 
-
-    /* Dynamic Logo */
-
-    .dynamic-logo-container {
-    display: flex;
-    justify-content: center;
+    #footer{
+      padding-top: 40px;
+      padding-bottom: 12px;
     }
-
-    .specials-header {
-      width: 1222px;
-      height: 537px; 
+    
+    .footer-gtu-description {
+      margin-bottom: 4px;
     }
-
-
-    /* section colour */
-
-    #landing-specials {
-    background-color: #274C80;
+    
+    .footer-gtu-name {
+      margin-bottom: 6px;
     }
-
-    #landing-socialmedia {
-    background-color: #274C80;
-    } 
-
-
-    /* typography */
-    #four-grid-text {
-    grid-column-start: 3;
-    grid-column-end: 7;
-    text-align: center;
+    
+    .footer-socials-icons {
+      margin-right: 16px;
     }
-
-
-    /* Landing spacings */
-    .dynamic-logo {
-      margin-top: 60px;
-      margin-bottom: 12px;
-    }
-
-    #landing-header {
+    
+    .footer-header {
       margin-bottom: 12px;
       padding: 0;
-      text-align: center;
     }
-
-    #landing-specials {
-      padding-bottom: 40px;
-    }
-
-    #landing-philosophy {
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }
-
-    #landing-recommendations {
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }
-
-    #landing-socialmedia {
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }
-
-    .social-media-image {
-      margin-bottom: 40px;
-    }
-
-    #landing-map {
-      padding-top: 40px;
+    
+    .footer-content {
       padding-bottom: 80px;
     }
-
-    .map {
-      margin: 0px;
-      padding: 0px;
+    
+    .footer-copyright {
+      margin-top: 20px;
+      padding-top: 20px;
     }
+    
+
+/***************************************************************************************************/
+
+
+/* Text spacings */
+.subhead {
+  padding:0;
+  margin-top: 60px;
+  margin-bottom: 12px;
+}
+
+br {
+  height: 16px;
+}
+
+.whole-width-text {
+  padding: 0;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.page-intro {
+  padding: 0;
+  margin-top: 12px;
+}
+
+}

@@ -322,8 +322,6 @@ hr .in-page-nav-line{
 }
 
 
-
-
 /* subheader */
 
 #subhead-container {
@@ -388,6 +386,11 @@ hr .in-page-nav-line{
   grid-column-end: 4;
 }
 
+#footer-2-1{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
 #footer-3 {
   grid-column-start: 4;
   grid-column-end: 6;
@@ -407,6 +410,14 @@ hr .in-page-nav-line{
   margin: 0;
 }
 
+#footer-copyright-grid {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.opening-hours {
+  margin-bottom:8px
+}
 
 
 /* Text Layouts */
