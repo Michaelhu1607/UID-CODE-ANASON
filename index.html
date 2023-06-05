@@ -25,6 +25,11 @@
     <!--navigation bar-->
     <nav class="navbar">
 
+        <!--hamburger menu for small screen-->
+        <div class="hamburger-menu">
+            <a href="hamburger.html"><img class="white-hamburgericon" src="assets/icons/hamburger.png" alt="Hamburger Menu"></a>
+        </div>
+
         <!--pages-->
         <ul class="navlist">
             <li><a class="nav-pages" href="food.html">Food</a></li>
@@ -35,12 +40,12 @@
 
         <!--brand logo-->
         <div class="nav-logo">
-            <a href="index.html"><img class="white-brandlogo" src="assets/icons/anason_white.png" alt="brand logo"></a>
+            <a href="index.html"><img class="white-brandlogo" src="assets/icons/anason_white.png" alt="ANASON"></a>
         </div>
 
         <!--search icon-->
         <div class="nav-search">
-            <a href="search.html"><img class="white-searchicon" src="assets/icons/search_icon_white.png" alt="search icon"></a>
+            <a href="search.html"><img class="white-searchicon" src="assets/icons/search_icon_white.png" alt="Search"></a>
         </div>
     </nav>
 </header>
@@ -76,8 +81,10 @@
         <div class="content dark-bg grid-system">
             <h2 id="landing-header">Mothers Day Specials</h2>
 
-            <img id="large-item" class="specials-header" src="assets/landing/special_01.jpg">
-            
+        <div id="large-item">
+            <img class="specials-header-container specials-header" src="assets/landing/special_01.jpg">
+        </div>
+
         <!--content-->
             <figure id="item-grid-1">
                 <a href="product.html" class="figure-link">
