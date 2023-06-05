@@ -77,7 +77,7 @@
         </p>
     </div>
 
-    <!--Filter Icon-->
+    <!--Drop down filter icon-->
     <div class="grid-system filter-container">
         <img class="filter-button" src="assets/icons/filter.png" alt="Filter">
         <div class="filter-menu">
@@ -89,22 +89,25 @@
         </div>
     </div>
 
+            <!--for in-page-navbar-->
+            <!--used this as a way to go around the navbar-->
+            <section id="specials-top"></section>
+
     <!--in-page-navigation-->
     <div class="in-page-group">
         <div class="grid-system in-page-navbar">
             <nav class="grid-system" id="in-page-nav">
                 <ul>
-                    <li><a class="in-page-menu" href="#specials">Specials</a></li>
-                    <li><a class="in-page-menu" href="#entree">Entree</a></li>
-                    <li><a class="in-page-menu" href="#sides">Sides</a></li>
-                    <li><a class="in-page-menu" href="#mains">Mains</a></li>
-                    <li><a class="in-page-menu" href="#dessert">Dessert</a></li>
+                    <li><a class="in-page-menu" href="#specials-top">Specials</a></li>
+                    <li><a class="in-page-menu" href="#entree-top">Entree</a></li>
+                    <li><a class="in-page-menu" href="#sides-top">Sides</a></li>
+                    <li><a class="in-page-menu" href="#mains-top">Mains</a></li>
+                    <li><a class="in-page-menu" href="#dessert-top">Dessert</a></li>
                 </ul>
             </nav>
         </div>
-        <hr>
+        <hr class="in-page-nav-line">
     </div>
-
 
      <!--Specials-->
      <section id="specials" class="grid-system">
@@ -144,6 +147,8 @@
             <figure id="item-grid-4">
                 <a href="product.html" class="figure-link">
                     <img class="food-image" data-category="vegetarian" src="assets/food/menu_dessert_01.jpg" alt="charcoal merengue">
+                            <!--special section tag to go around the height of the navigation bar to achieve desired height-->
+                            <div id="entree-top"></div>
                     <figcaption>
                         <p class="food-name">Charcoal Merengue ( 20 )</p>
                         <p class="food-description">Fresh berries and mastika cream</p>
@@ -152,7 +157,7 @@
                 </figure>  
         </section>
 
-    
+
     <!--Entree-->
     <section id="entree" class="grid-system">
 
@@ -171,6 +176,8 @@
         <figure id="item-grid-2">
             <a href="product.html" class="figure-link">
                 <img class="food-image" data-category="vegetarian" src="assets/food/menu_entree_02.jpg" alt="stone baked village bread">
+                  <!--special section tag to go around the height of the navigation bar to achieve desired height-->
+    <div id="sides-top"></div>
             <figcaption>
                 <p class="food-name">Stone Baked Bread ( 12 )</p>
                 <p class="food-description">Tarama, squid ink, beach succulents</p>
@@ -218,6 +225,8 @@
         <figure id="item-grid-4">
             <a href="product.html" class="figure-link">
                 <img class="food-image" data-category="vegetarian" src="assets/food/menu_sides_04.jpg" alt="fried potato">
+                            <!--special section tag to go around the height of the navigation bar to achieve desired height-->
+                            <div id="mains-top"></div>
                 <figcaption>
                     <p class="food-name">Fried Potato ( 18 )</p>
                     <p class="food-description">Fried potato with tartare sauce</p>
@@ -274,6 +283,8 @@
 
         <figure id="item-grid-1">
             <img class="food-image" data-category="beef" src="assets/food/menu_mains_05.jpg" alt="manti">
+                            <!--special section tag to go around the height of the navigation bar to achieve desired height-->
+                            <div id="dessert-top"></div>
                 <figcaption>
                     <p class="food-name">Manti ( 38 )</p>
                     <p class="food-description">Mini dough parcels, beef filling, garlic yoghurt, mint, sumac</p>
