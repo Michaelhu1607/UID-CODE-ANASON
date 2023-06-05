@@ -24,7 +24,7 @@ label{
     
 }
 form{
-    grid-column-start: 6;
+    grid-column-start: 5;
     grid-column-end: 9;
     height: 60vh;
     font-size: 125%;
@@ -53,21 +53,24 @@ form{
     grid-column-start: 1;
     grid-column-end: 5;
 }
-#plusandminus{
-    height: 50px;
-    width: 160px;
-    background: transparent;
+.numberOfGuest{
+    width: 100%;
+    background-color: white
+    height: 10%;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.selectoroption{
+    background-color: #F8F8F8;
+    height: 6vh;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items:center ;
+    padding: 13%S;
 }
-.minus{
-    cursor: pointer;
-}
-.plus{
-    cursor: pointer;
-}
-.number{
-    font-size: 22px;
-    font-weight: bold;
+.selectoroption p{
+    font-size: 25px;
+    font-family: "givonic-semibold";
+    margin-right: 4S0%;
+    width: 50%;
 }

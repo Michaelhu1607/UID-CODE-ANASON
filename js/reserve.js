@@ -52,6 +52,29 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+
+// Get references to the input element and buttons
+const numberInput = document.getElementById('myNumberInput');
+const plusButton = document.getElementById('plusButton');
+const minusButton = document.getElementById('minusButton');
+
+// Add event listeners to the buttons
+plusButton.addEventListener('click', incrementNumber);
+minusButton.addEventListener('click', decrementNumber);
+
+// Function to increment the number
+function incrementNumber() {
+  numberInput.value = parseInt(numberInput.value) + 1;
+}
+
+// Function to decrement the number
+function decrementNumber() {
+  const currentValue = parseInt(numberInput.value);
+  if (currentValue > 0) {
+    numberInput.value = currentValue - 1;
+  }
+}
+
 /* this function is used to plus and minus by clicking the symbol*/
 const minus = document.querySelector(".minus");
 const number = document.querySelector(".value");
