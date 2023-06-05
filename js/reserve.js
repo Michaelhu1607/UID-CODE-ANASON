@@ -51,3 +51,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 });
+
+/* this function is used to plus and minus by clicking the symbol*/
+const minus = document.querySelector(".minus");
+const number = document.querySelector(".value");
+const plus = document.querySelector(".plus");
+
+let sum = 0;
+number.innerHTML = sum;
+

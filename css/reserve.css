@@ -53,31 +53,21 @@ form{
     grid-column-start: 1;
     grid-column-end: 5;
 }
-#numberOfGuest{
-    padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #f2f2f2;
-  color: #333;
-  font-size: 16px;
-  width: 200px;
-}
-#numberOfGuest:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px #007bff;
-}
 #plusandminus{
-    height: 120px;
-    min-width: 380px;
+    height: 50px;
+    width: 160px;
     background: transparent;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-span{
-    width: 100%;
-    text-align: center;
-    font-size: 150%;
-    font-weight: 500;
+.minus{
+    cursor: pointer;
+}
+.plus{
+    cursor: pointer;
+}
+.number{
+    font-size: 22px;
+    font-weight: bold;
 }
