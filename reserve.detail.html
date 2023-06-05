@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/product.css">
     <link rel="stylesheet" type="text/css" href="css/search-page.css">
     <link rel="stylesheet" type="text/css" href="css/spacing.css">
+    <link rel="stylesheet" type="text/css" href="css/reserve.css">
     <script src="js/reserve.js"></script>
 </head>
 
@@ -54,33 +55,36 @@
      <div class="grid-system">
         <h1 id="page-header">details</h1>
     </div>
-    <form action="reserve.payment.html" method="get">
-        <div>
-            <label>First Name</label>
-            <input type="text" name="firstName" required>
-        </div>
-        <div>
-            <label>Last Name</label>
-            <input type="text" name="lastName" required>
-        </div>
-        <div>
-            <label>Mobile</label>
-            <input type="tel" name="Mobile" pattern=".{9,10}" required > 
-        </div>
-        <div>
-            <label>Email</label>
-            <input type="email" name="Email" id="emailInput" required>
-        </div>
-        <div>
-            <label>Special Requirement</label>
-            <input type="text" name="specialre">
-        </div>
-        
-        <button type="submit">Continue</button>
-
-        
-
-    </form>
+    <div class="grid-system" id="changedgrid">
+        <form action="reserve.payment.html" method="get">
+            <div class="typingbar-container">
+                <label>First Name:</label>
+                <input type="text" name="firstName" class="typingbar" required>
+            </div>
+            <div class="typingbar-container">
+                <label>Last Name:</label>
+                <input type="text" name="lastName" class="typingbar" required>
+            </div>
+            <div class="typingbar-container">
+                <label>Mobile:</label>
+                <input type="tel" name="Mobile" class="typingbar" pattern=".{9,10}" required > 
+            </div>
+            <div class="typingbar-container">
+                <label>Email:</label>
+                <input type="email" name="Email" class="typingbar" required>
+            </div>
+            <div class="typingbar-container">
+                <label>Special Requirement:</label>
+                <input type="text" name="specialre" class="typingbar">
+            </div>
+            
+            <button type="submit">Continue</button>
+    
+            
+    
+        </form>
+    </div>
+   
 
     
 </body>

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'givonic-semibold';
+    src: url("fonts/givonic-semibold.ttf") format('truetype');
+  }
+label{
+    font-family: "givonic-semibold", Arial, sans-serif;
+    font-style: normal;
+    padding: 0%;
+}
+.typingbar{
+    max-width: 10vw;
+    height: 4vw; 
+    padding: 0;
+    font-size: 28px;
+    font-family: "givonic-semibold";
+    border: 0;
+    background-color: transparent;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+.typingbar-container{
+    margin-bottom: 40px;
+    border-bottom: 1.5px solid black;
+    
+}
+form{
+    grid-column-start: 6;
+    grid-column-end: 9;
+    height: 21vw;
+    font-size: 120%;
+}
+button{
+    display: block;
+    padding: 12px 28px 12px 28px;
+    margin: auto;
+    margin-bottom: 0;
+    background-color: #F8F8F8;
+    font-family: "givonic-light";
+    font-size: 24px;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+#changedgrid{
+    height: 80vh;
+}
