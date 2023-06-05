@@ -17,3 +17,12 @@
 .about-reserve-button {
     margin-top: 20px;
 }
+
+/* image sizes */
+.about-page-full-image {
+    max-width: 1222px;
+}
+
+.about-page-square-image {
+    max-width: 602px;
+}

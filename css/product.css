@@ -4,8 +4,17 @@
     grid-column-end: 9;
 }
 
+/* sizes */
+.return {
+  max-width: 16px;
+}
 
 /* spacings */
+#return-icon {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
 #drinks-pairing {
   padding: 0;
   margin-bottom: 80px;
