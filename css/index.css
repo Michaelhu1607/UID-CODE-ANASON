@@ -47,7 +47,6 @@
 
 
 /* specials section */
-
 .dynamic-logo {
   width: 100%;
   height: auto;
@@ -125,10 +124,12 @@
   padding-bottom: 80px;
 }
 
-.map {
+map {
   max-width: 100%;
   margin: 0px;
   padding: 0px;
+  grid-column-start: 1;
+  grid-column-end: 9;
 }
 
 

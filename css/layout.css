@@ -110,6 +110,7 @@ body{
   transition: transform 0.3s ease-in-out;
 }
 
+
 /* Hover-ed effect on item-grids */
 #item-grid-1:hover {
   transform: scale(0.98);
@@ -438,6 +439,7 @@ hr {
   background-color: black;
   margin-bottom: 60px;
 }
+
 
 
 /***********************************************************************************************/
