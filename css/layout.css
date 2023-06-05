@@ -14,7 +14,7 @@ select, label, fieldset, legend, blockquote, cite {
 
 /* 8-grid system */
 .grid-system{
-  min-width: 1222px;
+  max-width: 1222px;
   margin: 0 auto;
   padding: 0;
   height: auto;
