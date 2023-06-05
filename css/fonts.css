@@ -25,7 +25,8 @@ h2 {
     font-kerning: -20px;
   }
   
-h3 {
+h3,
+.nav-pages {
     text-decoration: none;
     font-style: normal;
     color: black;
@@ -33,15 +34,6 @@ h3 {
     font-size: 20px;
     font-kerning: -20px;
   }
-
-.nav-pages {
-    text-decoration: none;
-    font-style: normal;
-    color: black;
-    font-family: 'cresci', 'Times New Roman', serif;
-    font-size: 23px;
-    font-kerning: -20px;
-}
 
 .footer-header {
   text-decoration: none;

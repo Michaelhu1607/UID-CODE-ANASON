@@ -1,3 +1,18 @@
+/*food page landing image*/
+.food-top{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+} 
+
+.food-head-image{
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 /* filter */
 .filter-container{
     position: relative;
@@ -40,20 +55,6 @@
   }
 
 
-.food-top{
-    width: 100vw;
-    height: 50vh;
-    position: relative;
-} 
-
-.food-head-image{
-    width: 100vw;
-    height: 50vh;
-    object-fit: cover;
-    object-position: center;
-}
-
-
 /* spacings */
 #food-header {
     margin: 0;
@@ -66,6 +67,7 @@
 }
 
 #specials {
+    padding-top: 40px;
     padding-bottom: 60px;
 }
 

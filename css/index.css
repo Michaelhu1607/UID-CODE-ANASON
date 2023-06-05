@@ -10,7 +10,7 @@
   position: relative;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height:  100vh;
   overflow: hidden;
 }
 
@@ -25,7 +25,7 @@
 
 .landing-text {
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -38,7 +38,7 @@
 
 .landing-reserve {
   position: absolute;
-  bottom: 20%;
+  bottom: 25%;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
@@ -72,7 +72,8 @@
 
 .specials-header {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 #landing-specials {
@@ -124,8 +125,10 @@
   padding-bottom: 80px;
 }
 
-map {
-  max-width: 100%;
+.map {
+  width: 1222px;
+  height: 37.7vh;
+  border: 0;
   margin: 0px;
   padding: 0px;
   grid-column-start: 1;
@@ -136,7 +139,6 @@ map {
 /* generic */
 #landing-header {
     margin-bottom: 12px;
-    padding: 0;
     text-align: center;
 }
 

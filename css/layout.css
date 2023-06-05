@@ -35,11 +35,6 @@ select, label, fieldset, legend, blockquote, cite {
 }
 
 
-body{
-  padding-top: 80px;
-  scroll-snap-type: y mandatory;
-}
-
 /* 8 Grid System (mostly for contents) */
 
 .grid-item {
@@ -65,6 +60,7 @@ body{
   grid-column-start: 1;
   grid-column-end: 5;
 }
+
 #two-images-2{
   grid-column-start: 5;
   grid-column-end: 9;
@@ -208,7 +204,7 @@ body{
   display: block;
   color: white;
   padding: 0;
-  margin-right: 40px;
+  margin-right: 28px;
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
@@ -253,28 +249,28 @@ body{
 }
 
 .white-brandlogo {
-  width: 171px;
-  height: 30px;
+  max-width: 120px;
+  height: auto;
 }
 
 .black-brandlogo {
-  width: 171px;
-  height: 30px;
+  max-width: 120px;
+  height: auto;
 }
 
 .white-searchicon {
-  width: 24px;
-  height: 24px; 
+  max-width: 24px;
+  height: auto; 
 }
 
 .black-searchicon {
-  width: 24px;
-  height: 24px; 
+  max-width: 24px;
+  height: auto; 
 }
 
 .white_hamburgericon {
-  width: 24px;
-  height: 24px;
+  max-width: 24px;
+  height: auto; 
 }
 
 
@@ -323,12 +319,10 @@ nav#in-page-nav {
   margin-right: 60px;
 }
 
-.fixed-in-page-nav {
-  position: fixed;
-  top: 80;
-  left: 0;
-  width: 100%;
-  z-index: 3;
+hr .in-page-nav-line{
+  border: none;
+  height: 1px;
+  background-color: black;
 }
 
 
@@ -363,7 +357,7 @@ nav#in-page-nav {
   align-items: left;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-top: 80px;
 }
 
 
@@ -433,11 +427,12 @@ h2 {
   grid-column-end: 5;
 }
 
-hr {
+hr{
   border: none;
+  margin: 0;
+  padding: 0;
   height: 1px;
   background-color: black;
-  margin-bottom: 60px;
 }
 
 
@@ -446,7 +441,7 @@ hr {
 
 /* Media Queries */
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 390px) {
 
     body{
       padding-top: 64px;
