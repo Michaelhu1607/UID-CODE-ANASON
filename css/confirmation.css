@@ -1,17 +1,42 @@
 body.confirmation-page {
     display: grid;
     background-color: rgba(0, 194, 73, 0.13);
-    place-items: center;
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
+.confirmation-details,
 .confirmation-header {
     padding: 0;
     margin: 0;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 6;
 }  
 
 .confirmation-text {
     padding: 0;
     margin: 0;
-    text-align: centre;
+    text-align: center;
+}
+
+#reservation-name {
+    padding: -8px;
+    margin: 0;
+    text-align: center;
+}
+
+#reservation-date,
+#reservation-time,
+#reservation-email {
+    padding: 4px;
+    margin: 0;
+    text-align: center;
+    font-family: "givonic-semibold"
+}
+
+.back-to-index-button {
+    margin-top: 20px;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 6;
 }
