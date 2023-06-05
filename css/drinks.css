@@ -1,0 +1,19 @@
+.section-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+  .price-1{
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  
+  .section-2 {
+    grid-column-start: 5;
+    grid-column-end: 8;
+  }
+  
+  .price-2{
+    grid-column-start: 8;
+    grid-column-end: 9;
+  }

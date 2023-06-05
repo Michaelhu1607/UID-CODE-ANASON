@@ -24,8 +24,8 @@ select, label, fieldset, legend, blockquote, cite {
 }
 
 /* grid for mobile */
-@media screen and (max-width: 390px) {
 
+@media screen and (max-width: 390px) {
 .grid-system{
   grid-template-columns: repeat(4, 78px);
   gap: 8px;
@@ -187,7 +187,6 @@ body{
 }
 
 
-
 /* Navigation Bar*/
 
 .navbar {
@@ -251,6 +250,32 @@ body{
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
+
+.white-brandlogo {
+  width: 171px;
+  height: 30px;
+}
+
+.black-brandlogo {
+  width: 171px;
+  height: 30px;
+}
+
+.white-searchicon {
+  width: 24px;
+  height: 24px; 
+}
+
+.black-searchicon {
+  width: 24px;
+  height: 24px; 
+}
+
+.white_hamburgericon {
+  width: 24px;
+  height: 24px;
+}
+
 
 /* in-page-menu*/
 
@@ -341,68 +366,15 @@ nav#in-page-nav {
 }
 
 
-
-
-/* drinks page */
-.section-1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-
-.price-1{
-  grid-column-start: 3;
-  grid-column-end: 4;
-}
-
-.section-2 {
-  grid-column-start: 5;
-  grid-column-end: 8;
-}
-
-.price-2{
-  grid-column-start: 8;
-  grid-column-end: 9;
-}
-
-
-/*search page*/
-
-#specialsearch{
-  grid-column-start: 1;
-  grid-column-end: 9;
-  grid-row-start: 1;
-}
-
-#specialsearch {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  font-style: normal;
-  color: black;
-  font-family: 'cresci', 'Times New Roman', serif;
-  font-size: 40px;
-}
-
-.search {
-  width: 300px;
-  height: 40px;
-  padding: 0px;
-  /*border: 2px solid #333;*/
-  border-radius: 4px;
-  font-size: 16px;
-  outline: none;
-  margin-left: 10px;
-}
-
-.search:focus {
-  border-color: dodgerblue;
-}
-
-
 /* Footer */
 
 #footer {
   background-color:#273853;
+}
+
+.footer-socials-icons {
+  width: 32px;
+  height: 32px;
 }
 
 .search-footer {
@@ -467,16 +439,12 @@ hr {
   margin-bottom: 60px;
 }
 
-/* Colors of sections just for referencing purpose*/
 
-body {
-  background-color: white;
-}
-
+/***********************************************************************************************/
 
 /* Media Queries */
 
-@media screen and (max-width: 1301px) {
+@media screen and (max-width: px) {
 
     body{
       padding-top: 64px;

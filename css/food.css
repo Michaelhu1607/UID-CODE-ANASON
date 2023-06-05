@@ -4,6 +4,8 @@
 }
 
 .filter-button{
+    width: 52px;
+    height: 19px;
     grid-column-start: 8;
     grid-column-end: 9;
     cursor: pointer;
@@ -115,3 +117,5 @@
 #dessert {
     padding-bottom: 80px;
 }
+
+/***********************************************************************************************/

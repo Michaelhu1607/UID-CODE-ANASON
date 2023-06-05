@@ -46,7 +46,17 @@
 }
 
 
-/* Dynamic Logo */
+/* specials section */
+
+.dynamic-logo {
+  width: 100%;
+  height: auto;
+  max-width: 147px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 12px;
+}
 
 .dynamic-logo-container {
   display: flex;
@@ -66,75 +76,72 @@
   height: auto;
 }
 
-
-/* section colour */
-
 #landing-specials {
   background-color: #274C80;
 }
 
-#landing-socialmedia {
-  background-color: #274C80;
-} 
+#landing-specials {
+  padding-bottom: 40px;
+}
 
 
-/* typography */
+/* philosophy */
 #four-grid-text {
   grid-column-start: 3;
   grid-column-end: 7;
   text-align: center;
 }
-white-searchicon
 
-/* Landing spacings */
-.dynamic-logo {
-    margin-top: 60px;
-    margin-bottom: 12px;
+#landing-philosophy {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
+/* recommendation */
+#landing-recommendations {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+/* social media */
+#landing-socialmedia {
+  background-color: #274C80;
+} 
+
+#landing-socialmedia {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.social-media-image {
+  margin-bottom: 40px;
+}
+
+
+/* locate us */
+#landing-map {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.map {
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* generic */
 #landing-header {
     margin-bottom: 12px;
     padding: 0;
     text-align: center;
 }
 
-#landing-specials {
-    padding-bottom: 40px;
-  }
 
-#landing-philosophy {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
+/***********************************************************************************************/
 
-#landing-recommendations {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-#landing-socialmedia {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.social-media-image {
-    margin-bottom: 40px;
-}
-
-#landing-map {
-    padding-top: 40px;
-    padding-bottom: 80px;
-}
-
-.map {
-    max-width: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-
-/* sizing for max-375px */
 
 @media screen and (max-width: 390px) {
   #landing-top {
@@ -142,7 +149,6 @@ white-searchicon
     padding: 0;
     scroll-snap-align: none; 
 }
-
 
 /* Dynamic Logo */
 
