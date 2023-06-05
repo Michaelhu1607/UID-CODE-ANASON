@@ -73,6 +73,15 @@
     transform: scale(1);
 }
 
+    /* specific for landing-reserve button */
+.reserve-button {
+    width: 100%;
+    height: auto;
+    max-width: 194px;
+    display: block;
+    margin: 0 auto;
+}
+
 
 /* Navigation Bar */
 .white-brandlogo {
@@ -137,14 +146,6 @@
     width: auto;
     display: block;
     text-align: center;
-    margin: 0 auto;
-}
-
-.reserve-button {
-    width: 100%;
-    height: auto;
-    max-width: 194px;
-    display: block;
     margin: 0 auto;
 }
 

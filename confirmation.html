@@ -15,20 +15,31 @@
     <link rel="stylesheet" type="text/css" href="css/product.css">
     <link rel="stylesheet" type="text/css" href="css/search-page.css">
     <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/confirmation.css">
+
     <script src="js/reserve.js"></script>
 </head>
 
-<body>
-    <h1>Booking Confirmed</h1>
+<body class="confirmation-page">
 
+    <h1 class="confirmation-header">Booking Confirmed</h1>
+
+    <div class="confirmation-text">
     <!--function-->
     <p>Your booking for xxx at</p>
     
-    <p>12:00</p>
-    <p>Tuesday,10/04/2023</p>
+    <p id="reservation-time"><!--function insided--></p>
+
+    <p id="reservation-date"><!--function insided--></p>
+
     <p>A confirmation email has been sent to you on</p>
 
-    <p id="email"><!--function insided--></p>
-    <a href="index.html"><img class="bta-button" src="assets/buttons/back_to_anason_white.png"></a>
+    <p id="reservation-email"><!--function insided--></p>
+
+    </div>
+
+    <div class="back-to-index-button">
+    <a class="white-button" href="index.html">Back to ANASON</a>
+    </div>
 </body>
 </html>

@@ -1,0 +1,17 @@
+body.confirmation-page {
+    display: grid;
+    background-color: rgba(0, 194, 73, 0.13);
+    place-items: center;
+    padding-top: 20%;
+}
+
+.confirmation-header {
+    padding: 0;
+    margin: 0;
+}  
+
+.confirmation-text {
+    padding: 0;
+    margin: 0;
+    text-align: centre;
+}
