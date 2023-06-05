@@ -1,6 +1,9 @@
+/* This is a responsive css for when screen size goes below 930px, 
+the navigation lsit turns into a hamburger menu */
 
-@media screen and (max-width: 955px) {
-
+/***************************************************************************************************/
+@media screen and (max-width: 930px) {
+    
     .navlist{
         display: none;
       }

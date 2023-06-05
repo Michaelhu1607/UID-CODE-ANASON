@@ -1,9 +1,11 @@
 /* This is a responsive css for when screen size is between 1221px-768px */
 
-@media screen and (min-width: 768px), (max-width: 1221px) {
+@media screen and (min-width: 768px) and (max-width: 1221px) {
 
 /***************************************************************************************************/
+
     /* grid-system */
+
 .grid-system{
   max-width: 768px;
   margin: 0 auto;
@@ -15,9 +17,9 @@
 }
 
 /***************************************************************************************************/
-  
+
     /* fonts */
-  
+
 h1,
 #page-header {
     font-size: 32px;
@@ -70,8 +72,9 @@ p,
 
 
 /***************************************************************************************************/
- 
-/* landing page */
+
+    /* landing page */
+
 
 .landing-text {
   top: 65%;
@@ -81,14 +84,18 @@ p,
 bottom: 25%;
 }
 
-.specials-header {
-  width: 768px;
-  height: auto; 
-}
-
 .dynamic-logo {
   margin-top: 40px;
   margin-bottom: 8px;
+}
+
+.specials-head-container{
+  max-width: 768px;
+}
+
+.specials-header {
+  width: 768px;
+  height: 100%;
 }
 
 #landing-header {
@@ -128,8 +135,7 @@ bottom: 25%;
 .map {
   width: 768px;
     }
-
-
+  
 /***************************************************************************************************/
 
     /* Image sizes */
@@ -138,6 +144,8 @@ bottom: 25%;
 .food-image {
   width: 183px;
   height: 183px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .product-image {
@@ -148,12 +156,29 @@ bottom: 25%;
 
 /***************************************************************************************************/
 
-    /* generic spacings */
+    /* Buttons */
 
-.food-image {
-  padding: 0px;
-  margin: 0px;
+.buttons-layout {
+  margin-top: 12px;
 }
+
+.white-button {
+  display: block;
+  padding: 8px 24px 8px 24px;
+  font-size: 16px;
+}
+
+.blue-button {
+  display: block;
+  padding: 8px 24px 8px 24px;
+  font-size: 16px;
+}
+
+.reserve-button {
+  max-width: 150px;
+}
+
+/***************************************************************************************************/
 
 .food-name {
   text-align:center;
@@ -213,11 +238,10 @@ bottom: 25%;
       padding-top: 20px;
     }
     
-
+  
 /***************************************************************************************************/
 
-
-/* Text spacings */
+    /* Text spacings */
 .subhead {
   padding:0;
   margin-top: 60px;
