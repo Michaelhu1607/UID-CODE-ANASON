@@ -9,7 +9,7 @@ label{
 }
 .typingbar{
     max-width: 10vw;
-    height: 4vw; 
+    height: 3vw; 
     padding: 0;
     font-size: 28px;
     font-family: "givonic-semibold";
@@ -26,14 +26,14 @@ label{
 form{
     grid-column-start: 6;
     grid-column-end: 9;
-    height: 21vw;
-    font-size: 120%;
+    height: 60vh;
+    font-size: 125%;
 }
-button{
-    display: block;
+#continuebutton{
     padding: 12px 28px 12px 28px;
     margin: auto;
-    margin-bottom: 0;
+    margin-bottom: 20%;
+    margin-top: 10%;
     background-color: #F8F8F8;
     font-family: "givonic-light";
     font-size: 24px;
@@ -44,5 +44,8 @@ button{
     transition: all 0.3s ease 0s;
 }
 #changedgrid{
-    height: 80vh;
+    height: 65vh;
+}
+.subhead{
+    margin-top: 15%;
 }
