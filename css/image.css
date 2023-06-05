@@ -18,16 +18,6 @@
     height: 293px; 
 }
 
-.specials-header {
-    width: 1222px;
-    height: 537px; 
-}
-
-.map{
-    width: 1222px;
-    height: 483px;  
-}
-
 .product-image {
     width: 603px;
     height: 603px;  
@@ -37,9 +27,4 @@
     width: 100vw;
     object-fit: cover;
     object-position: center;
-}
-
-/* Flexible Image */
-img {
-    max-width: 100%
 }

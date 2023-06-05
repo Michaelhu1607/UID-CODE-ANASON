@@ -46,6 +46,111 @@
 }
 
 
+/* specials section */
+.dynamic-logo {
+  width: 100%;
+  height: auto;
+  max-width: 147px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 12px;
+}
+
+.dynamic-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.specials-head-container{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.specials-header {
+  width: 100%;
+  height: auto;
+}
+
+#landing-specials {
+  background-color: #274C80;
+}
+
+#landing-specials {
+  padding-bottom: 40px;
+}
+
+
+/* philosophy */
+#four-grid-text {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  text-align: center;
+}
+
+#landing-philosophy {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* recommendation */
+#landing-recommendations {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+/* social media */
+#landing-socialmedia {
+  background-color: #274C80;
+} 
+
+#landing-socialmedia {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.social-media-image {
+  margin-bottom: 40px;
+}
+
+
+/* locate us */
+#landing-map {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+map {
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  grid-column-start: 1;
+  grid-column-end: 9;
+}
+
+
+/* generic */
+#landing-header {
+    margin-bottom: 12px;
+    padding: 0;
+    text-align: center;
+}
+
+
+/***********************************************************************************************/
+
+
+@media screen and (max-width: 390px) {
+  #landing-top {
+    margin: 0;
+    padding: 0;
+    scroll-snap-align: none; 
+}
+
 /* Dynamic Logo */
 
 .dynamic-logo-container {
@@ -119,8 +224,10 @@
 }
 
 .map {
+    max-width: 100%;
     margin: 0px;
     padding: 0px;
+}
 }
 
 /* Media Queries */

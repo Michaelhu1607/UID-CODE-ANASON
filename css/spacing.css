@@ -15,42 +15,6 @@
 }
 
 
-/* Drinks spacings */
-#drinks-header {
-    padding: 0;
-    margin-bottom: 12px;
-}
-
-#in-page-nav {
-    padding-top: 20px;
-    padding-bottom: 44px;
-}
-
-#sparkling {
-    padding-bottom: 60px;
-}
-
-#white {
-    padding-bottom: 60px;
-}
-
-#cocktails {
-    padding-bottom: 60px;
-}
-
-#soft {
-    padding-bottom: 80px;
-}
-
-.drink-item {
-    margin-bottom: 12px;
-}
-
-.drink-price {
-    margin-bottom: 20px;
-}
-
-
 /* Footer spacings */
 #footer{
     padding-top: 60px;

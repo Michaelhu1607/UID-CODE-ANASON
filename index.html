@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anason - Food Menu</title>
-    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <title>Anason</title>
+    <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="stylesheet" type="text/css" href="css/button.css">
-    <link rel="stylesheet" type="text/css" href="css/image.css">
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
-    <link rel="stylesheet" type="text/css" href="css/spacing.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/confirmation.css">
+    <link rel="stylesheet" type="text/css" href="css/drinks.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/food.css">
+    <link rel="stylesheet" type="text/css" href="css/image.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/product.css">
     <link rel="stylesheet" type="text/css" href="css/search-page.css">
-    <link rel="stylesheet" type="text/css" href="css/about.css">
-    <link rel="stylesheet" type="text/css" href="css/confirmation.css">
+    <link rel="stylesheet" type="text/css" href="css/spacing.css">
     <script src="js/reserve.js"></script>
 </head>
 
@@ -24,6 +25,11 @@
 
     <!--navigation bar-->
     <nav class="navbar">
+
+        <!--hamburger menu for small screen-->
+        <div class="hamburger-menu">
+            <a href="hamburger.html"><img class="white-hamburgericon" src="assets/icons/hamburger.png" alt="Hamburger Menu"></a>
+        </div>
 
         <!--pages-->
         <ul class="navlist">
@@ -35,12 +41,12 @@
 
         <!--brand logo-->
         <div class="nav-logo">
-            <a href="index.html"><img class="white-brandlogo" src="assets/icons/anason_white.png" alt="brand logo"></a>
+            <a href="index.html"><img class="white-brandlogo" src="assets/icons/anason_white.png" alt="ANASON"></a>
         </div>
 
         <!--search icon-->
         <div class="nav-search">
-            <a href="search.html"><img class="white-searchicon" src="assets/icons/search_icon_white.png" alt="search icon"></a>
+            <a href="search.html"><img class="white-searchicon" src="assets/icons/search_icon_white.png" alt="Search"></a>
         </div>
     </nav>
 </header>
@@ -76,8 +82,10 @@
         <div class="content dark-bg grid-system">
             <h2 id="landing-header">Mothers Day Specials</h2>
 
-            <img id="large-item" class="specials-header" src="assets/landing/special_01.jpg">
-            
+        <div id="large-item">
+            <img class="specials-header-container specials-header" src="assets/landing/special_01.jpg">
+        </div>
+
         <!--content-->
             <figure id="item-grid-1">
                 <a href="product.html" class="figure-link">
@@ -227,7 +235,7 @@
         <h2 id="landing-header">Locate Us</h2>
 
         <map>
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.975123342218!2d151.19913421521014!3d-33.86453198065747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae47a039d033%3A0x1aba5f8e46d58096!2sAnason!5e0!3m2!1sen!2sau!4v1685931615221!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.975123342218!2d151.19913421521014!3d-33.86453198065747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae47a039d033%3A0x1aba5f8e46d58096!2sAnason!5e0!3m2!1sen!2sau!4v1685931615221!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </map>
    
     </section>

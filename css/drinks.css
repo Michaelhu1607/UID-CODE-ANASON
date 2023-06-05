@@ -1,0 +1,54 @@
+.section-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+  .price-1{
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  
+  .section-2 {
+    grid-column-start: 5;
+    grid-column-end: 8;
+  }
+  
+  .price-2{
+    grid-column-start: 8;
+    grid-column-end: 9;
+  }
+
+  /* Drinks spacings */
+#drinks-header {
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+#in-page-nav {
+  padding-top: 20px;
+  padding-bottom: 44px;
+}
+
+#sparkling {
+  padding-bottom: 60px;
+}
+
+#white {
+  padding-bottom: 60px;
+}
+
+#cocktails {
+  padding-bottom: 60px;
+}
+
+#soft {
+  padding-bottom: 80px;
+}
+
+.drink-item {
+  margin-bottom: 12px;
+}
+
+.drink-price {
+  margin-bottom: 20px;
+}

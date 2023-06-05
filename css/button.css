@@ -1,19 +1,3 @@
-/* Fonts */
-@font-face {
-    font-family: 'bodoni';
-    src: url("fonts/bodoni.ttf") format('truetype');
-  }
-
-@font-face {
-    font-family: 'givonic-light';
-    src: url("fonts/givonic-light.ttf") format('truetype');
-  }
-
-@font-face {
-    font-family: 'givonic-semibold';
-    src: url("fonts/givonic-semibold.ttf") format('truetype');
-  }
-
 /* Buttons and its hover effect */
 
     /* buttons - center aligns button */
@@ -83,118 +67,17 @@
 }
 
 
-/* Navigation Bar */
-.white-brandlogo {
-    width: 171px;
-    height: 30px;
-}
-
-.black-brandlogo {
-    width: 171px;
-    height: 30px;
-}
-
-.white-searchicon {
-    width: 24px;
-    height: 24px; 
-}
-
-.black-searchicon {
-    width: 24px;
-    height: 24px; 
-}
-
-
 /* General buttons */
-.dynamic-logo {
-    width: 100%;
-    height: auto;
-    max-width: 147px;
-    display: block;
-    margin: 0 auto;
-}
-
 .button-link {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-.white-searchicon {
-    width: 24px;
-    height: 24px;
-}
 
-.black-searchicon {
-    width: 24px;
-    height: 24px;
-}
+  /***********************************************************************************************/
 
-.filter-button{
-    width: 52px;
-    height: 19px;
-}
+/* Media Queries */
 
-/* Footer */
-.footer-socials-icons {
-    width: 32px;
-    height: 32px;
+@media screen and (max-width: 390px) {
 }
-
-/* 
-.menu-button {
-    width: auto;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.instagram-button {
-    width: 100%;
-    height: auto;
-    max-width: 160px;
-    display: block;
-    margin: 0 auto;
-}
-
-.grey-find-a-table{
-    width: 184px;
-    height: 47px
-}
-
-.blue-find-a-table{
-    width: 184px;
-    height: 47px
-}
-
-.grey-continue{
-    width: 152px;
-    height: 47px
-}
-
-.blue-continue{
-    width: 152px;
-    height: 47px
-}
-
-.grey-payment{
-    width: 148px;
-    height: 47px
-}
-
-.blue-payment{
-    width: 148px;
-    height: 47px
-}
-
-.bta-button {
-    width: 235px;
-    height: 47px;
-}
-
-#about-reserve-button{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-*/

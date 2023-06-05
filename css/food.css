@@ -4,6 +4,8 @@
 }
 
 .filter-button{
+    width: 52px;
+    height: 19px;
     grid-column-start: 8;
     grid-column-end: 9;
     cursor: pointer;
@@ -51,39 +53,6 @@
     object-position: center;
 }
 
-/* Hovered effect on item-grids */
-#item-grid-1:hover {
-    transform: scale(0.98);
-}
-
-#item-grid-1:not(hover) {
-    transform: scale(1);
-}
-
-#item-grid-2:hover {
-    transform: scale(0.98);
-}
-
-#item-grid-2:not(hover) {
-    transform: scale(1);
-}
-
-#item-grid-3:hover {
-    transform: scale(0.98);
-}
-
-#item-grid-3:not(hover) {
-    transform: scale(1);
-}
-
-#item-grid-4:hover {
-    transform: scale(0.98);
-}
-
-#item-grid-4:not(hover) {
-    transform: scale(1);
-}
-
 
 /* spacings */
 #food-header {
@@ -115,3 +84,5 @@
 #dessert {
     padding-bottom: 80px;
 }
+
+/***********************************************************************************************/
