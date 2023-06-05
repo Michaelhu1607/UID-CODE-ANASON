@@ -13,14 +13,14 @@ select, label, fieldset, legend, blockquote, cite {
 }
 
 .grid-system{
-  max-width:1222px;
+  max-width: 1222px;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
   height: auto;
   display: grid;
-  
-  grid-template-columns: repeat(8, 138px);
   gap: 16px;
+  
+  grid-template-columns: repeat(autofill, minmax(138, 1fr));
 }
 
 body{
