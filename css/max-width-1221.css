@@ -180,10 +180,26 @@ bottom: 25%;
 
 /***************************************************************************************************/
 
+    /* Spacings */
+
 .food-name {
   text-align:center;
   margin-top: 8px;
   margin-bottom: 2px;
+}
+
+.subhead {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+br {
+  height: 16px;
+}
+
+.page-intro {
+  padding: 0;
+  margin-top: 12px;
 }
 
 /***************************************************************************************************/
@@ -241,16 +257,6 @@ bottom: 25%;
   
 /***************************************************************************************************/
 
-    /* Text spacings */
-.subhead {
-  padding:0;
-  margin-top: 60px;
-  margin-bottom: 12px;
-}
-
-br {
-  height: 16px;
-}
 
 .whole-width-text {
   padding: 0;
@@ -258,9 +264,5 @@ br {
   margin-bottom: 8px;
 }
 
-.page-intro {
-  padding: 0;
-  margin-top: 12px;
-}
 
 }
