@@ -1,0 +1,73 @@
+/* This is a responsive css for when screen size is below 767px (possibly a phone) */
+
+@media screen and (max-width: 767px) {
+
+
+/* grid-system */
+.grid-system{
+    max-width: 335px;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/***************************************************************************************************/
+  /* fonts */
+h1,
+#page-header {
+  font-size: 24px;
+}
+
+h2,
+.in-page-menu {
+  font-size: 20px;
+}
+
+h3,
+.footer-header {
+  font-size: 23px;
+}
+
+.nav-pages {
+  font-size: 23px;
+}
+
+.food-name,
+.drink-item dt,
+.drink-price,
+.nutri-name {
+  font-size: 14px;
+}
+
+.subhead {
+  font-size: 14px;
+}
+
+p,
+.page-description,
+.food-description,
+#four-grid-text,
+.drink-item dd,
+.nutri-description {
+  font-size: 12px;
+}
+
+
+.footer-gtu-description{
+  font-size: 14px;
+}
+
+.drink-item dd.location {
+  font-size: 24px;
+}
+
+
+.footer-copyright {
+  font-size: 10px;
+}
+
+}

@@ -12,9 +12,9 @@ select, label, fieldset, legend, blockquote, cite {
   outline: 0;
 }
 
-/* grid for desktop */
+/* 8-grid system */
 .grid-system{
-  max-width: 1222px;
+  min-width: 1222px;
   margin: 0 auto;
   padding: 0;
   height: auto;
@@ -66,10 +66,6 @@ select, label, fieldset, legend, blockquote, cite {
   grid-column-end: 9;
 }
 
-#whole-width-image {
-  grid-column-start: 1;
-  grid-column-end: 9;
-}
 
 /* header layouts */
 
@@ -193,8 +189,8 @@ select, label, fieldset, legend, blockquote, cite {
   justify-content: space-between;
   background-color: #1F2731;
   align-items: center;
-  padding-top: 28px;
-  padding-bottom: 24px;
+  padding-top: 20px;
+  padding-bottom: 16px;
   width: 100vw;
   z-index: 3;
   top:0;
@@ -441,7 +437,7 @@ hr{
 
 /***********************************************************************************************/
 
-/* Media Queries */
+/* Media Queries
 
 @media screen and (max-width: 390px) {
 
@@ -449,7 +445,7 @@ hr{
       padding-top: 64px;
     }
 
-    /* Image layouts, can be used for similar purpose */
+    /***************************************** Image layouts, can be used for similar purpose 
     #large-item {
       grid-column-start: 1;
       grid-column-end: 5;
@@ -470,16 +466,16 @@ hr{
     }
 
 
-    /* header layouts */
+    /**************************************** header layouts 
 
     #page-header {
       grid-column-start: 1;
-      grid-column-end: 5;
+      grid-column-end: 6;
       text-align: left;
     }
 
 
-    /* Item Grids - 2 columns per item */
+    /**************************************** Item Grids - 2 columns per item 
 
     #item-grid-1 {
       grid-column-start: 1;
@@ -502,7 +498,7 @@ hr{
     }
 
     
-    /* single grid columns */
+    /**************************************** single grid columns 
 
     .column-1 {
       grid-column-start: 1;
@@ -545,7 +541,7 @@ hr{
     }
 
 
-    /* Navigation Bar*/
+    /***************************************** Navigation Bar
 
     .navlist{
       display: none;
@@ -559,7 +555,7 @@ hr{
     }
 
 
-    /* in-page-menu*/
+    /***************************************** in-page-menu
 
     .in-page-navbar{
       padding: 0;
@@ -613,3 +609,5 @@ hr{
     }
 
 }
+
+*/

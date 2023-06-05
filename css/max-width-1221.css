@@ -1,0 +1,58 @@
+/* This is a responsive css for when screen size is between 1221px-768px */
+
+@media screen and (min-width: 768px), (max-width: 1221px) {
+
+/***************************************************************************************************/
+    /* grid-system */
+  .grid-system{
+    max-width: 768px;
+    gap: 12px;
+  }
+
+
+
+
+
+/***************************************************************************************************/
+  /* fonts */
+h1,
+#page-header {
+    font-size: 32px;
+  }
+  
+h2 {
+    font-size: 24px;
+  }
+  
+h3,
+.nav-pages {
+    font-size: 18px;
+  }
+
+.footer-header {
+    font-size: 18px;
+}
+
+.food-name,
+.drink-item dt,
+.drink-price,
+.nutri-name {
+    font-size: 18px;
+}
+  
+.subhead {
+    font-size: 12px;
+}
+
+.drink-item dd.location {
+    font-size: 18px;
+}
+
+.in-page-menu {
+    font-size: 22px;
+}
+
+
+/***************************************************************************************************/
+  /* */
+}
