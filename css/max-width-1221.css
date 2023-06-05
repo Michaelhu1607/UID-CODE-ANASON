@@ -188,13 +188,8 @@ bottom: 25%;
   margin-bottom: 2px;
 }
 
-.subhead {
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-
-br {
-  height: 16px;
+#subhead-container > ul {
+  margin-top: 0;
 }
 
 .page-intro {
@@ -264,5 +259,105 @@ br {
   margin-bottom: 8px;
 }
 
+/***************************************************************************************************/
 
+    /* Food page */
+
+.food-h2 {
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+#specials {
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+#entree {
+  padding-bottom: 32px;
+}
+
+#sides {
+  padding-bottom: 32px;
+}
+
+#mains {
+  padding-bottom: 32px;
+}
+
+#dessert {
+  padding-bottom: 32px;
+}
+
+
+/***************************************************************************************************/
+
+    /* in-page-menu */
+
+nav#in-page-nav {
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
+
+#in-page-nav > li > a {
+  display: block;
+  color: white;
+  padding: 0;
+  margin-right: 60px;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+#in-page-nav > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  list-style-type: none;
+}
+
+.in-page-menu {
+  margin-right: 60px;
+}
+
+hr .in-page-nav-line{
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+
+
+/***************************************************************************************************/
+
+    /* drinks page */
+
+
+#drinks-header {
+padding: 0;
+margin-bottom: 12px;
+}
+
+#sparkling {
+padding-top: 20px;
+padding-bottom: 32px;
+}
+
+#white {
+padding-bottom: 32px;
+}
+
+#cocktails {
+padding-bottom: 32px;
+}
+
+#soft {
+padding-bottom: 32px;
+}
+
+.drink-item {
+margin-bottom: 0;
+}
+
+.drink-price {
+margin-bottom: 0;
+}
 }
