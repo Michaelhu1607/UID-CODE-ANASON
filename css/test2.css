@@ -1,0 +1,34 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    background-color: #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .dropdown.open .dropdown-menu {
+    max-height: 200px; 
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    list-style: none;
+  }
+  
+  

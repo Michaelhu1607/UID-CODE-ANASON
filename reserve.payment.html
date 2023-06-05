@@ -16,7 +16,9 @@
     <link rel="stylesheet" type="text/css" href="css/search-page.css">
     <link rel="stylesheet" type="text/css" href="css/about.css">
     <link rel="stylesheet" type="text/css" href="css/confirmation.css">
+    <link rel="stylesheet" href="css/test2.css">
     <script src="js/reserve.js"></script>
+    <script src="js/payment.js"></script>
 </head>
 
 
@@ -45,6 +47,15 @@
     </nav>
 </header>
 <body class="grid">
+    <div class="dropdown">
+        <button class="dropdown-toggle">Dropdown</button>
+        <ul class="dropdown-menu">
+          <li>Option 1</li>
+          <li>Option 2</li>
+          <li>Option 3</li>
+        </ul>
+    </div>
+      
     <div class="grid-system">
         <p class="subhead">PAYMENT</p>
     </div>
@@ -95,6 +106,7 @@
             <div>
                 <input type="text">
             </div>
+            <button type="button" onclick="goToNextPage()">Continue</button>
         </form>
 
     </section>
