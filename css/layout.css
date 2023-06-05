@@ -358,11 +358,9 @@ hr .in-page-nav-line{
 }
 
 .search-footer {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  left: 0;
   width: 100%;
-  background-color:#273853;
 }
 
 #footer-1 {
@@ -406,6 +404,11 @@ hr .in-page-nav-line{
 
 .opening-hours {
   margin-bottom:8px
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
 

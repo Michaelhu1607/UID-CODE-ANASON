@@ -200,22 +200,21 @@ bottom: 25%;
 /***************************************************************************************************/
 
     /* Footer */
-
-    #footer {
-      background-color:#273853;
-    }
     
     .footer-socials-icons {
       width: 32px;
       height: 32px;
     }
     
-    .search-footer {
-      position: fixed;
+    #search-footer {
+      position: absolute;
       bottom: 0;
-      left: 0;
-      width: 100%;
-      background-color:#273853;
+      width: 100%;    
+    }
+
+    .footer-socials-icons {
+      max-width: 24px;
+      height: auto;
     }
 
     #footer{
@@ -252,11 +251,45 @@ bottom: 25%;
   
 /***************************************************************************************************/
 
+    /* search page */
 
-.whole-width-text {
-  padding: 0;
-  margin-top: 4px;
-  margin-bottom: 8px;
+.search-bar-container{
+  border-bottom: 1.5px solid black;
+}
+
+#searchbar{
+  max-width: 100%;
+  height: 40px; 
+  padding-top: 8px;
+  padding-left: 40px;
+  font-size: 24px;
+  font-family: "givonic-semibold";
+  border: 0;
+  background-color: transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+  grid-column-start: 2;
+  grid-column-end: 9;
+}
+
+.search-bar:focus {
+    outline: none; 
+  }
+
+/* spacing */
+#searchbar {
+  margin: 0;
+}
+
+.search-bar-container{
+  padding-bottom: 0;
+  margin-bottom: 24px;
+  border-bottom: 1.5px solid black;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
 
 /***************************************************************************************************/
@@ -360,4 +393,51 @@ margin-bottom: 0;
 .drink-price {
 margin-bottom: 0;
 }
+
+/***************************************************************************************************/
+
+    /* about page */
+
+.whole-width-text {
+  margin: 0 auto;
+}   
+
+.abouts-intro {
+  padding-top: 16px;
+  padding-bottom: 0;;
+}
+
+#about-our-story {
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+#about-our-food {
+  padding-top: 16px;
+  margin-bottom: 40px;
+}
+
+.about-reserve-button {
+  margin-top: 20px;
+}
+
+/* image sizes */
+.about-page-full-image {
+  max-width: 768px;
+}
+
+.about-page-square-image {
+  max-width: 378px;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
