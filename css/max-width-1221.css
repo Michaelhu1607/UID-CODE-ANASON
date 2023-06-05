@@ -56,3 +56,90 @@ h3,
 /***************************************************************************************************/
   /* */
 }
+
+
+.landing-text {
+    top: 65%;
+    }
+
+    .landing-reserve {
+    bottom: 25%;
+    }
+
+
+    /* Dynamic Logo */
+
+    .dynamic-logo-container {
+    display: flex;
+    justify-content: center;
+    }
+
+    .specials-header {
+      width: 1222px;
+      height: 537px; 
+    }
+
+
+    /* section colour */
+
+    #landing-specials {
+    background-color: #274C80;
+    }
+
+    #landing-socialmedia {
+    background-color: #274C80;
+    } 
+
+
+    /* typography */
+    #four-grid-text {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    text-align: center;
+    }
+
+
+    /* Landing spacings */
+    .dynamic-logo {
+      margin-top: 60px;
+      margin-bottom: 12px;
+    }
+
+    #landing-header {
+      margin-bottom: 12px;
+      padding: 0;
+      text-align: center;
+    }
+
+    #landing-specials {
+      padding-bottom: 40px;
+    }
+
+    #landing-philosophy {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    #landing-recommendations {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    #landing-socialmedia {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .social-media-image {
+      margin-bottom: 40px;
+    }
+
+    #landing-map {
+      padding-top: 40px;
+      padding-bottom: 80px;
+    }
+
+    .map {
+      margin: 0px;
+      padding: 0px;
+    }
