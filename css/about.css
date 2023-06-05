@@ -1,0 +1,19 @@
+/* Abouts spacings */
+.abouts-intro {
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+#about-our-story {
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+#about-our-food {
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+
+.about-reserve-button {
+    margin-top: 20px;
+}

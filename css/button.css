@@ -97,37 +97,10 @@
 
 
 /* General buttons */
-.reserve-button {
-    width: 100%;
-    height: auto;
-    max-width: 194px;
-    display: block;
-    margin: 0 auto;
-}
-#about-reserve-button{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.menu-button {
-    width: auto;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-}
-
 .dynamic-logo {
     width: 100%;
     height: auto;
     max-width: 147px;
-    display: block;
-    margin: 0 auto;
-}
-
-.instagram-button {
-    width: 100%;
-    height: auto;
-    max-width: 160px;
     display: block;
     margin: 0 auto;
 }
@@ -148,18 +121,41 @@
     height: 24px;
 }
 
-.bta-button {
-    width: 235px;
-    height: 47px;
-}
-
 .filter {
     width: 52px;
     height: 19px;
 }
 
+/* Footer */
+.footer-socials-icons {
+    width: 32px;
+    height: 32px;
+}
 
-/* Reservation Page */
+/* 
+.menu-button {
+    width: auto;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.reserve-button {
+    width: 100%;
+    height: auto;
+    max-width: 194px;
+    display: block;
+    margin: 0 auto;
+}
+
+.instagram-button {
+    width: 100%;
+    height: auto;
+    max-width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+
 .grey-find-a-table{
     width: 184px;
     height: 47px
@@ -190,8 +186,14 @@
     height: 47px
 }
 
-/* Footer */
-.footer-socials-icons {
-    width: 32px;
-    height: 32px;
+.bta-button {
+    width: 235px;
+    height: 47px;
 }
+
+#about-reserve-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+*/
