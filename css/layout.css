@@ -239,31 +239,131 @@ select, label, fieldset, legend, blockquote, cite {
   height: auto; 
 }
 
+.hamburger {
+  display: none;
+}
 
-@media screen and (max-width: 950px) {
+.dropdown {
+  display:none;
+}
+  
+
+@media screen and (min-width: 391px) and (max-width: 950px) {
     
   .navlist > li > a{
       display: none;
     }
 
-    .hamburger-icon {
+    .hamburger {
       display: flex;
-      margin-left: 40px;
-      opacity: 0.7;
-      transition: opacity 0.3s ease;
-      max-width: 24px;
-      max-height: 24px;
-    }
-
-    .hamburger-icon > a{
+      flex-direction: column;
       width: 24px;
+      height: 24px;
+      margin-left: 40px;
+      justify-content: space-between;
+      cursor: pointer;
     }
 
-    img.white-hamburgericon {
-      max-width: 24px;
-      max-height: 24px;
+    .dropdown {
+      position: absolute;
+      z-index: 3;
+      top: 64.2px;
+      left: 0;
+      width: 100px;
+      text-align: left;
+      background-color: white;
+      color: black;
+      margin-left:40px;
+      padding-left: 16px;
+      padding-right: 24px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      font-family: "Cresci";
+      font-size: 23px;
+    }
+
+/* display was set to none as the animation for dropdown menu didn't work*/
+    .dropdown.open {
+      display:none;
+    }
+
+    .dropdown li {
+      padding: 0;
+      margin-bottom: 20px;
+      opacity: 0.7;
+      transform: all 0.2s;
+    }
+
+    a.ham-pages {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .dropdown li:hover {
+      opacity: 1;
     }
 }
+
+
+@media screen and (max-width: 390px) {
+    
+  .navlist > li > a{
+      display: none;
+    }
+
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      width: 24px;
+      height: 24px;
+      margin-left: 20px;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+
+    .dropdown {
+      position: absolute;
+      z-index: 3;
+      top: 64.2px;
+      left: 0;
+      width: 100vw;
+      text-align: left;
+      background-color: white;
+      color: black;
+      padding-left: 16px;
+      padding-right: 24px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      font-family: "Cresci";
+      font-size: 23px;
+    }
+
+    /* display was set to none as the animation for dropdown menu didn't work*/
+    .dropdown.open {
+      display:none;
+    }
+
+    .dropdown li {
+      padding: 0;
+      margin-bottom: 20px;
+      opacity: 0.7;
+      transform: all 0.2s;
+    }
+
+    a.ham-pages {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .dropdown li:hover {
+      opacity: 1;
+    }
+
+    .nav-search {
+      margin-right: 20px;
+    }
+
+    }
 
 
 
