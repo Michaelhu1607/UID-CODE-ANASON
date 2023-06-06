@@ -86,11 +86,27 @@
             </div>
             <br>
             <div class="selectoroption">
-                <p>Reservation date </p>
-                <span><input class="redate" type="date"></span>
+                <p>Date </p>
+                <span><input class="redate" type="date" required pattern="\d{4}-\d{2}-\d{2}"></span>
+            </div>
+            <br>
+            <div id="longSelector" class="grid-system">
+                <p id="reserveTime">Prefered Time</p>
+                <div>
+                    <span><input class="preferTime" type="checkbox" >12:00</span>
+                    <span><input class="preferTime" type="checkbox" >12:00</span>
+                    <span><input class="preferTime" type="checkbox" >12:00</span>
+                    <span><input class="preferTime" type="checkbox" >12:00</span>
+                    <span><input class="preferTime" type="checkbox" >12:00</span>
+                    <span><input class="preferTime" type="checkbox" >12:00</span>
+                    <span><input class="preferTime" type="checkbox" >12:00</span>
+                    <span><input class="preferTime" type="checkbox" >12:00</span>
+                </div>
             </div>
         </div>
-        <form action="reserve.payment.html" method="get">
+
+        </div>
+        <form action="reserve.payment.html" method="get" onsubmit="return validDate()">
             <div class="typingbar-container">
                 <label>First Name:</label>
                 <input type="text" name="firstName" class="typingbar" required>

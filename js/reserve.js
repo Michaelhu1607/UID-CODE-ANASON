@@ -75,11 +75,22 @@ function decrementNumber() {
   }
 }
 
-/* this function is used to plus and minus by clicking the symbol*/
+/* this function is used to plus and minus by clicking the symbol
 const minus = document.querySelector(".minus");
 const number = document.querySelector(".value");
 const plus = document.querySelector(".plus");
 
 let sum = 0;
-number.innerHTML = sum;
+number.innerHTML = sum;*/
+
+
+function validDate(){
+  let inputDate=document.querySelector(".redate").value
+  let parsedDated = Date.parse(inputDate)
+  if (parsedDated < Date.now()) {
+    alert('Date not available for booking')
+    return false
+  }
+  return true
+}
 
