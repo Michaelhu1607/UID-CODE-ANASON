@@ -330,10 +330,10 @@ p,
       }
   
       .footer-socials-icons {
-        max-width: 24px;
+        max-width: 16px;
         height: auto;
-        grid-column-start: 2;
-        grid-column-end: 4;
+        padding: 0;
+        margin: 0;
       }
   
       #footer{
@@ -347,10 +347,6 @@ p,
       
       .footer-gtu-name {
         margin-bottom: 6px;
-      }
-      
-      .footer-socials-icons {
-        margin-right: 16px;
       }
       
       .footer-header {
@@ -369,7 +365,36 @@ p,
         padding-top: 20px;
       }
       
-    
+      #footer-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+      }
+
+      #footer-2-1{
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+
+      #footer-2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+
+      #footer-3{
+        grid-column-start: 3;
+        grid-column-end: 5;
+      }
+
+      #footer-4{
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+      
+      #footer-4{
+        grid-column-start: 3;
+        grid-column-end: 5;
+      }
+
   /***************************************************************************************************/
   
       /* search page */
@@ -489,9 +514,31 @@ p,
       /* drinks page */
   
   
+      .section-1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+      
+      .price-1{
+        text-align: center;
+        grid-column-start: 4;
+        grid-column-end: 5;
+      }
+      
+      .section-2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+      
+      .price-2{
+        text-align: center;
+        grid-column-start: 4;
+        grid-column-end: 5;
+      }
+    
   #drinks-header {
   padding: 0;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   }
   
   #sparkling {
@@ -500,7 +547,7 @@ p,
   }
   
   #white {
-  padding-bottom: 32px;
+  padding-bottom: 24px;
   }
   
   #cocktails {
@@ -525,34 +572,46 @@ p,
   
   .whole-width-text {
     margin: 0 auto;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
   }   
   
   .abouts-intro {
     padding-top: 16px;
     padding-bottom: 0;;
+    grid-column-start: 1;
+    grid-column-end: 5;
   }
   
   #about-our-story {
     padding-top: 16px;
     padding-bottom: 0;
+    grid-column-start: 1;
+    grid-column-end: 5;
   }
   
   #about-our-food {
     padding-top: 16px;
     margin-bottom: 40px;
+    grid-column-start: 1;
+    grid-column-end: 5;
   }
   
   .about-reserve-button {
     margin-top: 20px;
   }
   
-  /* image sizes */
   .about-page-full-image {
-    max-width: 768px;
+    max-width: 335px;
+    grid-column-start: 1;
+    grid-column-end: 5;
   }
   
   .about-page-square-image {
-    max-width: 378px;
+    max-width: 335px;
+    grid-column-start: 1;
+    grid-column-end: 5;
   }
   
   
@@ -561,7 +620,7 @@ p,
       /* products page */
   
   .return {
-  max-width: 12px;
+  max-width: 8px;
   }
   
   /* spacings */
@@ -580,4 +639,57 @@ p,
     margin-bottom: 60px;
     }
 
+ /***********************************************************************************************/
+  
+      /* in page nav page */
+    
+    .in-page-group {
+      max-width: 355px;
+    }
+
+      #in-page-nav {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      align-items: left;
+      padding: 0;
+      margin: 0;
+      grid-column-start: 1;
+      grid-column-end: 9;
+      top:0;
+      transition: top 0.3s ease-in-out;
+    }
+    
+    nav#in-page-nav {
+      padding-top: 16px;
+      padding-bottom: 20px;
+    }
+    
+    #in-page-nav > li > a {
+      display: block;
+      color: white;
+      padding: 0;
+      margin-right: 20px;
+      text-decoration: none;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    #in-page-nav > ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: left;
+      list-style-type: none;
+    }
+    
+    .in-page-menu {
+      margin-right: 20px;
+    }
+    
+    hr .in-page-nav-line{
+      border: none;
+      height: 1px;
+      background-color: black;
+    }
   }
+
+
