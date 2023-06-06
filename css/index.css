@@ -81,7 +81,7 @@
 }
 
 #landing-specials {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 
@@ -100,7 +100,7 @@
 /* recommendation */
 #landing-recommendations {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 
@@ -111,11 +111,11 @@
 
 #landing-socialmedia {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .social-media-image {
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 
@@ -127,7 +127,7 @@
 
 .map {
   width: 1222px;
-  height: 37.7vh;
+  height: 45vh;
   border: 0;
   margin: 0px;
   padding: 0px;

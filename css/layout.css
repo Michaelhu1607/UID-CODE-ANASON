@@ -180,7 +180,7 @@ select, label, fieldset, legend, blockquote, cite {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 16px;
-  width: 100vw;
+  width: 100%;
   z-index: 3;
   top:0;
 }
@@ -201,7 +201,6 @@ select, label, fieldset, legend, blockquote, cite {
 .navlist {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   list-style-type: none;
   margin-left: 40px;
 }
@@ -226,19 +225,11 @@ select, label, fieldset, legend, blockquote, cite {
   opacity: 1;
 }
 
-.hamburger-menu {
+.hamburger-icon {
   display: none;
-  margin-left: 40px;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
 }
 
 .white-brandlogo {
-  max-width: 120px;
-  height: auto;
-}
-
-.black-brandlogo {
   max-width: 120px;
   height: auto;
 }
@@ -248,15 +239,28 @@ select, label, fieldset, legend, blockquote, cite {
   height: auto; 
 }
 
-.black-searchicon {
-  max-width: 24px;
-  height: auto; 
+
+@media screen and (max-width: 950px) {
+    
+  .navlist > li > a{
+      display: none;
+    }
+
+    .hamburger-icon {
+      display: flex;
+      margin-left: 40px;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+      max-width: 24px;
+      max-height: 24px;
+    }
+
+    .white_hamburgericon {
+      max-width: 24px;
+      max-height: 24px;
+    }
 }
 
-.white_hamburgericon {
-  max-width: 24px;
-  height: auto; 
-}
 
 
 /* in-page-menu*/

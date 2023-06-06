@@ -431,6 +431,34 @@ margin-bottom: 0;
 }
 
 
+/***********************************************************************************************/
+
+    /* products page */
+
+.return {
+max-width: 12px;
+}
+
+/* spacings */
+#return-icon {
+padding: 0;
+margin-bottom: 16px;
+
+}
+
+.product-content {
+padding-bottom: 20px;
+}
+
+#drinks-pairing {
+  padding: 0;
+  margin-bottom: 60px;
+  }
+
+
+/***********************************************************************************************/
+
+    /* products page */
 
 
 
@@ -440,4 +468,9 @@ margin-bottom: 0;
 
 
 
+
+
+
+
+    
 }
