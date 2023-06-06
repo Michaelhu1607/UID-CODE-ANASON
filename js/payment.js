@@ -9,6 +9,6 @@ document.getElementById("dropdown-button").addEventListener("click", function() 
     
 
     document.getElementById("numberOfGuest").textContent = guest;
-    document.getElementById("redate").textContent = dates;
+    document.getElementById("redate").textContent = date;
 });
   

@@ -92,12 +92,14 @@
 
     <!--Drop down filter icon-->
     <div class="grid-system filter-container">
-        <img class="filter-button" src="assets/icons/filter.png" alt="Filter">
-        <div class="filter-menu">
-        <ul>
-            <li><a href="#vegetarian">Vegetarian</a></li>
-            <li><a href="#seafood">Seafood</a></li>
-            <li><a href="#beef">Beef</a></li>
+        <button class="filter-button" onclick="toggleDropdown()">
+            <img src="assets/icons/filter.png" alt="Filter">
+        </button>
+        <div class="filter-menu" id="filterMenu">
+            <ul>
+                <li><a href="#vegetarian">Vegetarian</a></li>
+                <li><a href="#seafood">Seafood</a></li>
+                <li><a href="#beef">Beef</a></li>
           </ul>
         </div>
     </div>

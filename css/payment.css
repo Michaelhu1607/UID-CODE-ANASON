@@ -8,17 +8,22 @@
     max-width: 100%;
     display: flex;
     align-items: center; 
-}
-
-.show{
-    margin-right: 50%;
-
+    justify-content: space-between;
 }
 
 #specialcon{
     height: 7vh;
     width: 40vw;
 }
+
 #payment{
     height: 70vh;
+}
+
+.resultContainer{
+    margin-right: 0%;
+}
+#emailspecial{
+    grid-column-start: 3;
+    grid-column-end: 5;
 }
