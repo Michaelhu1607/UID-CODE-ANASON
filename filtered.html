@@ -81,9 +81,15 @@
     <div class="grid-system" id="subhead-container">
         <ul class="subhead">
             <li>MENU</li>
+            <li><img class="subhead-arrow" src="assets/icons/navigation arrow.png"></li>
+            <li>FILTER</li>
         </ul>
     </div>
 
+     <!--return icon-->
+     <div class="grid-system">
+        <a href="javascript:history.go(-1)" id="return-icon"><img class="return" src="assets/icons/back_black.png" alt="Back button"></a>
+    </div>
     
      <!--h1 header-->
      <div class="grid-system">
@@ -97,25 +103,61 @@
     </div>
 
     <!--Filter Icon-->
-    <div class="grid-system">
-        <img class="filter" src="assets/icons/filter.png" alt="Filter">
-    </div>
 
-    <!--in-page-navigation-->
-    <div class="in-page-group">
-        <div class="grid-system in-page-navbar">
-            <nav class="grid-system" id="in-page-nav">
-                <ul>
-                    <li><a class="in-page-menu" href="#specials">Specials</a></li>
-                    <li><a class="in-page-menu" href="#entree">Entree</a></li>
-                    <li><a class="in-page-menu" href="#sides">Sides</a></li>
-                    <li><a class="in-page-menu" href="#mains">Mains</a></li>
-                    <li><a class="in-page-menu" href="#dessert">Dessert</a></li>
-                </ul>
-            </nav>
-        </div>
-        <hr>
-    </div>
+    <section id="specials" class="grid-system">
+
+        <h2 class="food-h2"><section id="specials" class="grid-system">
+
+            <h2 class="food-h2">Vegetarian</h2>
+    
+                <figure id="item-grid-1">
+                    <a href="product.html" class="figure-link">
+                        <img class="food-image" data-category="seafood" src="assets/food/menu_sides_01.jpg" alt="tarak scallop">
+                    <figcaption>
+                        <p class="food-name">Tarak Scallop ( 25 )</p>
+                        <p class="food-description">Baba ganoush and daikon</p>
+                    </figcaption>
+                </a>
+                </figure>
+    
+                <figure id="item-grid-2">
+                    <a href="product.html" class="figure-link">
+                        <img class="food-image" data-category="vegetarian" src="assets/food/menu_sides_03.jpg" alt="charred cabbage">
+                    <figcaption>
+                        <p class="food-name">Charred Cabbage ( 22 )</p>
+                        <p class="food-description">Dill, feta, puffed rice, nigella</p>
+                    </figcaption>
+                </a>
+                </figure>
+    
+                <figure id="item-grid-3">
+                    <a href="product.html" class="figure-link">
+                        <img class="food-image" data-category="seafood" src="assets/food/menu_mains_01.jpg" alt="john dory">
+                        <figcaption>
+                            <p class="food-name">John Dory ( 45 )</p>
+                            <p class="food-description">Confit garlic, parsley and citrus sauce</p>
+                        </figcaption>
+                </a>
+                </figure>
+        
+                <figure id="item-grid-4">
+                    <a href="product.html" class="figure-link">
+                        <img class="food-image" data-category="vegetarian" src="assets/food/menu_dessert_01.jpg" alt="charcoal merengue">
+                                <!--special section tag to go around the height of the navigation bar to achieve desired height-->
+                                <div id="entree-top"></div>
+                        <figcaption>
+                            <p class="food-name">Charcoal Merengue ( 20 )</p>
+                            <p class="food-description">Fresh berries and mastika cream</p>
+                        </figcaption>
+                    </a>
+                    </figure>  
+            </section>
+    </h2>
+
+           
+        </section>
+
+    
 
     
 </body>
