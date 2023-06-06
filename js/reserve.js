@@ -53,27 +53,27 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-// Get references to the input element and buttons
+/*Get references to the input element and buttons
 const numberInput = document.getElementById('myNumberInput');
 const plusButton = document.getElementById('plusButton');
 const minusButton = document.getElementById('minusButton');
 
-// Add event listeners to the buttons
+ Add event listeners to the buttons
 plusButton.addEventListener('click', incrementNumber);
 minusButton.addEventListener('click', decrementNumber);
 
-// Function to increment the number
+ Function to increment the number
 function incrementNumber() {
   numberInput.value = parseInt(numberInput.value) + 1;
 }
 
-// Function to decrement the number
+ Function to decrement the number
 function decrementNumber() {
   const currentValue = parseInt(numberInput.value);
   if (currentValue > 0) {
     numberInput.value = currentValue - 1;
   }
-}
+}*/
 
 /* this function is used to plus and minus by clicking the symbol
 const minus = document.querySelector(".minus");
@@ -93,4 +93,27 @@ function validDate(){
   }
   return true
 }
+
+/*This function is used to provide only one single choice for users*/
+function singleChoice(checkbox) {
+  var checkboxes = document.getElementsByName("option");
+  
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i] !== checkbox) {
+      checkboxes[i].checked = false;
+    }
+  }
+}
+
+
+
+document.getElementById("continuebutton").addEventListener("click", function() {
+  var numberOfGuest = document.querySelector(".numberOfGuest").value;
+  var redate = document.querySelector(".redate").value;
+  
+  localStorage.setItem("numberOfGuest", numberOfGuest);
+  localStorage.setItem("redate", redate);
+});
+
+
 

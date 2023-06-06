@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="css/reserve.css">
     <link rel="stylesheet" type="text/css" href="css/search-page.css">
     <link rel="stylesheet" type="text/css" href="css/confirmation.css">
+    <link rel="stylesheet" type="text/css" href="css/payment.css">
 
     <!--responsive css-->
     <link rel="stylesheet" type="text/css" href="css/max-width-1221.css">
@@ -43,7 +44,7 @@
         <ul class="navlist">
             <li><a class="nav-pages" href="food.html">Food</a></li>
             <li><a class="nav-pages" href="drinks.html">Drinks</a></li>
-            <li><a class="nav-pages" href="reserve.html">Reserve</a></li>
+            <li><a class="nav-pages" href="reserve.detail.html">Reserve</a></li>
             <li><a class="nav-pages" href="about.html">About</a></li>
         </ul>
 
@@ -70,14 +71,6 @@
         <br>
     </div>
     
-    <div class="dropdown">
-        <button class="dropdown-toggle">Dropdown</button>
-        <ul class="dropdown-menu">
-          <li>Option 1</li>
-          <li>Option 2</li>
-          <li>Option 3</li>
-        </ul>
-    </div>
       
     <div class="grid-system">
         <p class="subhead">PAYMENT</p>
@@ -88,51 +81,82 @@
         <h1 id="page-header">PAYMENT</h1>
     </div>
     <br>
-    <section id="leftpart">
-        <p>No. of Guest: <span id="guest">&times; $50</span></p>
-        <p>First Name: <span id="firstName"></span></p>
-        <p>Last Name: <span id="lastName"></span></p>
-        <p>Mobile: <span id="mobile"></span></p>
-        <p>Email: <span id="email"></span></p>
-        <p>Special Requirement: <span id="specialRequirement"></span></p>
-    </section>
-    <section id="rightpart">
-        <h3>CARD DETAILS</h3>
-        <form>
-            <div>
-                <label>First Name:</label>
+    <div class="grid-system">
+        <form action="" id="payment">
+            <div id="wholecontainer">
+                <div class="left-container">
+                    <label class="show">No. of Guest: </label>
+                    <span id="guest"></span>
+                    <span id="nguest">&times; $50</span>
+                </div>
+                <div class="left-container">
+                    <label class="show">First Name: </label>
+                    <span id="firstName"></span>
+                </div>
+                <div class="left-container">
+                    <label class="show">Last Name: </label>
+                    <span id="lastName"></span>
+                </div>
+                <div class="left-container">
+                    <label class="show">Mobile: </label>
+                    <span id="mobile"></span>
+                </div>
+                <div class="left-container">
+                    <label class="show">Email: </label>
+                    <span id="email"></span>
+                </div>
+                <div class="left-container">
+                    <label class="show">Date: </label>
+                    <span id="date"></span>
+                </div>
+                <div class="left-container">
+                    <label class="show">Time: </label>
+                    <span id="time"></span>
+                </div>
+                <div class="left-container">
+                    <label class="show">Seats: </label>
+                    <span id="seats"></span>
+                </div>
+                <div class="left-container" id="specialcon">
+                    <div>
+                        <label >Special Requirement: </label>
+                    </div>
+                </div>
+                <div class="left-container" id="specialcon">
+                    <div>
+                        <span id="specialRequirement"></span>
+                    </div>
+                </div>     
             </div>
-            <div>
-                <input type="text">
-            </div>
-            <div>
-                <label>Last Name:</label>
-            </div>
-            <div>
-                <input type="text">
-            </div>
-            <div>
-                <label>Card Number:</label>
-            </div>
-            <div>
-                <input type="text">
-            </div>
-            <div>
-                <label>CVS:</label>
-            </div>
-            <div>
-                <input type="text">
-            </div>
-            <div>
-                <label>MM/YY</label>
-            </div>
-            <div>
-                <input type="text">
-            </div>
-            <button type="button" onclick="goToNextPage()">Continue</button>
         </form>
+        <form action="reserve.payment.html" method="get" onsubmit="return validDate()">
+            <h3>CARD DETAILS</h3>
+            <br>
+            <div class="typingbar-container">
+                <label>First Name:</label>
+                <input type="text" name="firstName" class="typingbar" required>
+            </div>
+            <div class="typingbar-container">
+                <label>Last Name:</label>
+                <input type="text" name="lastName" class="typingbar" required>
+            </div>
+            <div class="typingbar-container">
+                <label>Card Number:</label>
+                <input type="tel" name="Mobile" class="typingbar" pattern=".{9,10}" required > 
+            </div>
+            <div class="typingbar-container">
+                <label>CVS: </label>
+                <input type="text" name="firstName" class="typingbar" required>
+            </div>
+            <div class="typingbar-container">
+                <label>MM/YY: </label>
+                <input type="text" name="firstName" class="typingbar" required>
+            </div>
 
-    </section>
+            
+            <button type="submit" id="continuebutton">Payment</button>
+        </form>
+    </div>
     
 </body>
 

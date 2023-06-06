@@ -43,7 +43,7 @@
         <ul class="navlist">
             <li><a class="nav-pages" href="food.html">Food</a></li>
             <li><a class="nav-pages" href="drinks.html">Drinks</a></li>
-            <li><a class="nav-pages" href="reserve.html">Reserve</a></li>
+            <li><a class="nav-pages" href="reserve.detail.html">Reserve</a></li>
             <li><a class="nav-pages" href="about.html">About</a></li>
         </ul>
 
@@ -82,7 +82,7 @@
         <div id="wholecontainer">
             <div class="selectoroption">
                 <p>No.of Guest </p>
-                <span><input class="numberOfGuest" type="number"></span>
+                <span><input class="numberOfGuest" type="number" required min="1" max="12"></span>
             </div>
             <br>
             <div class="selectoroption">
@@ -93,30 +93,30 @@
             <div id="longSelector" class="grid-system">
                 <p id="reserveTime">Prefered Time</p>
                 <div id="time-grid-1">
-                    <div class="check"><input class="preferTime" type="checkbox" >12:00</div>
-                    <div><input class="preferTime" type="checkbox" >12:00</div>
+                    <div class="check"><input class="preferTime" type="checkbox" name="option" onchange="singleChoice(this)">12:00</div>
+                    <div><input class="preferTime" type="checkbox"  name="option" onchange="singleChoice(this)">12:00</div>
                 </div>
                 <div id="time-grid-2">
-                    <div class="check"><input class="preferTime" type="checkbox" >12:00</div>
-                    <div><input class="preferTime" type="checkbox" >12:00</div>
+                    <div class="check"><input class="preferTime" type="checkbox" name="option" onchange="singleChoice(this)">12:00</div>
+                    <div><input class="preferTime" type="checkbox"  name="option" onchange="singleChoice(this)" >12:00</div>
                 </div>
                 <div id="time-grid-3">
-                    <div class="check"><input class="preferTime" type="checkbox" >12:00</div>
-                    <div><input class="preferTime" type="checkbox" >12:00</div>
+                    <div class="check"><input class="preferTime" type="checkbox" name="option" onchange="singleChoice(this)">12:00</div>
+                    <div><input class="preferTime" type="checkbox" name="option" onchange="singleChoice(this)">12:00</div>
                 </div>
                 <div id="time-grid-4">
-                    <div class="check"><input class="preferTime" type="checkbox" >12:00</div>
-                    <div><input class="preferTime" type="checkbox" >12:00</div>
+                    <div class="check"><input class="preferTime" type="checkbox"  name="option" onchange="singleChoice(this)">12:00</div>
+                    <div><input class="preferTime" type="checkbox" name="option" onchange="singleChoice(this)">12:00</div>
                 </div>
             </div>
             <br>
             <div id="longSelector" class="grid-system">
                 <p id="reserveTime">Prefered seating</p>
                 <div id="time-grid-1">
-                    <div class="check"><input class="preferTime" type="checkbox" >12:00</div>
+                    <div class="check"><input class="preferTime" type="checkbox" name="option" onchange="singleChoice(this)">Bar seat</div>
                 </div>
                 <div id="time-grid-3">
-                    <div class="check"><input class="preferTime" type="checkbox" >12:00</div>
+                    <div class="check"><input class="preferTime" type="checkbox" name="option" onchange="singleChoice(this)">Main seat</div>
                 </div>
             </div>
         </div>
