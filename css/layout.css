@@ -255,7 +255,11 @@ select, label, fieldset, legend, blockquote, cite {
       max-height: 24px;
     }
 
-    .white_hamburgericon {
+    .hamburger-icon > a{
+      width: 24px;
+    }
+
+    img.white-hamburgericon {
       max-width: 24px;
       max-height: 24px;
     }
