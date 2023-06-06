@@ -86,7 +86,7 @@
             <div id="wholecontainer">
                 <div class="left-container">
                     <label class="show">No. of Guest: </label>
-                    <span id="guest"></span>
+                    <span id="guest">2</span>
                     <span id="nguest">&times; $50</span>
                 </div>
                 <div class="left-container">
@@ -116,19 +116,19 @@
                 <div class="left-container">
                     <label class="show">Date: </label>
                     <div class="resultContainer">
-                        <span id="date"></span>
+                        <span id="date">10/06/2023</span>
                     </div>
                 </div>
                 <div class="left-container">
                     <label class="show">Time: </label>
                     <div class="resultContainer">
-                        <span id="time"></span>
+                        <span id="time">12:00</span>
                     </div>
                 </div>
                 <div class="left-container">
                     <label class="show">Seats: </label>
                     <div class="resultContainer">
-                        <span id="seats"></span>
+                        <span id="seats">Main seat</span>
                     </div>
                 </div>
                 <div class="left-container" id="specialcon">
@@ -143,12 +143,14 @@
                 </div>     
             </div>
         </form>
-        <form action="reserve.payment.html" method="get" onsubmit="return validDate()">
+        <form action="confirmation.html">
             <h3>CARD DETAILS</h3>
             <br>
-            <div class="typingbar-container">
-                <label>First Name:</label>
-                <input type="text" name="firstName" class="typingbar" required>
+            <div class="payment-grid-1">
+                <div class="typingbar-container">
+                    <label>First Name:</label>
+                    <input type="text" name="firstName" class="typingbar" required>
+                </div>
             </div>
             <div class="typingbar-container">
                 <label>Last Name:</label>
@@ -156,7 +158,7 @@
             </div>
             <div class="typingbar-container">
                 <label>Card Number:</label>
-                <input type="tel" name="Mobile" class="typingbar" pattern=".{9,10}" required > 
+                <input type="tel" name="Mobile" class="typingbar" pattern=".{12}" required > 
             </div>
             <div class="typingbar-container">
                 <label>CVS: </label>
