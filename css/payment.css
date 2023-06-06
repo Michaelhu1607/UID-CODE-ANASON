@@ -27,3 +27,15 @@
     grid-column-start: 3;
     grid-column-end: 5;
 }
+.payment-grid-1{
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+.payment-grid-2{
+    grid-column-start: 7;
+    grid-column-end: 9;
+}
+
+#continuebutton{
+    margin-left: 77%;
+}

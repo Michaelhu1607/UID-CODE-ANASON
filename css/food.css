@@ -86,3 +86,20 @@
 #dessert {
     padding-bottom: 80px;
 }
+
+.filter-menu {
+    position: relative;
+    display: none;
+}
+
+.filter-menu a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.filter-menu a:hover {
+    background-color: #ccc;
+}
