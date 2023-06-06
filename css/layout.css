@@ -20,7 +20,7 @@ select, label, fieldset, legend, blockquote, cite {
   height: auto;
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 139px);
 }
 
 
@@ -213,6 +213,7 @@ select, label, fieldset, legend, blockquote, cite {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  padding: 0;
 }
 
 .nav-search {
@@ -248,7 +249,7 @@ select, label, fieldset, legend, blockquote, cite {
 }
   
 
-@media screen and (min-width: 391px) and (max-width: 950px) {
+@media screen and (max-width: 950px) {
     
   .navlist > li > a{
       display: none;
@@ -302,68 +303,29 @@ select, label, fieldset, legend, blockquote, cite {
     .dropdown li:hover {
       opacity: 1;
     }
+    
 }
 
 
 @media screen and (max-width: 390px) {
-    
-  .navlist > li > a{
-      display: none;
-    }
+  .navlist > li > a {
+    display: none;
+  }
 
-    .hamburger {
-      display: flex;
-      flex-direction: column;
-      width: 24px;
-      height: 24px;
-      margin-left: 20px;
-      justify-content: space-between;
-      cursor: pointer;
-    }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    width: 24px;
+    height: 24px;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-left: 20px;
+  }
 
-    .dropdown {
-      position: absolute;
-      z-index: 3;
-      top: 64.2px;
-      left: 0;
-      width: 100vw;
-      text-align: left;
-      background-color: white;
-      color: black;
-      padding-left: 16px;
-      padding-right: 24px;
-      padding-top: 16px;
-      padding-bottom: 16px;
-      font-family: "Cresci";
-      font-size: 23px;
-    }
-
-    /* display was set to none as the animation for dropdown menu didn't work*/
-    .dropdown.open {
-      display:none;
-    }
-
-    .dropdown li {
-      padding: 0;
-      margin-bottom: 20px;
-      opacity: 0.7;
-      transform: all 0.2s;
-    }
-
-    a.ham-pages {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .dropdown li:hover {
-      opacity: 1;
-    }
-
-    .nav-search {
-      margin-right: 20px;
-    }
-
-    }
+  .nav-search {
+    margin-right: 20px;
+  }
+}
 
 
 

@@ -6,12 +6,8 @@
 /* grid-system */
 .grid-system{
     max-width: 335px;
-    margin: 0 auto;
-    padding: 0;
-    height: auto;
-    display: grid;
     gap: 8px;
-    grid-template-columns: repeat(4, 78);
+    grid-template-columns: repeat(4, 78px);
 }
 
 
@@ -92,6 +88,31 @@
   grid-column-end: 5;
 }
 
+#large-item {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+#two-images-1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#two-images-2{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+
+/* header layouts */
+
+#page-header {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  text-align: left;
+}
+
+
 /***************************************************************************************************/
   
 /* fonts */
@@ -152,18 +173,20 @@ p,
 
    /* landing page */
 
-
   .landing-text {
     top: 60%;
     font-size: 20px;
   }
   
   .landing-reserve {
-  bottom: 23%;
+  bottom: 28%;
   }
   
   .dynamic-logo {
-    margin-bottom: 4px;
+    max-width: 90px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+
   }
   
   .specials-head-container{
@@ -179,6 +202,8 @@ p,
     margin-bottom: 4px;
     padding: 0;
     text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
   }
   
   #landing-specials {
@@ -188,6 +213,14 @@ p,
   #landing-philosophy {
     padding-top: 28px;
     padding-bottom: 28px;
+    }
+
+  #four-grid-text {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding-left: 28px;
+    padding-right: 28px;
+
     }
   
   #landing-recommendations {
@@ -207,11 +240,15 @@ p,
   #landing-map {
     padding-top: 28px;
     padding-bottom: 40px;
+    grid-column-start: 1;
+    grid-column-end: 5;
   }
   
   .map {
     width: 335px;
     height: 35vh;
+    grid-column-start: 1;
+    grid-column-end: 5;
       }
     
   /***************************************************************************************************/
@@ -237,6 +274,8 @@ p,
       /* Buttons */
   
   .buttons-layout {
+      grid-column-start: 2;
+      grid-column-end: 4;
     margin-top: 12px;
   }
   
@@ -253,7 +292,7 @@ p,
   }
   
   .reserve-button {
-    max-width: 150px;
+    max-width: 120px;
   }
   
   /***************************************************************************************************/
@@ -263,7 +302,7 @@ p,
   .food-name {
     text-align:center;
     margin-top: 8px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
   }
   
   #subhead-container > ul {
@@ -293,6 +332,8 @@ p,
       .footer-socials-icons {
         max-width: 24px;
         height: auto;
+        grid-column-start: 2;
+        grid-column-end: 4;
       }
   
       #footer{
@@ -315,6 +356,8 @@ p,
       .footer-header {
         margin-bottom: 12px;
         padding: 0;
+        grid-column-start: 1;
+        grid-column-end: 5;
       }
       
       .footer-content {
