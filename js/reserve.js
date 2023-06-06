@@ -53,37 +53,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-/*Get references to the input element and buttons
-const numberInput = document.getElementById('myNumberInput');
-const plusButton = document.getElementById('plusButton');
-const minusButton = document.getElementById('minusButton');
-
- Add event listeners to the buttons
-plusButton.addEventListener('click', incrementNumber);
-minusButton.addEventListener('click', decrementNumber);
-
- Function to increment the number
-function incrementNumber() {
-  numberInput.value = parseInt(numberInput.value) + 1;
-}
-
- Function to decrement the number
-function decrementNumber() {
-  const currentValue = parseInt(numberInput.value);
-  if (currentValue > 0) {
-    numberInput.value = currentValue - 1;
-  }
-}*/
-
-/* this function is used to plus and minus by clicking the symbol
-const minus = document.querySelector(".minus");
-const number = document.querySelector(".value");
-const plus = document.querySelector(".plus");
-
-let sum = 0;
-number.innerHTML = sum;*/
 
 
+/* This function is used to check the date is correct*/
 function validDate(){
   let inputDate=document.querySelector(".redate").value
   let parsedDated = Date.parse(inputDate)
@@ -106,7 +78,7 @@ function singleChoice(checkbox) {
 }
 
 
-
+/* This is trying to show selected date to other html, doesn't work at the end*/
 document.getElementById("continuebutton").addEventListener("click", function() {
   var numberOfGuest = document.querySelector(".numberOfGuest").value;
   var redate = document.querySelector(".redate").value;
@@ -114,6 +86,14 @@ document.getElementById("continuebutton").addEventListener("click", function() {
   localStorage.setItem("numberOfGuest", numberOfGuest);
   localStorage.setItem("redate", redate);
 });
+
+/* this function is used in search page, allow people press enter to next page (learned)*/
+function press(event) {
+  if (event.keyCode === 13) { 
+      var searchQuery = document.getElementById("searchbar").value;
+      window.location.href = "result.html?search=" + encodeURIComponent(searchQuery);
+  }
+}
 
 
 

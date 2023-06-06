@@ -1,9 +1,5 @@
-document.getElementById("dropdown-button").addEventListener("click", function() {
-    var dropdownMenu = document.getElementById("dropdown-menu");
-    dropdownMenu.classList.toggle("open");
-  });
-
- document.addEventListener("DOMContentLoaded", function() {
+/* This function is used to put value into lcoal storage, but it doesn't work*/
+document.addEventListener("DOMContentLoaded", function() {
     var guest = localStorage.getItem("numberOfGuest");
     var date = localStorage.getItem("redate");
     
